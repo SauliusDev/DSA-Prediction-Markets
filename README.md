@@ -21,6 +21,86 @@ The goal of this project is to analyze the correlation between the Smart Score a
 
 The final data would be organized into json format. For this many parsing function will be implemented. 
 
+## 3. Methodology
+
+### 3.1 Data Collection Process
+
+**Sample Selection:**
+- Target sample size: 500-1000 Polymarket users across different Smart Score ranges
+- Stratified sampling to ensure representation across score brackets:
+  - High performers (Score > 40): ~200 users
+  - Mid-range (Score 0-40): ~400 users  
+  - Low performers (Score < 0): ~200 users
+- Minimum activity threshold: Users with at least 10 completed trades
+
+**Data Collection Pipeline:**
+1. **Hashdive API/Scraping:**
+   - User Smart Score (primary metric)
+   - Total PnL (USD)
+   - Win Rate (%)
+   - Sharpe Ratio
+   - Total positions traded
+   - Current balance
+   - Active days since registration
+   - Category-specific statistics (Politics, Crypto, Culture, etc.)
+   - Trading behavior metrics:
+     - Average entry price
+     - Position size distribution
+     - Best/worst trade ROI
+     - Active vs. finished bets ratio
+2. **Polymarket API:**
+   - Account creation date
+   - Market category metadata
+   - Trading volume over time
+
+**Data Storage:**
+- JSON format with nested structure for user profiles
+- Each user record contains: `{user_id, smart_score, pnl, win_rate, sharpe_ratio, ...}`
+- Parsing functions to normalize scraped HTML/API responses into structured format
+
+### 3.2 Data Analysis Approach
+
+**Phase 1: Exploratory Data Analysis (EDA)**
+- Descriptive statistics for all numerical variables
+- Distribution analysis (histograms, box plots) for Smart Score, PnL, Win Rate
+- Correlation matrix using both Pearson and Spearman coefficients
+- Scatter plots: Smart Score vs. PnL, Smart Score vs. Win Rate
+- Category-wise performance comparison
+- Identify outliers and data quality issues
+
+**Phase 2: Correlation Analysis**
+- Primary hypothesis test: Smart Score correlation with realized PnL
+- Secondary correlations:
+  - Smart Score vs. Win Rate
+  - Smart Score vs. Sharpe Ratio
+  - Account age vs. performance metrics
+  - Position size strategy vs. profitability
+- Statistical significance testing (p-values < 0.05)
+
+**Phase 3: Predictive Modeling**
+- **Target variables:** PnL, Win Rate
+- **Features:** Smart Score, account age, total positions, balance, Sharpe Ratio, category preferences, entry price patterns
+
+**Models to implement:**
+1. Linear Regression (baseline)
+2. Random Forest Regressor (capture non-linear relationships)
+3. Gradient Boosting (XGBoost/LightGBM) if needed
+
+**Model Evaluation:**
+- Train/test split: 80/20
+- Cross-validation (5-fold)
+- Metrics: R², MAE, RMSE
+- Feature importance analysis
+- Residual analysis
+
+**Phase 4: Insights & Interpretation**
+- Identify which features most strongly predict trading success
+- Validate whether Smart Score is a reliable predictor
+- Analyze trading patterns of high-Smart-Score users:
+  - Do they prefer certain probability ranges?
+  - Do they trade specific categories more?
+  - How does their position sizing differ?
+
 ## 4. Data usage
 1.  **Exploratory Data Analysis (EDA):** Calculate correlations (Spearman/Pearson), analyze distributions, and plot Smart Score against PnL/Win Rate.
 2.  **Modeling:** Use linear and tree-based models (e.g., Random Forest) to predict PnL/Win Rate based on Smart Score and other account features.
