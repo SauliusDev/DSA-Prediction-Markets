@@ -1,0 +1,1295 @@
+{
+  "hash": "9d39556c547e64bd365ba613a673e387",
+  "metadata": {
+    "activeScriptHash": "3f41e546893dc64b71aaacad12cad815"
+  },
+  "pageProfile": {
+    "commands": [
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "function"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:16"
+          }
+        ],
+        "time": "259"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "function"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:7"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:17"
+          }
+        ],
+        "time": "97"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:21"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:26"
+          }
+        ],
+        "time": "482"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:32"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:14"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:19"
+          }
+        ],
+        "time": "363"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:26"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:23"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          }
+        ],
+        "time": "238"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:30"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:17"
+          }
+        ],
+        "time": "272"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:7"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:4"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:15"
+          },
+          {
+            "k": "default",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "135"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:22"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:8"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:22"
+          }
+        ],
+        "time": "122"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:19"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:15"
+          }
+        ],
+        "time": "135"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:26"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:31"
+          }
+        ],
+        "time": "125"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:35"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:17"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:17"
+          }
+        ],
+        "time": "127"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:20"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:16"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          }
+        ],
+        "time": "166"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:26"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:21"
+          }
+        ],
+        "time": "141"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:29"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:15"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:23"
+          }
+        ],
+        "time": "122"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:36"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:20"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:16"
+          }
+        ],
+        "time": "142"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:20"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:19"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:20"
+          }
+        ],
+        "time": "185"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:31"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:14"
+          }
+        ],
+        "time": "133"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:29"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:21"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          }
+        ],
+        "time": "129"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:22"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:17"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          }
+        ],
+        "time": "118"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:28"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:14"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:31"
+          }
+        ],
+        "time": "121"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:24"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:10"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:14"
+          }
+        ],
+        "time": "122"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:29"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:8"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:15"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:22"
+          }
+        ],
+        "time": "125"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:35"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:14"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:21"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:19"
+          }
+        ],
+        "time": "125"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:33"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:19"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:17"
+          }
+        ],
+        "time": "149"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:32"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:11"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:18"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:23"
+          }
+        ],
+        "time": "127"
+      },
+      {
+        "name": "navigation",
+        "args": [
+          {
+            "k": "pages",
+            "t": "dict",
+            "m": "len:10"
+          },
+          {
+            "k": "position",
+            "t": "str",
+            "m": "len:3"
+          }
+        ],
+        "time": "555"
+      },
+      {
+        "name": "set_page_config",
+        "args": [
+          {
+            "k": "page_title",
+            "t": "str",
+            "m": "len:15"
+          },
+          {
+            "k": "layout",
+            "t": "str",
+            "m": "len:4"
+          },
+          {
+            "k": "page_icon",
+            "t": "str",
+            "m": "len:11"
+          }
+        ],
+        "time": "2262"
+      },
+      {
+        "name": "title",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:15",
+            "p": 1
+          }
+        ],
+        "time": "320"
+      },
+      {
+        "name": "logo",
+        "args": [
+          {
+            "k": "image",
+            "t": "str",
+            "m": "len:11"
+          }
+        ],
+        "time": "1668"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "int"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "159"
+      },
+      {
+        "name": "context.headers",
+        "time": "164"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "dict",
+            "m": "len:4",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "324"
+      },
+      {
+        "name": "expander",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:9",
+            "p": 1
+          },
+          {
+            "k": "expanded",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "409"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "446"
+      },
+      {
+        "name": "slider",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:11",
+            "p": 1
+          },
+          {
+            "k": "min_value",
+            "t": "float",
+            "p": 2
+          },
+          {
+            "k": "max_value",
+            "t": "float",
+            "p": 3
+          },
+          {
+            "k": "value",
+            "t": "tuple",
+            "m": "len:2"
+          },
+          {
+            "k": "step",
+            "t": "float"
+          }
+        ],
+        "time": "467"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "369"
+      },
+      {
+        "name": "number_input",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:21",
+            "p": 1
+          },
+          {
+            "k": "min_value",
+            "t": "int"
+          },
+          {
+            "k": "max_value",
+            "t": "int"
+          },
+          {
+            "k": "value",
+            "t": "int"
+          },
+          {
+            "k": "step",
+            "t": "int"
+          }
+        ],
+        "time": "364"
+      },
+      {
+        "name": "number_input",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:21",
+            "p": 1
+          },
+          {
+            "k": "min_value",
+            "t": "int"
+          },
+          {
+            "k": "max_value",
+            "t": "int"
+          },
+          {
+            "k": "value",
+            "t": "int"
+          },
+          {
+            "k": "step",
+            "t": "int"
+          }
+        ],
+        "time": "337"
+      },
+      {
+        "name": "slider",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:14",
+            "p": 1
+          },
+          {
+            "k": "min_value",
+            "t": "int",
+            "p": 2
+          },
+          {
+            "k": "max_value",
+            "t": "int",
+            "p": 3
+          },
+          {
+            "k": "value",
+            "t": "tuple",
+            "m": "len:2"
+          },
+          {
+            "k": "step",
+            "t": "int"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          }
+        ],
+        "time": "361"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "363"
+      },
+      {
+        "name": "number_input",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:16",
+            "p": 1
+          },
+          {
+            "k": "min_value",
+            "t": "float"
+          },
+          {
+            "k": "max_value",
+            "t": "float"
+          },
+          {
+            "k": "value",
+            "t": "float"
+          },
+          {
+            "k": "step",
+            "t": "float"
+          }
+        ],
+        "time": "340"
+      },
+      {
+        "name": "number_input",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:16",
+            "p": 1
+          },
+          {
+            "k": "min_value",
+            "t": "float"
+          },
+          {
+            "k": "max_value",
+            "t": "float"
+          },
+          {
+            "k": "value",
+            "t": "float"
+          },
+          {
+            "k": "step",
+            "t": "float"
+          }
+        ],
+        "time": "331"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "349"
+      },
+      {
+        "name": "selectbox",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:8",
+            "p": 1
+          },
+          {
+            "k": "options",
+            "t": "list",
+            "m": "len:4",
+            "p": 2
+          },
+          {
+            "k": "format_func",
+            "t": "function"
+          }
+        ],
+        "time": "321"
+      },
+      {
+        "name": "radio",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:15",
+            "p": 1
+          },
+          {
+            "k": "options",
+            "t": "list",
+            "m": "len:2",
+            "p": 2
+          },
+          {
+            "k": "horizontal",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "293"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "int"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "107"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "tuple",
+            "m": "len:2",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "454"
+      },
+      {
+        "name": "caption",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:727",
+            "p": 1
+          }
+        ],
+        "time": "506"
+      },
+      {
+        "name": "number_input",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:11",
+            "p": 1
+          },
+          {
+            "k": "min_value",
+            "t": "int"
+          },
+          {
+            "k": "max_value",
+            "t": "int"
+          },
+          {
+            "k": "value",
+            "t": "int"
+          },
+          {
+            "k": "step",
+            "t": "int"
+          },
+          {
+            "k": "width",
+            "t": "int"
+          }
+        ],
+        "time": "537"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "tuple",
+            "m": "len:2",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "404"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:42",
+            "p": 1
+          }
+        ],
+        "time": "454"
+      },
+      {
+        "name": "html",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:101",
+            "p": 1
+          }
+        ],
+        "time": "635"
+      },
+      {
+        "name": "column_config.LinkColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:4"
+          },
+          {
+            "k": "display_text",
+            "t": "str",
+            "m": "len:19"
+          }
+        ],
+        "time": "109"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:5"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:4"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:54"
+          }
+        ],
+        "time": "80"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:8"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:7"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:45"
+          }
+        ],
+        "time": "71"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:7"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:33"
+          }
+        ],
+        "time": "60"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:15"
+          }
+        ],
+        "time": "65"
+      },
+      {
+        "name": "data_editor",
+        "args": [
+          {
+            "k": "data",
+            "t": "PandasStyler",
+            "p": 1
+          },
+          {
+            "k": "column_order",
+            "t": "list",
+            "m": "len:5"
+          },
+          {
+            "k": "column_config",
+            "t": "dict",
+            "m": "len:5"
+          },
+          {
+            "k": "hide_index",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "disabled",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "16525"
+      },
+      {
+        "name": "write",
+        "args": [
+          {
+            "k": "1",
+            "t": "str",
+            "m": "len:104",
+            "p": 1
+          }
+        ],
+        "time": "484"
+      }
+    ],
+    "execTime": "1268038",
+    "prepTime": "1213",
+    "config": [
+      "client.showErrorDetails",
+      "theme.base",
+      "theme.backgroundColor",
+      "theme.dataframeHeaderBackgroundColor",
+      "global.showWarningOnDirectExecution",
+      "server.port:default",
+      "client.toolbarMode",
+      "server.address",
+      "theme.textColor",
+      "theme.font",
+      "ui.hideTopBar",
+      "theme.primaryColor",
+      "theme.secondaryBackgroundColor"
+    ],
+    "attributions": [
+      "psycopg2",
+      "authlib",
+      "pydantic",
+      "pymongo",
+      "sqlite3",
+      "streamlit_extras"
+    ],
+    "os": "linux",
+    "timezone": "('UTC', 'UTC')",
+    "headless": true
+  }
+}

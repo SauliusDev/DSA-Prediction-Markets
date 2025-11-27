@@ -1,0 +1,24 @@
+{
+  "hash": "d37684a223d0f43b17eea42b8538c6ab",
+  "metadata": {
+    "deltaPath": [
+      0,
+      5
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "textInput": {
+        "id": "$$ID-f6d88d573881bcbec42b99d610559849-user_address",
+        "label": "Enter the Polygon address or username of the user \ud83d\udc47\ud83c\udffc",
+        "default": "0xf1f06f49be8ce5681752ae80e660aeaace6858df",
+        "maxChars": 42,
+        "labelVisibility": {}
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "hash": "954c09dafc8fdd158d72292b24693afb",
+  "metadata": {
+    "deltaPath": [
+      0,
+      3,
+      1,
+      1,
+      0
+    ],
+    "activeScriptHash": "95cbe618bfafb7437263346d6c8503d2"
+  },
+  "delta": {
+    "newElement": {
+      "radio": {
+        "id": "$$ID-433bd2cd7fb93bbe0a44103640794828-None",
+        "label": "Order direction",
+        "default": 0,
+        "options": [
+          "Descending",
+          "Ascending"
+        ],
+        "horizontal": true,
+        "labelVisibility": {}
+      },
+      "widthConfig": {
+        "useContent": true
+      }
+    }
+  }
+}

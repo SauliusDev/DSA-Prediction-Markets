@@ -1,0 +1,29 @@
+{
+  "hash": "eb21c2ef318f2f2e6ed47a97dce1884e",
+  "metadata": {
+    "deltaPath": [
+      0,
+      5
+    ],
+    "activeScriptHash": "95cbe618bfafb7437263346d6c8503d2"
+  },
+  "delta": {
+    "newElement": {
+      "numberInput": {
+        "id": "$$ID-7a46b1f0524835f00b5ba274521d8f7f-None",
+        "label": "Page number",
+        "format": "%d",
+        "hasMin": true,
+        "hasMax": true,
+        "default": 1,
+        "step": 1,
+        "min": 1,
+        "max": 60,
+        "labelVisibility": {}
+      },
+      "widthConfig": {
+        "pixelWidth": 200
+      }
+    }
+  }
+}

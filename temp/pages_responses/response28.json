@@ -1,0 +1,33 @@
+{
+  "hash": "04ddf4d2ea7d0fd623b9dfa9c0329db7",
+  "metadata": {
+    "deltaPath": [
+      0,
+      3,
+      1,
+      0,
+      0
+    ],
+    "activeScriptHash": "95cbe618bfafb7437263346d6c8503d2"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-b91c6ad4c45863922c3dcea830dc6929-None",
+        "label": "Order by",
+        "default": 0,
+        "options": [
+          "Score",
+          "Realized PnL",
+          "Win Rate",
+          "Markets"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

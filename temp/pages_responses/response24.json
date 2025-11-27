@@ -1,0 +1,35 @@
+{
+  "hash": "c6f4fa59ac5a6f39738e578f0f48d502",
+  "metadata": {
+    "deltaPath": [
+      0,
+      3,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "activeScriptHash": "95cbe618bfafb7437263346d6c8503d2"
+  },
+  "delta": {
+    "newElement": {
+      "numberInput": {
+        "id": "$$ID-a7a5308fbc35e070dc7fd49c2447e848-None",
+        "label": "Max Realized PnL",
+        "format": "%0.2f",
+        "hasMin": true,
+        "hasMax": true,
+        "dataType": "FLOAT",
+        "default": 22053933.752321757,
+        "step": 100,
+        "min": -10021171.71951889,
+        "max": 22053933.752321757,
+        "labelVisibility": {}
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "hash": "e2754c539ccaca7710db8603c52c1c0f",
+  "metadata": {
+    "activeScriptHash": "3f41e546893dc64b71aaacad12cad815"
+  },
+  "navigation": {
+    "sections": [
+      "Analysis",
+      "Smart Scores",
+      "Discovery",
+      "Whales",
+      "Insiders",
+      "Documentation",
+      "Data",
+      "Home",
+      "Kalshi",
+      "Account"
+    ],
+    "appPages": [
+      {
+        "pageScriptHash": "caf9f01d116c8728af07b8f933e4527d",
+        "pageName": "Analyze Market",
+        "icon": ":material/insights:",
+        "sectionHeader": "Analysis",
+        "urlPathname": "Analyze_Market"
+      },
+      {
+        "pageScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73",
+        "pageName": "Analyze User",
+        "icon": ":material/person:",
+        "sectionHeader": "Analysis",
+        "urlPathname": "Analyze_User"
+      },
+      {
+        "pageScriptHash": "09f60b70ab8884ba5137784a1a1266f1",
+        "pageName": "Analyze Resolved Market",
+        "icon": ":material/archive:",
+        "sectionHeader": "Analysis",
+        "urlPathname": "Past_Markets"
+      },
+      {
+        "pageScriptHash": "8cb8125d62ea314b697e0befc937ba28",
+        "pageName": "Smart Scores",
+        "icon": ":material/network_intelligence:",
+        "sectionHeader": "Smart Scores",
+        "urlPathname": "Smart_Scores"
+      },
+      {
+        "pageScriptHash": "f2f207ad5a4cfc5a81d29424a55aff76",
+        "pageName": "Smart Trades Live",
+        "icon": ":material/storage:",
+        "sectionHeader": "Smart Scores",
+        "urlPathname": "smart_trades_live"
+      },
+      {
+        "pageScriptHash": "95cbe618bfafb7437263346d6c8503d2",
+        "pageName": "Smart Trader Explorer",
+        "icon": ":material/explore:",
+        "sectionHeader": "Smart Scores",
+        "urlPathname": "Trader_explorer"
+      },
+      {
+        "pageScriptHash": "400b728b8ee7fe6e6c23719e60ada65a",
+        "pageName": "Screener",
+        "icon": ":material/table_chart:",
+        "sectionHeader": "Discovery",
+        "urlPathname": "Screener"
+      },
+      {
+        "pageScriptHash": "aff0847acd21e71f52f31dbad1d9f34b",
+        "pageName": "Market Map",
+        "icon": ":material/map:",
+        "sectionHeader": "Discovery",
+        "urlPathname": "Market_Map"
+      },
+      {
+        "pageScriptHash": "984aa0ceac7262e23686963c80939e94",
+        "pageName": "PnL Leaderboard",
+        "icon": ":material/emoji_events:",
+        "sectionHeader": "Discovery",
+        "urlPathname": "PnL_Leaderboard"
+      },
+      {
+        "pageScriptHash": "7ae59bec320d90cf8388b35088339dbe",
+        "pageName": "Your Tracked Traders",
+        "icon": ":material/radar:",
+        "sectionHeader": "Discovery",
+        "urlPathname": "Your_Tracked_Addresses"
+      },
+      {
+        "pageScriptHash": "62d75dead3218428ff03e8885fb64f2c",
+        "pageName": "Whales Positions",
+        "icon": ":material/sensors:",
+        "sectionHeader": "Whales",
+        "urlPathname": "Whales"
+      },
+      {
+        "pageScriptHash": "6ac543a27c4c29b4eb31fc0f31eac7c2",
+        "pageName": "Whale Trades",
+        "icon": ":material/show_chart:",
+        "sectionHeader": "Whales",
+        "urlPathname": "Whale_Trades"
+      },
+      {
+        "pageScriptHash": "3271ebb1a0d991c12e9de941f65fe8ee",
+        "pageName": "Unusual Trades",
+        "icon": ":material/notifications_active:",
+        "sectionHeader": "Whales",
+        "urlPathname": "Unusual_Trades"
+      },
+      {
+        "pageScriptHash": "e1f8758a781239350325525e102941a7",
+        "pageName": "Insider Detection",
+        "icon": ":material/mystery:",
+        "sectionHeader": "Insiders",
+        "urlPathname": "Insiders"
+      },
+      {
+        "pageScriptHash": "c4c35becd2dffd782540c48d7242f56c",
+        "pageName": "Why Upgrade to Pro?",
+        "icon": ":material/lock_open:",
+        "sectionHeader": "Documentation",
+        "urlPathname": "Go_Pro"
+      },
+      {
+        "pageScriptHash": "6f1bf85c9ebb3c7fa26251e1e335e032",
+        "pageName": "Terms of Use",
+        "icon": ":material/note:",
+        "sectionHeader": "Documentation",
+        "urlPathname": "Terms"
+      },
+      {
+        "pageScriptHash": "55876228853abf632dec9346a4f372ec",
+        "pageName": "User Guide",
+        "icon": ":material/school:",
+        "sectionHeader": "Documentation",
+        "urlPathname": "documentation"
+      },
+      {
+        "pageScriptHash": "fb43d1d0335c6a2473c32fa5ae3a588b",
+        "pageName": "Hashdive API",
+        "icon": ":material/api:",
+        "sectionHeader": "Data",
+        "urlPathname": "API_documentation"
+      },
+      {
+        "pageScriptHash": "8cf04a9734132302f96da8e113e80ce5",
+        "pageName": "Home",
+        "icon": ":material/home:",
+        "isDefault": true,
+        "sectionHeader": "Home"
+      },
+      {
+        "pageScriptHash": "ade7c1c0e392347b8dc10b3d5d08b8c2",
+        "pageName": "Screener",
+        "icon": ":material/table_chart:",
+        "sectionHeader": "Kalshi",
+        "urlPathname": "kalshi_screener"
+      },
+      {
+        "pageScriptHash": "1b22a11cdabb50e95139fd88045ffb30",
+        "pageName": "Analyze Market",
+        "icon": ":material/insights:",
+        "sectionHeader": "Kalshi",
+        "urlPathname": "kalshi_analyze_market"
+      },
+      {
+        "pageScriptHash": "f08cbe783db72c2b16415056207acfc9",
+        "pageName": "Analyze user",
+        "icon": ":material/person:",
+        "sectionHeader": "Kalshi",
+        "urlPathname": "kalshi_analyze_user"
+      },
+      {
+        "pageScriptHash": "b983ea4652520e3b0509a4b84f0521dd",
+        "pageName": "Leaderboard",
+        "icon": ":material/emoji_events:",
+        "sectionHeader": "Kalshi",
+        "urlPathname": "kalshi_leaderboard"
+      },
+      {
+        "pageScriptHash": "4192fc14012bea2b509c04cdb3981d4e",
+        "pageName": "Unusual Trades",
+        "icon": ":material/notifications_active:",
+        "sectionHeader": "Kalshi",
+        "urlPathname": "kalshi_unusual_trades"
+      },
+      {
+        "pageScriptHash": "08bd40c7543007ad06e4fce31618f6ec",
+        "pageName": "Your Account",
+        "icon": ":material/manage_accounts:",
+        "sectionHeader": "Account",
+        "urlPathname": "Account"
+      },
+      {
+        "pageScriptHash": "4236a440a662cc8253d7536e5aa17942",
+        "pageName": "Log out",
+        "icon": ":material/logout:",
+        "sectionHeader": "Account",
+        "urlPathname": "logout"
+      }
+    ],
+    "position": "TOP",
+    "pageScriptHash": "95cbe618bfafb7437263346d6c8503d2"
+  }
+}
