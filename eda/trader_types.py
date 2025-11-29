@@ -39,7 +39,7 @@ df = pd.read_csv(data_path)
 print(f"✓ Loaded {len(df)} traders")
 
 # Set up visualization directory
-viz_dir = 'eda/visualizations' if os.path.exists('eda/visualizations') else 'visualizations'
+viz_dir = 'eda/visualizations/trader_types' if os.path.exists('eda/visualizations') else 'visualizations/trader_types'
 os.makedirs(viz_dir, exist_ok=True)
 
 # Define trader type features
@@ -126,8 +126,8 @@ axes[1].set_title('Distribution of Types per Trader')
 axes[1].grid(True, alpha=0.3, axis='y')
 
 plt.tight_layout()
-plt.savefig(f'{viz_dir}/10_trader_type_prevalence.png', dpi=300, bbox_inches='tight')
-print(f"\n✓ Saved visualization: {viz_dir}/10_trader_type_prevalence.png")
+plt.savefig(f'{viz_dir}/trader_type_prevalence.png', dpi=300, bbox_inches='tight')
+print(f"\n✓ Saved visualization: {viz_dir}/trader_type_prevalence.png")
 
 # ============================================================================
 # SECTION 2: PERFORMANCE BY TRADER TYPE
@@ -256,8 +256,8 @@ axes[1, 1].legend()
 axes[1, 1].grid(True, alpha=0.3, axis='x')
 
 plt.tight_layout()
-plt.savefig(f'{viz_dir}/11_performance_by_type.png', dpi=300, bbox_inches='tight')
-print(f"\n✓ Saved visualization: {viz_dir}/11_performance_by_type.png")
+plt.savefig(f'{viz_dir}/performance_by_type.png', dpi=300, bbox_inches='tight')
+print(f"\n✓ Saved visualization: {viz_dir}/performance_by_type.png")
 
 # ============================================================================
 # SECTION 3: TRADER TYPE COMBINATIONS
@@ -314,62 +314,8 @@ ax.set_ylabel('Trader Type', fontsize=12)
 plt.xticks(rotation=45, ha='right')
 plt.yticks(rotation=0)
 plt.tight_layout()
-plt.savefig(f'{viz_dir}/12_type_cooccurrence.png', dpi=300, bbox_inches='tight')
-print(f"\n✓ Saved visualization: {viz_dir}/12_type_cooccurrence.png")
-
-# ============================================================================
-# SECTION 4: MULTI-TYPE ANALYSIS
-# ============================================================================
-print("\n" + "="*80)
-print("4. MULTI-TYPE TRADER ANALYSIS")
-print("="*80)
-
-# Analyze performance based on number of types
-print("\nPerformance by Number of Types:")
-for num_types in sorted(df['num_types'].unique()):
-    if num_types > 0:
-        traders = df[df['num_types'] == num_types]
-        print(f"\n  {int(num_types)} type(s) ({len(traders)} traders):")
-        print(f"    Avg Win Rate: {traders['win_rate'].mean():.2%}")
-        print(f"    Avg PnL: ${traders['total_pnl'].mean():,.2f}")
-        print(f"    Avg Smart Score: {traders['smart_score'].mean():.2f}")
-
-# Correlation between number of types and performance
-corr_types_winrate = df['num_types'].corr(df['win_rate'])
-corr_types_pnl = df['num_types'].corr(df['total_pnl'])
-
-print(f"\nCorrelation Analysis:")
-print(f"  Number of types vs Win Rate: {corr_types_winrate:.3f}")
-print(f"  Number of types vs PnL: {corr_types_pnl:.3f}")
-
-# Visualization
-fig, axes = plt.subplots(1, 2, figsize=(16, 6))
-fig.suptitle('Multi-Type Trader Analysis', fontsize=16, fontweight='bold')
-
-# Performance by number of types
-num_types_perf = df.groupby('num_types').agg({
-    'win_rate': 'mean',
-    'total_pnl': 'mean'
-}).reset_index()
-
-axes[0].plot(num_types_perf['num_types'], num_types_perf['win_rate'], 
-             marker='o', linewidth=2, markersize=8, color='steelblue')
-axes[0].set_xlabel('Number of Types', fontsize=12)
-axes[0].set_ylabel('Average Win Rate', fontsize=12)
-axes[0].set_title('Win Rate vs Number of Types')
-axes[0].grid(True, alpha=0.3)
-
-axes[1].plot(num_types_perf['num_types'], num_types_perf['total_pnl'], 
-             marker='o', linewidth=2, markersize=8, color='green')
-axes[1].axhline(0, color='red', linestyle='--', linewidth=1)
-axes[1].set_xlabel('Number of Types', fontsize=12)
-axes[1].set_ylabel('Average PnL ($)', fontsize=12)
-axes[1].set_title('PnL vs Number of Types')
-axes[1].grid(True, alpha=0.3)
-
-plt.tight_layout()
-plt.savefig(f'{viz_dir}/13_multitype_analysis.png', dpi=300, bbox_inches='tight')
-print(f"\n✓ Saved visualization: {viz_dir}/13_multitype_analysis.png")
+plt.savefig(f'{viz_dir}/type_cooccurrence.png', dpi=300, bbox_inches='tight')
+print(f"\n✓ Saved visualization: {viz_dir}/type_cooccurrence.png")
 
 # ============================================================================
 # SUMMARY
@@ -401,12 +347,6 @@ print(f"\n4. Type Combinations:")
 if len(combinations_sorted) > 0:
     top_combo = combinations_sorted[0]
     print(f"   - Most common combination: {top_combo[0]} + {top_combo[1]} ({top_combo[2]} traders)")
-
-print(f"\n5. Multi-Type Traders:")
-if corr_types_winrate > 0:
-    print(f"   - Having more types correlates with BETTER performance")
-else:
-    print(f"   - Having more types correlates with WORSE performance")
 
 print("\n" + "="*80)
 print(f"Analysis complete! Check the '{viz_dir}' folder for charts.")

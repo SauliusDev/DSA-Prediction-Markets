@@ -1,114 +1,151 @@
-# Hashdive Smart Score Analysis
+# What Makes a Successful Prediction Market Trader?
 **Course:** DSA 210 – Introduction to Data Science (2025–2026 Fall)
 
 **Student:** Ąžuolas Saulius Balbieris (37825)
 
-## 1. Motivation
-Hashdive assigns every Polymarket trader a **Smart Score** (ranging from -100 to 100). This score is meant to measure a trader's consistency, risk awareness, and overall profitability.
+## Table of Contents
+- [Motivation](#motivation)
+- [The Dataset](#the-dataset)
+- [Data Collection](#data-collection)
+- [Research Questions](#research-questions)
+- [Hypothesis Testing](#hypothesis-testing)
+- [Methodology](#methodology)
+- [Analysis Plan](#analysis-plan)
+- [References](#references)
 
-The goal of this project is to analyze the correlation between the Smart Score and **actual trading outcomes**, specifically:
-* Win Rate and PnL (Profit and Loss)
-* Account age and balance
-* Position size and preferred market entry probabilities
-* Maybe more future metrics as I do research on data collection abilities
+## Motivation
 
-## 2. Data collection
-* **Hashdive (premium API/UI)** 
-  * Official api for basic info about user: User account age etc.
-  * Scraping web data for for intricate data: Smart Score, Win Rate, PnL, Sharpe Ratio, total positions, account balance, and category-specific statistics.
-* **Polymarket Free API**  
-  * Category metadata and simple time features (e.g., account age in days).
+Prediction markets like Polymarket have become increasingly popular as platforms where people bet real money on real-world events—from elections to sports outcomes to cryptocurrency prices. But what actually separates successful traders from unsuccessful ones? 
 
-The final data would be organized into json format. For this many parsing function will be implemented. 
+I got curious about this after discovering Hashdive, a platform that tracks Polymarket traders and assigns them "Smart Scores" based on their trading behavior. These scores range from around -99 (gamblers loosing money) to 99 (elite trader). But the question remained: **what patterns do successful traders follow?**
 
-## 3. Methodology
+This project aims to dig into the data and understand:
+- What trading behaviors correlate with better performance?
+- Do certain trader types (contrarians, trend followers, etc.) actually perform better?
+- Are some market categories more profitable than others for smart traders?
+- Does diversifying across many markets help or hurt your win rate?
 
-### 3.1 Data Collection Process
+The answers could provide practical insights for anyone interested in prediction markets, while also exploring interesting questions about human decision-making and risk-taking behavior.
 
-**Sample Selection:**
-- Target sample size: 500-1000 Polymarket users across different Smart Score ranges
-- Stratified sampling to ensure representation across score brackets:
-  - High performers (Score > 40): ~200 users
-  - Mid-range (Score 0-40): ~400 users  
-  - Low performers (Score < 0): ~200 users
-- Minimum activity threshold: Users with at least 10 completed trades
+## The Dataset
 
-**Data Collection Pipeline:**
-1. **Hashdive API/Scraping:**
-   - User Smart Score (primary metric)
-   - Total PnL (USD)
-   - Win Rate (%)
-   - Sharpe Ratio
-   - Total positions traded
-   - Current balance
-   - Active days since registration
-   - Category-specific statistics (Politics, Crypto, Culture, etc.)
-   - Trading behavior metrics:
-     - Average entry price
-     - Position size distribution
-     - Best/worst trade ROI
-     - Active vs. finished bets ratio
-2. **Polymarket API:**
-   - Account creation date
-   - Market category metadata
-   - Trading volume over time
+I collected data on **~1000 Polymarket traders** using Hashdive's proprietary API. The data collection took approximately **20 hours** due to API rate limits. 
 
-**Data Storage:**
-- JSON format with nested structure for user profiles
-- Each user record contains: `{user_id, smart_score, pnl, win_rate, sharpe_ratio, ...}`
-- Parsing functions to normalize scraped HTML/API responses into structured format
+Each trader profile contains **60+ features** including:
 
-### 3.2 Data Analysis Approach
+### Performance Metrics
+- **Smart Score** (31-99): Platform's assessment of trader skill
+- **Win Rate** (0-1): Percentage of profitable bets
+- **Total PnL**: Net profit/loss in USD
+- **Sharpe Ratio**: Risk-adjusted returns
+- **Best/Worst Trade ROI**: Extreme outcomes
 
-**Phase 1: Exploratory Data Analysis (EDA)**
-- Descriptive statistics for all numerical variables
-- Distribution analysis (histograms, box plots) for Smart Score, PnL, Win Rate
-- Correlation matrix using both Pearson and Spearman coefficients
-- Scatter plots: Smart Score vs. PnL, Smart Score vs. Win Rate
-- Category-wise performance comparison
-- Identify outliers and data quality issues
+### Trading Behavior
+- **Total Positions**: Number of bets placed
+- **Number of Markets**: How many different markets traded
+- **Traded Volume (30d)**: Recent trading activity
+- **Betting Probability Ranges** (0.0-0.9): Where traders place bets
+  - `trader_bets_0_0`: Bets on very unlikely outcomes (<10% probability)
+  - `trader_bets_0_9`: Bets on very likely outcomes (>90% probability)
+  - These reveal risk-taking patterns—do they hunt longshots or play it safe?
 
-**Phase 2: Correlation Analysis**
-- Primary hypothesis test: Smart Score correlation with realized PnL
-- Secondary correlations:
-  - Smart Score vs. Win Rate
-  - Smart Score vs. Sharpe Ratio
-  - Account age vs. performance metrics
-  - Position size strategy vs. profitability
-- Statistical significance testing (p-values < 0.05)
+### Trader Types (Platform-Assigned)
+Binary flags indicating trading style:
+- **Bagholder**: Holds losing positions too long
+- **Contrarian**: Bets against market consensus
+- **Trend Follower**: Follows market momentum
+- **Lottery Ticket**: Chases high-risk, high-reward bets
+- **Whale Splash**: Makes very large bets
+- **Senior/Veteran**: Experienced traders
 
-**Phase 3: Predictive Modeling**
-- **Target variables:** PnL, Win Rate
-- **Features:** Smart Score, account age, total positions, balance, Sharpe Ratio, category preferences, entry price patterns
+### Category Performance
+Performance broken down by market type:
+- **Politics** (elections, policy outcomes)
+- **Crypto** (Bitcoin price, DeFi events)
+- **Sports** (game outcomes, championships)
+- **Culture** (entertainment, awards)
+- **Other** (weather, miscellaneous)
 
-**Models to implement:**
-1. Linear Regression (baseline)
-2. Random Forest Regressor (capture non-linear relationships)
-3. Gradient Boosting (XGBoost/LightGBM) if needed
+For each category, we have:
+- Amount traded
+- Category-specific smart score
+- Category-specific win rate
 
-**Model Evaluation:**
-- Train/test split: 80/20
-- Cross-validation (5-fold)
-- Metrics: R², MAE, RMSE
-- Feature importance analysis
-- Residual analysis
+## Data Collection
 
-**Phase 4: Insights & Interpretation**
-- Identify which features most strongly predict trading success
-- Validate whether Smart Score is a reliable predictor
-- Analyze trading patterns of high-Smart-Score users:
-  - Do they prefer certain probability ranges?
-  - Do they trade specific categories more?
-  - How does their position sizing differ?
+### Data Source
+- **Hashdive Premium API**: A paid service that aggregates and analyzes Polymarket trader statistics
+- **Sample**: ~1000 traders with Smart Scores ranging from 31 to 99
+- **Collection Time**: ~20 hours (November 2024)
+- **Format**: Individual JSON files per user, later aggregated into CSV
 
-## 4. Data usage
-1.  **Exploratory Data Analysis (EDA):** Calculate correlations, analyze distributions, and analyze many different combinations of data analysis to understand what smart traders do.
-2.  **Modeling:** Use linear and tree-based models (e.g., Random Forest) to predict PnL/Win Rate based on Smart Score and other account features.
-3.  **Evaluation:** Assess model performance using $R^2$, MAE, and correlation strengths, and determine feature importance.
-I expect the **Smart Score** to correlate positively with Win Rate and risk-adjusted PnL. Because users with high scores are anticipated to exhibit more consistent and disciplined trading behavior.
+### Why This Dataset?
+- **Real money, real stakes**: These are actual traders with real profit/loss
+- **Behavioral data**: Not just prices, but human decision-making patterns
+- **Unique features**: Trader types, betting probability preferences, category specialization
 
-Realted Links:
-* [What is polymarket?](https://en.wikipedia.org/wiki/Polymarket)
-* [Hashdive Smart Score Documentation](https://hashdive.com/documentation)
-* [Polymarket API](https://docs.polymarket.com/developers/gamma-markets-api/overview)
-* [Hashdive Premium API](https://hashdive.com/API_documentation)
+### Data Processing
+Raw JSON files were parsed and flattened into a structured CSV with 60+ columns. Key transformations:
+- Nested category metrics expanded into separate columns
+- Trader type flags converted to binary indicators
+- Probability range betting patterns normalized
+- Missing values handled (some traders don't have all category data)
+
+## Research Questions
+
+The overarching question: **What makes a successful prediction market trader?**
+
+This breaks down into several specific angles:
+
+1. **Performance Drivers**: What factors correlate most strongly with win rate and profitability?
+2. **Trader Type Analysis**: Do certain trading styles (contrarian, trend follower, etc.) perform better?
+3. **Diversification Effect**: Does trading across more markets improve or hurt performance?
+4. **Category Specialization**: Are some market categories more profitable? Do smart traders specialize or generalize?
+5. **Risk Behavior**: How do betting probability preferences relate to success?
+6. **Smart Score Validation**: Does the platform's "Smart Score" actually predict performance?
+
+## Methodology
+
+This project uses a quantitative approach:
+- Clean and flatten Hashdive API data into a structured CSV  
+- Perform exploratory analysis to understand distributions and relationships  
+- Use correlations and basic statistical tests to evaluate factors influencing performance  
+
+All analysis is done using Python (pandas, seaborn, scipy).
+
+## Hypothesis Testing
+
+After exploring the data, we'll formally test key hypotheses using statistical methods.
+
+**Research Question**: Do different trader types (contrarian, trend follower, bagholder, etc.) have significantly different performance outcomes?
+**Null Hypothesis (H₀)**: All trader types have equal mean win rates. There is no significant difference in performance across trader types.
+**Alternative Hypothesis (H₁)**: At least one trader type has a significantly different mean win rate compared to others.
+
+## Project Structure
+
+core - utils classes
+data - storage of data
+eda - folder for exploratory data analysis related code
+hashdive - api related data accumulation codes
+steamlint - repository used for its protocols do decode binary websocket responses
+eda_analysis.ipynb - documentation of EDA findings
+hypothesis_testing.ipynb - documentation of hypothesis testing
+ml_method.ipynb - documentation of ML implementation
+
+## Analysis Plan
+
+The analysis focuses on:
+1. Performance distribution
+2. Category-level differences
+3. Trader type comparisons
+4. Risk behavior patterns
+
+## References
+
+- [Polymarket](https://polymarket.com) - Decentralized prediction market platform
+- [Hashdive](https://hashdive.com) - Polymarket trader analytics platform
+- [Prediction Markets Research](https://en.wikipedia.org/wiki/Prediction_market) - Background on prediction markets
+
+---
+
+**Note**: This is an educational project for DSA 210. The data was collected ethically through a paid API service. No trading advice is intended or implied.

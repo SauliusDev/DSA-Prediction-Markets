@@ -40,7 +40,7 @@ df = pd.read_csv(data_path)
 print(f"✓ Loaded {len(df)} traders")
 
 # Set up visualization directory
-viz_dir = 'eda/visualizations' if os.path.exists('eda/visualizations') else 'visualizations'
+viz_dir = 'eda/visualizations/category_analysis' if os.path.exists('eda/visualizations') else 'visualizations/category_analysis'
 os.makedirs(viz_dir, exist_ok=True)
 
 # Define category features
@@ -101,8 +101,8 @@ axes[1].pie(category_volumes.values, labels=category_volumes.index, autopct='%1.
 axes[1].set_title('Market Share by Category')
 
 plt.tight_layout()
-plt.savefig(f'{viz_dir}/05_category_volumes.png', dpi=300, bbox_inches='tight')
-print(f"\n✓ Saved visualization: {viz_dir}/05_category_volumes.png")
+plt.savefig(f'{viz_dir}/category_volumes.png', dpi=300, bbox_inches='tight')
+print(f"\n✓ Saved visualization: {viz_dir}/category_volumes.png")
 
 # ============================================================================
 # SECTION 2: CATEGORY-SPECIFIC WIN RATES
@@ -157,8 +157,8 @@ for idx, col in enumerate(category_winrate_cols):
         ax.grid(True, alpha=0.3)
 
 plt.tight_layout()
-plt.savefig(f'{viz_dir}/06_category_winrates.png', dpi=300, bbox_inches='tight')
-print(f"\n✓ Saved visualization: {viz_dir}/06_category_winrates.png")
+plt.savefig(f'{viz_dir}/category_winrates.png', dpi=300, bbox_inches='tight')
+print(f"\n✓ Saved visualization: {viz_dir}/category_winrates.png")
 
 # ============================================================================
 # SECTION 3: CATEGORY SPECIALIZATION ANALYSIS
@@ -214,158 +214,27 @@ print(f"\nCorrelation Analysis:")
 print(f"  Number of categories vs Win Rate: {corr_spec_winrate:.3f}")
 print(f"  Number of categories vs PnL: {corr_spec_pnl:.3f}")
 
-# Visualization
-fig, axes = plt.subplots(2, 2, figsize=(16, 12))
+# Visualization - Only one chart: Distribution of Category Diversification
+fig, ax = plt.subplots(figsize=(12, 7))
 fig.suptitle('Category Specialization Analysis', fontsize=16, fontweight='bold')
 
 # Number of categories distribution
-axes[0, 0].hist(df['num_categories'], bins=range(1, df['num_categories'].max()+2), 
-                edgecolor='black', alpha=0.7, color='steelblue')
-axes[0, 0].set_xlabel('Number of Categories Traded', fontsize=12)
-axes[0, 0].set_ylabel('Number of Traders', fontsize=12)
-axes[0, 0].set_title('Distribution of Category Diversification')
-axes[0, 0].grid(True, alpha=0.3)
-
-# Specialization vs Win Rate - Box plots for each category count
-winrate_by_cats = [df[df['num_categories'] == i]['win_rate'].values 
-                   for i in sorted(df['num_categories'].unique())]
-bp = axes[0, 1].boxplot(winrate_by_cats, 
-                        labels=sorted(df['num_categories'].unique()),
-                        patch_artist=True,
-                        showmeans=True)
-# Color the boxes
-colors = plt.cm.RdYlGn(np.linspace(0.3, 0.9, len(bp['boxes'])))
-for patch, color in zip(bp['boxes'], colors):
-    patch.set_facecolor(color)
-axes[0, 1].set_xlabel('Number of Categories', fontsize=12)
-axes[0, 1].set_ylabel('Win Rate', fontsize=12)
-axes[0, 1].set_title(f'Win Rate by Category Count (Corr: {corr_spec_winrate:.3f})')
-axes[0, 1].grid(True, alpha=0.3, axis='y')
-
-# Performance by specialization type
-spec_types = ['Specialists\n(≤2 cats)', 'Moderate\n(3-4 cats)', 'Generalists\n(≥5 cats)']
-avg_winrates = [specialists['win_rate'].mean(), moderate['win_rate'].mean(), generalists['win_rate'].mean()]
-axes[1, 0].bar(spec_types, avg_winrates, color=['red', 'orange', 'green'], edgecolor='black', alpha=0.7)
-axes[1, 0].set_ylabel('Average Win Rate', fontsize=12)
-axes[1, 0].set_title('Win Rate by Specialization Type')
-axes[1, 0].grid(True, alpha=0.3, axis='y')
-
-# PnL by specialization type
-avg_pnls = [specialists['total_pnl'].mean(), moderate['total_pnl'].mean(), generalists['total_pnl'].mean()]
-axes[1, 1].bar(spec_types, avg_pnls, color=['red', 'orange', 'green'], edgecolor='black', alpha=0.7)
-axes[1, 1].set_ylabel('Average PnL ($)', fontsize=12)
-axes[1, 1].set_title('PnL by Specialization Type')
-axes[1, 1].grid(True, alpha=0.3, axis='y')
+ax.hist(df['num_categories'], bins=range(1, df['num_categories'].max()+2), 
+        edgecolor='black', alpha=0.7, color='steelblue')
+ax.set_xlabel('Number of Categories Traded', fontsize=12)
+ax.set_ylabel('Number of Traders', fontsize=12)
+ax.set_title('Distribution of Category Diversification')
+ax.grid(True, alpha=0.3)
 
 plt.tight_layout()
-plt.savefig(f'{viz_dir}/07_specialization_analysis.png', dpi=300, bbox_inches='tight')
-print(f"\n✓ Saved visualization: {viz_dir}/07_specialization_analysis.png")
+plt.savefig(f'{viz_dir}/specialization_analysis.png', dpi=300, bbox_inches='tight')
+print(f"\n✓ Saved visualization: {viz_dir}/specialization_analysis.png")
 
 # ============================================================================
-# SECTION 4: CATEGORY × PNL ANALYSIS
+# SECTION 4: CATEGORY-SPECIFIC SMART SCORES
 # ============================================================================
 print("\n" + "="*80)
-print("4. CATEGORY × PNL ANALYSIS")
-print("="*80)
-
-# Prepare data - get primary category for each trader
-def get_primary_category(row):
-    """Determine trader's primary category"""
-    volumes = row[category_volume_cols]
-    if volumes.sum() == 0:
-        return 'None'
-    max_cat = volumes.idxmax()
-    return max_cat.replace('most_traded_categories_', '').title()
-
-df['primary_category'] = df.apply(get_primary_category, axis=1)
-
-# Get category statistics
-category_stats = df.groupby('primary_category').agg({
-    'smart_score': 'mean',
-    'total_pnl': 'mean',
-    'win_rate': 'mean',
-    'user_address': 'count'
-}).rename(columns={'user_address': 'count'})
-
-print("\nPerformance by Primary Category:")
-print(category_stats.sort_values('total_pnl', ascending=False))
-
-# Remove extreme outliers for better visualization
-pnl_threshold = df['total_pnl'].quantile(0.995)
-df_filtered = df[(df['total_pnl'] <= pnl_threshold) & (df['primary_category'] != 'None')].copy()
-
-# Sort categories by median PnL for better visualization
-cat_medians = df_filtered.groupby('primary_category')['total_pnl'].median().sort_values(ascending=False)
-categories_sorted = cat_medians.index.tolist()
-
-# Create single box plot
-fig, ax = plt.subplots(figsize=(14, 8))
-
-# Prepare data for box plot
-pnl_by_cat = [df_filtered[df_filtered['primary_category'] == cat]['total_pnl'].values 
-              for cat in categories_sorted]
-
-# Create box plot
-bp = ax.boxplot(pnl_by_cat, 
-                labels=categories_sorted, 
-                patch_artist=True, 
-                showmeans=True,
-                meanline=True,
-                widths=0.6)
-
-# Color the boxes with a gradient
-colors = plt.cm.RdYlGn(np.linspace(0.3, 0.9, len(categories_sorted)))
-for patch, color in zip(bp['boxes'], colors):
-    patch.set_facecolor(color)
-    patch.set_alpha(0.7)
-
-# Customize the plot
-ax.set_xlabel('Category', fontsize=14, fontweight='bold')
-ax.set_ylabel('Total PnL ($)', fontsize=14, fontweight='bold')
-ax.set_title('Total PnL Distribution by Category', fontsize=16, fontweight='bold', pad=20)
-ax.tick_params(axis='x', rotation=45, labelsize=12)
-ax.tick_params(axis='y', labelsize=12)
-ax.grid(True, alpha=0.3, axis='y')
-ax.axhline(0, color='red', linestyle='--', linewidth=2, alpha=0.7, label='Break-even')
-
-# Add legend
-from matplotlib.lines import Line2D
-legend_elements = [
-    Line2D([0], [0], color='red', linestyle='--', linewidth=2, label='Break-even'),
-    Line2D([0], [0], color='orange', linewidth=2, label='Median'),
-    Line2D([0], [0], color='green', linestyle='--', linewidth=2, label='Mean')
-]
-ax.legend(handles=legend_elements, loc='upper right', fontsize=11)
-
-plt.tight_layout()
-plt.savefig(f'{viz_dir}/08_category_pnl_boxplot.png', dpi=300, bbox_inches='tight')
-print(f"\n✓ Saved visualization: {viz_dir}/08_category_pnl_boxplot.png")
-
-# Alternative 3D view: Heatmap style
-fig, ax = plt.subplots(figsize=(14, 8))
-
-# Create pivot table for heatmap
-# Bin smart scores into quartiles
-df['smart_score_bin'] = pd.qcut(df['smart_score'], q=4, labels=['Low', 'Med-Low', 'Med-High', 'High'])
-
-heatmap_data = df.groupby(['primary_category', 'smart_score_bin'])['total_pnl'].mean().unstack()
-heatmap_data = heatmap_data.loc[heatmap_data.index != 'None']  # Remove 'None' category
-
-sns.heatmap(heatmap_data, annot=True, fmt='.0f', cmap='RdYlGn', center=0, 
-            cbar_kws={'label': 'Average PnL ($)'}, ax=ax)
-ax.set_xlabel('Smart Score Level', fontsize=12)
-ax.set_ylabel('Primary Category', fontsize=12)
-ax.set_title('Average PnL by Category and Smart Score Level', fontsize=14, fontweight='bold')
-
-plt.tight_layout()
-plt.savefig(f'{viz_dir}/09_category_smartscore_heatmap.png', dpi=300, bbox_inches='tight')
-print(f"\n✓ Saved visualization: {viz_dir}/09_category_smartscore_heatmap.png")
-
-# ============================================================================
-# SECTION 5: CATEGORY-SPECIFIC SMART SCORES
-# ============================================================================
-print("\n" + "="*80)
-print("5. CATEGORY-SPECIFIC SMART SCORE ANALYSIS")
+print("4. CATEGORY-SPECIFIC SMART SCORE ANALYSIS")
 print("="*80)
 
 # Analyze smart scores by category
@@ -412,6 +281,16 @@ else:
     print(f"   - More diversification correlates with LOWER win rates")
 
 print(f"\n4. Smart Trader Category Preferences:")
+# Determine primary category for analysis
+def get_primary_category(row):
+    """Determine trader's primary category"""
+    volumes = row[category_volume_cols]
+    if volumes.sum() == 0:
+        return 'None'
+    max_cat = volumes.idxmax()
+    return max_cat.replace('most_traded_categories_', '').title()
+
+df['primary_category'] = df.apply(get_primary_category, axis=1)
 top_performers = df[df['smart_score'] > df['smart_score'].quantile(0.75)]
 top_primary_cat = top_performers['primary_category'].value_counts().iloc[0]
 print(f"   - Top 25% smart traders primarily trade in: {top_primary_cat}")
