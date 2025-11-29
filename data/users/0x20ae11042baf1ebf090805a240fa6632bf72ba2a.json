@@ -1,0 +1,76 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Lottery Ticket",
+    "New"
+  ],
+  "total_positions": 48,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 0.0,
+  "polymarket_url": "https://polymarket.com/profile/0x20ae11042baf1ebf090805a240fa6632bf72ba2a",
+  "rank_1d_place": "#75187",
+  "rank_1d_amount": "$11.4k",
+  "rank_7d_place": null,
+  "rank_7d_amount": null,
+  "rank_30d_place": null,
+  "rank_30d_amount": null,
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 34.41,
+  "total_pnl": 166.81,
+  "sharpe_ratio": 0.84,
+  "traded_usd_volume_last_30d_sum": 0.0,
+  "active_bets_amount": 0.0,
+  "active_bets_pnl": 0.0,
+  "finished_bets_amount": 269.93,
+  "finished_bets_pnl": 166.81,
+  "best_trade_roi_proc": 3210.8,
+  "best_trade_roi_amount": 321.08,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -20.0,
+  "where_trader_bets_most": {
+    "0.0": 126.07,
+    "0.1": 42.54,
+    "0.2": 36.45,
+    "0.3": 7.1,
+    "0.4": 5.0,
+    "0.5": 20.35,
+    "0.6": 25.0,
+    "0.9": 12.0
+  },
+  "user_address": "0x20ae11042baf1ebf090805a240fa6632bf72ba2a",
+  "win_rate": 0.125,
+  "effective_count": 5.5680597195595904,
+  "num_markets": 48,
+  "fetched_at": "2025-11-28T17:21:07.693306+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 16.0,
+      "Sport": 5.0,
+      "Crypto": 20.0,
+      "Mentions": 2.0,
+      "Weather": 3.0,
+      "Culture": 1.0,
+      "Other": 1.0
+    },
+    "smart_score_categories": {
+      "Politics": -0.2992250353292479,
+      "Sport": -0.47985862875747254,
+      "Crypto": 33.85835139705155,
+      "Mentions": -0.20394703328490252,
+      "Weather": -0.5194572108807853,
+      "Culture": -0.2777777777777778,
+      "Other": -4.285714285714286
+    },
+    "win_rate_categories": {
+      "Politics": 0.0625,
+      "Sport": 0.2,
+      "Crypto": 0.2,
+      "Mentions": 0.0,
+      "Weather": 0.0,
+      "Culture": 0.0,
+      "Other": 0.0
+    }
+  }
+}

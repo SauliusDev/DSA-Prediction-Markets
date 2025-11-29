@@ -1,0 +1,82 @@
+{
+  "trader_types": [
+    "Bagholder",
+    "Contrarian",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 419,
+  "active_since_date": "Jun 2025",
+  "active_since_days": 156,
+  "current_balance": 1785.72,
+  "polymarket_url": "https://polymarket.com/profile/0x03c8118da338a9dafb2bae9a4e89055203a30e01",
+  "rank_1d_place": "#307571",
+  "rank_1d_amount": "$10.7k",
+  "rank_7d_place": "#3283",
+  "rank_7d_amount": "$30.4k",
+  "rank_30d_place": "#7641",
+  "rank_30d_amount": "$149.1k",
+  "rank_all_time_place": "#18575",
+  "rank_all_time_amount": "$238.5k",
+  "smart_score": 31.46,
+  "total_pnl": 2530.89,
+  "sharpe_ratio": 2.08,
+  "traded_usd_volume_last_30d_sum": 7883.0,
+  "active_bets_amount": 503.99,
+  "active_bets_pnl": 154.71,
+  "finished_bets_amount": 5658.24,
+  "finished_bets_pnl": 2376.19,
+  "best_trade_roi_proc": 11000.0,
+  "best_trade_roi_amount": 110.0,
+  "worst_trade_roi_proc": -95.95,
+  "worst_trade_roi_amount": -73.4,
+  "where_trader_bets_most": {
+    "0.0": 2019.49,
+    "0.1": 2456.16,
+    "0.2": 1450.11,
+    "0.3": 684.77,
+    "0.4": 1135.73,
+    "0.5": 650.54,
+    "0.6": 536.1,
+    "0.7": 503.83,
+    "0.8": 21.48,
+    "0.9": 60.23
+  },
+  "user_address": "0x03c8118da338a9dafb2bae9a4e89055203a30e01",
+  "win_rate": 0.3135802469135803,
+  "effective_count": 9.856666693196102,
+  "num_markets": 405,
+  "fetched_at": "2025-11-28T19:50:15.858976+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 205,
+      "Sport": 13,
+      "Music": 2,
+      "Crypto": 68,
+      "Mentions": 2,
+      "Weather": 5,
+      "Culture": 53,
+      "Other": 71
+    },
+    "smart_score_categories": {
+      "Politics": 24.364882752734278,
+      "Sport": 7.602687551447991,
+      "Music": -1.3520497497407271,
+      "Crypto": 10.424651491628168,
+      "Mentions": -6.346022974140734,
+      "Weather": 19.594192901530477,
+      "Culture": 7.988430219861772,
+      "Other": 16.449628187585915
+    },
+    "win_rate_categories": {
+      "Politics": 0.33163265306122447,
+      "Sport": 0.6153846153846154,
+      "Music": 0.0,
+      "Crypto": 0.09090909090909091,
+      "Mentions": 0.0,
+      "Weather": 0.6,
+      "Culture": 0.2,
+      "Other": 0.49295774647887325
+    }
+  }
+}

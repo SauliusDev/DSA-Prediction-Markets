@@ -1,0 +1,77 @@
+{
+  "trader_types": [
+    "Bagholder",
+    "Contrarian",
+    "Reverse Cramer",
+    "Lottery Ticket",
+    "Senior"
+  ],
+  "total_positions": 2218,
+  "active_since_date": "Aug 2024",
+  "active_since_days": 482,
+  "current_balance": 4095.63,
+  "polymarket_url": "https://polymarket.com/profile/0x71cd52a9bf9121cf8376ba13999468f5d659912d",
+  "rank_1d_place": "#4393",
+  "rank_1d_amount": "$2.4k",
+  "rank_7d_place": "#397298",
+  "rank_7d_amount": "$45.5k",
+  "rank_30d_place": "#757",
+  "rank_30d_amount": "$206.2k",
+  "rank_all_time_place": "#519",
+  "rank_all_time_amount": "$2.1M",
+  "smart_score": 71.16,
+  "total_pnl": 147642.1,
+  "sharpe_ratio": 6.0,
+  "traded_usd_volume_last_30d_sum": 23230.0,
+  "active_bets_amount": 24.5,
+  "active_bets_pnl": null,
+  "finished_bets_amount": 207541.91,
+  "finished_bets_pnl": 147688.1,
+  "best_trade_roi_proc": 33233.33,
+  "best_trade_roi_amount": 53.68,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -1972.36,
+  "where_trader_bets_most": {
+    "0.0": 21899.51,
+    "0.1": 31543.46,
+    "0.2": 32683.47,
+    "0.3": 21910.45,
+    "0.4": 23074.95,
+    "0.5": 28128.46,
+    "0.6": 14138.28,
+    "0.7": 11710.68,
+    "0.8": 3609.53,
+    "0.9": 24762.78
+  },
+  "user_address": "0x71cd52a9bf9121cf8376ba13999468f5d659912d",
+  "win_rate": 0.5566080288678394,
+  "effective_count": 10.0,
+  "num_markets": 2217,
+  "fetched_at": "2025-11-27T22:22:55.041168+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 320.0,
+      "Sport": 1772.0,
+      "Crypto": 66.0,
+      "Mentions": 2.0,
+      "Culture": 3.0,
+      "Other": 55.0
+    },
+    "smart_score_categories": {
+      "Politics": 0.009836216753917762,
+      "Sport": 87.66478413068859,
+      "Crypto": 7.2482877330261015,
+      "Mentions": -0.953805322578336,
+      "Culture": -2.0564368934474024,
+      "Other": 11.355598051650855
+    },
+    "win_rate_categories": {
+      "Politics": 0.3542319749216301,
+      "Sport": 0.5970654627539503,
+      "Crypto": 0.6212121212121212,
+      "Mentions": 0.0,
+      "Culture": 0.0,
+      "Other": 0.4
+    }
+  }
+}

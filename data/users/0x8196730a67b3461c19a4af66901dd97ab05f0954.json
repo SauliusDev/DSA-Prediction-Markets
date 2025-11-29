@@ -1,0 +1,77 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 806,
+  "active_since_date": "Oct 2024",
+  "active_since_days": 395,
+  "current_balance": 67.58,
+  "polymarket_url": "https://polymarket.com/profile/0x8196730a67b3461c19a4af66901dd97ab05f0954",
+  "rank_1d_place": "#278130",
+  "rank_1d_amount": "$330",
+  "rank_7d_place": "#14541",
+  "rank_7d_amount": "$3.2k",
+  "rank_30d_place": "#19223",
+  "rank_30d_amount": "$19.0k",
+  "rank_all_time_place": "#16363",
+  "rank_all_time_amount": "$197.0k",
+  "smart_score": 35.81,
+  "total_pnl": 2638.03,
+  "sharpe_ratio": 3.16,
+  "traded_usd_volume_last_30d_sum": 1548.0,
+  "active_bets_amount": 0.0,
+  "active_bets_pnl": null,
+  "finished_bets_amount": 6377.62,
+  "finished_bets_pnl": 2638.57,
+  "best_trade_roi_proc": 19700.01,
+  "best_trade_roi_amount": 98.49,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -61.69,
+  "where_trader_bets_most": {
+    "0.0": 1951.0,
+    "0.1": 1127.86,
+    "0.2": 588.23,
+    "0.3": 673.57,
+    "0.4": 460.44,
+    "0.5": 100.46,
+    "0.6": 66.79,
+    "0.8": 100.57,
+    "0.9": 78.36
+  },
+  "user_address": "0x8196730a67b3461c19a4af66901dd97ab05f0954",
+  "win_rate": 0.2444168734491315,
+  "effective_count": 8.65837734528077,
+  "num_markets": 806,
+  "fetched_at": "2025-11-28T16:51:01.602559+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 114.0,
+      "Sport": 2.0,
+      "Crypto": 13.0,
+      "Mentions": 1.0,
+      "Weather": 559.0,
+      "Culture": 112.0,
+      "Other": 5.0
+    },
+    "smart_score_categories": {
+      "Politics": 16.64272476520105,
+      "Sport": -0.21801595491499465,
+      "Crypto": 4.191799955371928,
+      "Mentions": -0.5604395604395604,
+      "Weather": 35.03904033675087,
+      "Culture": 7.568848876291985,
+      "Other": -2.4172598032975277
+    },
+    "win_rate_categories": {
+      "Politics": 0.3508771929824561,
+      "Sport": 0.0,
+      "Crypto": 0.6923076923076923,
+      "Mentions": 0.0,
+      "Weather": 0.18425760286225404,
+      "Culture": 0.4107142857142857,
+      "Other": 0.0
+    }
+  }
+}

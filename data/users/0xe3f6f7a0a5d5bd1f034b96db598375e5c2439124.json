@@ -1,0 +1,74 @@
+{
+  "trader_types": [
+    "Bagholder",
+    "Contrarian",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 105,
+  "active_since_date": "Apr 2025",
+  "active_since_days": 219,
+  "current_balance": 0.76,
+  "polymarket_url": "https://polymarket.com/profile/0xe3f6f7a0a5d5bd1f034b96db598375e5c2439124",
+  "rank_1d_place": "#193134",
+  "rank_1d_amount": "$0",
+  "rank_7d_place": "#392816",
+  "rank_7d_amount": "$0",
+  "rank_30d_place": "#86990",
+  "rank_30d_amount": "$5.9k",
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 47.29,
+  "total_pnl": 117.86,
+  "sharpe_ratio": 0.91,
+  "traded_usd_volume_last_30d_sum": 0.0,
+  "active_bets_amount": 0.26,
+  "active_bets_pnl": null,
+  "finished_bets_amount": 150.14,
+  "finished_bets_pnl": 121.14,
+  "best_trade_roi_proc": 14171.43,
+  "best_trade_roi_amount": 141.71,
+  "worst_trade_roi_proc": -99.87,
+  "worst_trade_roi_amount": -3.27,
+  "where_trader_bets_most": {
+    "0.0": 47.0,
+    "0.1": 40.38,
+    "0.2": 29.0,
+    "0.3": 5.0,
+    "0.4": 9.92,
+    "0.5": 22.56,
+    "0.6": 11.82,
+    "0.7": 3.27
+  },
+  "user_address": "0xe3f6f7a0a5d5bd1f034b96db598375e5c2439124",
+  "win_rate": 0.2233009708737864,
+  "effective_count": 6.709506833044836,
+  "num_markets": 103,
+  "fetched_at": "2025-11-28T01:58:32.934522+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 35.0,
+      "Sport": 14.0,
+      "Music": 2.0,
+      "Crypto": 28.0,
+      "Culture": 19.0,
+      "Other": 7.0
+    },
+    "smart_score_categories": {
+      "Politics": 55.860413212863804,
+      "Sport": 3.295711822377237,
+      "Music": -0.07195647478677038,
+      "Crypto": -0.42133821472657756,
+      "Culture": 11.353640292638367,
+      "Other": -1.0283951486435992
+    },
+    "win_rate_categories": {
+      "Politics": 0.08823529411764706,
+      "Sport": 0.2857142857142857,
+      "Music": 0.0,
+      "Crypto": 0.2857142857142857,
+      "Culture": 0.42105263157894735,
+      "Other": 0.0
+    }
+  }
+}

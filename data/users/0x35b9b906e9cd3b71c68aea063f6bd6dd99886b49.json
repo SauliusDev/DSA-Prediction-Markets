@@ -1,0 +1,76 @@
+{
+  "trader_types": [
+    "Bagholder",
+    "Contrarian",
+    "Lottery Ticket",
+    "New"
+  ],
+  "total_positions": 84,
+  "active_since_date": "Mar 2025",
+  "active_since_days": 256,
+  "current_balance": 36.2,
+  "polymarket_url": "https://polymarket.com/profile/0x35b9b906e9cd3b71c68aea063f6bd6dd99886b49",
+  "rank_1d_place": "#252125",
+  "rank_1d_amount": "$0",
+  "rank_7d_place": "#183479",
+  "rank_7d_amount": "$0",
+  "rank_30d_place": "#26717",
+  "rank_30d_amount": "$95.7k",
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 56.52,
+  "total_pnl": 1222.17,
+  "sharpe_ratio": 0.75,
+  "traded_usd_volume_last_30d_sum": 0.0,
+  "active_bets_amount": 16.02,
+  "active_bets_pnl": 6.02,
+  "finished_bets_amount": 920.85,
+  "finished_bets_pnl": 1216.14,
+  "best_trade_roi_proc": 4286.2,
+  "best_trade_roi_amount": 1714.38,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -86.57,
+  "where_trader_bets_most": {
+    "0.0": 599.74,
+    "0.1": 191.64,
+    "0.2": 62.4,
+    "0.3": 15.13,
+    "0.4": 31.0,
+    "0.6": 20.0,
+    "0.7": 11.0
+  },
+  "user_address": "0x35b9b906e9cd3b71c68aea063f6bd6dd99886b49",
+  "win_rate": 0.1219512195121951,
+  "effective_count": 5.709579382950095,
+  "num_markets": 82,
+  "fetched_at": "2025-11-28T00:18:09.862799+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 34.0,
+      "Sport": 10.0,
+      "Crypto": 32.0,
+      "Mentions": 1.0,
+      "Weather": 1.0,
+      "Culture": 1.0,
+      "Other": 5.0
+    },
+    "smart_score_categories": {
+      "Politics": -0.15222985344394446,
+      "Sport": -0.1069660422440148,
+      "Crypto": 39.38840133578267,
+      "Mentions": -0.29218482951290836,
+      "Weather": -0.01001001001001001,
+      "Culture": 0.7688821867752667,
+      "Other": -0.8050042973710374
+    },
+    "win_rate_categories": {
+      "Politics": 0.15625,
+      "Sport": 0.0,
+      "Crypto": 0.125,
+      "Mentions": 0.0,
+      "Weather": 0.0,
+      "Culture": 1.0,
+      "Other": 0.0
+    }
+  }
+}

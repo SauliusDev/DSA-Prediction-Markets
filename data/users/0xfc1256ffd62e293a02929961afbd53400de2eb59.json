@@ -1,0 +1,74 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Reverse Cramer",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 355,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 769.28,
+  "polymarket_url": "https://polymarket.com/profile/0xfc1256ffd62e293a02929961afbd53400de2eb59",
+  "rank_1d_place": "#23399",
+  "rank_1d_amount": "$341",
+  "rank_7d_place": "#17972",
+  "rank_7d_amount": "$3.7k",
+  "rank_30d_place": "#13473",
+  "rank_30d_amount": "$20.5k",
+  "rank_all_time_place": "#37976",
+  "rank_all_time_amount": "$22.6k",
+  "smart_score": 33.68,
+  "total_pnl": 689.11,
+  "sharpe_ratio": 6.18,
+  "traded_usd_volume_last_30d_sum": 3450.0,
+  "active_bets_amount": 181.95,
+  "active_bets_pnl": 31.85,
+  "finished_bets_amount": 1953.81,
+  "finished_bets_pnl": 657.26,
+  "best_trade_roi_proc": 1566.67,
+  "best_trade_roi_amount": 2.15,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -25.5,
+  "where_trader_bets_most": {
+    "0.0": 238.24,
+    "0.1": 216.47,
+    "0.2": 292.91,
+    "0.3": 420.93,
+    "0.4": 376.91,
+    "0.5": 356.55,
+    "0.6": 313.76,
+    "0.7": 177.86,
+    "0.8": 308.3,
+    "0.9": 74.02
+  },
+  "user_address": "0xfc1256ffd62e293a02929961afbd53400de2eb59",
+  "win_rate": 0.6080246913580247,
+  "effective_count": 10.0,
+  "num_markets": 324,
+  "fetched_at": "2025-11-28T17:37:38.191209+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 155.0,
+      "Crypto": 1.0,
+      "Mentions": 188.0,
+      "Weather": 2.0,
+      "Culture": 1.0,
+      "Other": 8.0
+    },
+    "smart_score_categories": {
+      "Politics": 28.904686163571284,
+      "Mentions": 35.516606903459945,
+      "Weather": 2.1951219512195124,
+      "Culture": 1.2359550561797752,
+      "Other": -0.47852969473775087
+    },
+    "win_rate_categories": {
+      "Politics": 0.648854961832061,
+      "Mentions": 0.5792349726775956,
+      "Weather": 1.0,
+      "Culture": 1.0,
+      "Other": 0.5
+    }
+  }
+}

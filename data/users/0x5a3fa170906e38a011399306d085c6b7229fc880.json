@@ -1,0 +1,75 @@
+{
+  "trader_types": [
+    "Waiting for the Money",
+    "Contrarian",
+    "Lottery Ticket",
+    "New"
+  ],
+  "total_positions": 30,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 153.14,
+  "polymarket_url": "https://polymarket.com/profile/0x5a3fa170906e38a011399306d085c6b7229fc880",
+  "rank_1d_place": "#15224",
+  "rank_1d_amount": "$0",
+  "rank_7d_place": "#7326",
+  "rank_7d_amount": "$0",
+  "rank_30d_place": "#5980",
+  "rank_30d_amount": "$7.9k",
+  "rank_all_time_place": "#19202",
+  "rank_all_time_amount": "$36.6k",
+  "smart_score": 34.91,
+  "total_pnl": 2139.95,
+  "sharpe_ratio": 1.0,
+  "traded_usd_volume_last_30d_sum": 3200.0,
+  "active_bets_amount": 994.76,
+  "active_bets_pnl": 244.24,
+  "finished_bets_amount": 1956.54,
+  "finished_bets_pnl": 1895.7,
+  "best_trade_roi_proc": 1237.16,
+  "best_trade_roi_amount": 1218.59,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -121.8,
+  "where_trader_bets_most": {
+    "0.0": 308.5,
+    "0.1": 107.0,
+    "0.2": 110.0,
+    "0.3": 309.36,
+    "0.4": 319.94,
+    "0.5": 330.24,
+    "0.6": 457.5,
+    "0.7": 368.3,
+    "0.9": 592.86
+  },
+  "user_address": "0x5a3fa170906e38a011399306d085c6b7229fc880",
+  "win_rate": 0.6153846153846154,
+  "effective_count": 3.64426776942261,
+  "num_markets": 26,
+  "fetched_at": "2025-11-28T17:10:20.711156+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 14.0,
+      "Sport": 1.0,
+      "Crypto": 9.0,
+      "Mentions": 2.0,
+      "Culture": 2.0,
+      "Other": 2.0
+    },
+    "smart_score_categories": {
+      "Politics": 28.698995283591465,
+      "Sport": 8.75667124722323,
+      "Crypto": -9.403934914508142,
+      "Mentions": -5.610612919173313,
+      "Culture": -0.12520607691013572,
+      "Other": 2.627617149686452
+    },
+    "win_rate_categories": {
+      "Politics": 0.7272727272727273,
+      "Sport": 1.0,
+      "Crypto": 0.5,
+      "Mentions": 0.0,
+      "Culture": 0.5,
+      "Other": 1.0
+    }
+  }
+}

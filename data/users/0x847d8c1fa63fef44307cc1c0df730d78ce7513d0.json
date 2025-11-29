@@ -1,0 +1,76 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Reverse Cramer",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 280,
+  "active_since_date": "Jul 2024",
+  "active_since_days": 498,
+  "current_balance": 0.0,
+  "polymarket_url": "https://polymarket.com/profile/0x847d8c1fa63fef44307cc1c0df730d78ce7513d0",
+  "rank_1d_place": "#603409",
+  "rank_1d_amount": "$828",
+  "rank_7d_place": "#11794",
+  "rank_7d_amount": "$433.2k",
+  "rank_30d_place": null,
+  "rank_30d_amount": null,
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 42.98,
+  "total_pnl": 4031.15,
+  "sharpe_ratio": 0.73,
+  "traded_usd_volume_last_30d_sum": 57.0,
+  "active_bets_amount": 0.0,
+  "active_bets_pnl": 25.94,
+  "finished_bets_amount": 7749.84,
+  "finished_bets_pnl": 4005.22,
+  "best_trade_roi_proc": 4835.0,
+  "best_trade_roi_amount": 145.05,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -202.14,
+  "where_trader_bets_most": {
+    "0.0": 2675.19,
+    "0.1": 1448.72,
+    "0.2": 783.77,
+    "0.3": 514.19,
+    "0.4": 593.1,
+    "0.5": 775.74,
+    "0.6": 393.29,
+    "0.7": 953.87,
+    "0.8": 594.38,
+    "0.9": 287.08
+  },
+  "user_address": "0x847d8c1fa63fef44307cc1c0df730d78ce7513d0",
+  "win_rate": 0.5142857142857142,
+  "effective_count": 8.371196840818843,
+  "num_markets": 280,
+  "fetched_at": "2025-11-28T12:40:36.136220+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 229.0,
+      "Sport": 23.0,
+      "Music": 1.0,
+      "Crypto": 11.0,
+      "Culture": 4.0,
+      "Other": 12.0
+    },
+    "smart_score_categories": {
+      "Politics": 43.001841464551696,
+      "Sport": 0.8786968843373852,
+      "Music": 0.1197066570810791,
+      "Crypto": 8.601656214685912,
+      "Culture": 7.365402354295841,
+      "Other": -0.005046291674989125
+    },
+    "win_rate_categories": {
+      "Politics": 0.519650655021834,
+      "Sport": 0.34782608695652173,
+      "Music": 1.0,
+      "Crypto": 0.6363636363636364,
+      "Culture": 0.75,
+      "Other": 0.5
+    }
+  }
+}

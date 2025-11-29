@@ -1,0 +1,77 @@
+{
+  "trader_types": [
+    "Bagholder",
+    "Contrarian",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 280,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 64.67,
+  "polymarket_url": "https://polymarket.com/profile/0x0f210f940d8dbe8b96c96c8c0b3d0a98f36cf7ee",
+  "rank_1d_place": "#290551",
+  "rank_1d_amount": "$373",
+  "rank_7d_place": "#12360",
+  "rank_7d_amount": "$3.0k",
+  "rank_30d_place": "#33445",
+  "rank_30d_amount": "$6.3k",
+  "rank_all_time_place": "#49659",
+  "rank_all_time_amount": "$48.3k",
+  "smart_score": 33.68,
+  "total_pnl": 424.81,
+  "sharpe_ratio": 0.87,
+  "traded_usd_volume_last_30d_sum": 1682.0,
+  "active_bets_amount": 483.18,
+  "active_bets_pnl": 545.3,
+  "finished_bets_amount": 1240.98,
+  "finished_bets_pnl": null,
+  "best_trade_roi_proc": 4586.69,
+  "best_trade_roi_amount": 229.33,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -30.0,
+  "where_trader_bets_most": {
+    "0.0": 713.82,
+    "0.1": 396.0,
+    "0.2": 177.98,
+    "0.3": 88.99,
+    "0.4": 118.0,
+    "0.5": 116.0,
+    "0.6": 27.2,
+    "0.7": 300.0
+  },
+  "user_address": "0x0f210f940d8dbe8b96c96c8c0b3d0a98f36cf7ee",
+  "win_rate": 0.180722891566265,
+  "effective_count": 10.0,
+  "num_markets": 249,
+  "fetched_at": "2025-11-28T17:35:05.533300+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 157.0,
+      "Sport": 3.0,
+      "Music": 16.0,
+      "Crypto": 40.0,
+      "Mentions": 9.0,
+      "Culture": 25.0,
+      "Other": 30.0
+    },
+    "smart_score_categories": {
+      "Politics": -0.18811346482467978,
+      "Sport": -0.43160290988507366,
+      "Music": -0.17560596062327463,
+      "Crypto": 0.7727155943636792,
+      "Mentions": 0.003076674335433054,
+      "Culture": 14.08747348289805,
+      "Other": 33.35908818065758
+    },
+    "win_rate_categories": {
+      "Politics": 0.13768115942028986,
+      "Sport": 0.0,
+      "Music": 0.0625,
+      "Crypto": 0.2564102564102564,
+      "Mentions": 0.2222222222222222,
+      "Culture": 0.21052631578947367,
+      "Other": 0.34615384615384615
+    }
+  }
+}

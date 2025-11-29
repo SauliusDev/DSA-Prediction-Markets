@@ -1,0 +1,75 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Trend Follower",
+    "Lottery Ticket",
+    "New"
+  ],
+  "total_positions": 72,
+  "active_since_date": "Nov 2024",
+  "active_since_days": 377,
+  "current_balance": 90.71,
+  "polymarket_url": "https://polymarket.com/profile/0x7e1615060aa854637737ff82b54ca06accdc25f7",
+  "rank_1d_place": "#40577",
+  "rank_1d_amount": "$0",
+  "rank_7d_place": "#337533",
+  "rank_7d_amount": "$1.2k",
+  "rank_30d_place": "#480579",
+  "rank_30d_amount": "$1.2k",
+  "rank_all_time_place": "#28150",
+  "rank_all_time_amount": "$17.5k",
+  "smart_score": 46.95,
+  "total_pnl": 1125.03,
+  "sharpe_ratio": 0.92,
+  "traded_usd_volume_last_30d_sum": 261.0,
+  "active_bets_amount": 411.44,
+  "active_bets_pnl": 1.52,
+  "finished_bets_amount": 1144.39,
+  "finished_bets_pnl": 1123.51,
+  "best_trade_roi_proc": 22622.25,
+  "best_trade_roi_amount": 1051.93,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -18.44,
+  "where_trader_bets_most": {
+    "0.0": 37.71,
+    "0.1": 25.43,
+    "0.4": 37.19,
+    "0.5": 40.3,
+    "0.6": 36.0,
+    "0.7": 143.59,
+    "0.8": 185.14,
+    "0.9": 1274.73
+  },
+  "user_address": "0x7e1615060aa854637737ff82b54ca06accdc25f7",
+  "win_rate": 0.7017543859649122,
+  "effective_count": 5.0860211912581486,
+  "num_markets": 57,
+  "fetched_at": "2025-11-28T06:58:04.928475+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 40.0,
+      "Sport": 2.0,
+      "Music": 2.0,
+      "Crypto": 13.0,
+      "Mentions": 1.0,
+      "Culture": 4.0,
+      "Other": 10.0
+    },
+    "smart_score_categories": {
+      "Politics": 4.07459620358173,
+      "Sport": 2.5,
+      "Crypto": -1.3613318782474348,
+      "Mentions": 0.39501039501039503,
+      "Culture": -1.7869791250084264,
+      "Other": 24.195734919183618
+    },
+    "win_rate_categories": {
+      "Politics": 0.6451612903225806,
+      "Sport": 1.0,
+      "Crypto": 0.6153846153846154,
+      "Mentions": 1.0,
+      "Culture": 0.6666666666666666,
+      "Other": 1.0
+    }
+  }
+}

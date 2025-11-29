@@ -1,0 +1,79 @@
+{
+  "trader_types": [
+    "Waiting for the Money",
+    "Trend Follower",
+    "Reverse Cramer",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 103,
+  "active_since_date": "Jul 2024",
+  "active_since_days": 495,
+  "current_balance": 266.27,
+  "polymarket_url": "https://polymarket.com/profile/0x822b633cf7f080ccbd58d1fdf101ad0f8ed3f0d0",
+  "rank_1d_place": "#74739",
+  "rank_1d_amount": "$0",
+  "rank_7d_place": "#54008",
+  "rank_7d_amount": "$10",
+  "rank_30d_place": "#129021",
+  "rank_30d_amount": "$10",
+  "rank_all_time_place": "#61097",
+  "rank_all_time_amount": "$3.3k",
+  "smart_score": 39.6,
+  "total_pnl": 254.86,
+  "sharpe_ratio": 1.91,
+  "traded_usd_volume_last_30d_sum": 8.0,
+  "active_bets_amount": 46.05,
+  "active_bets_pnl": 19.53,
+  "finished_bets_amount": 482.48,
+  "finished_bets_pnl": 235.33,
+  "best_trade_roi_proc": 3900.0,
+  "best_trade_roi_amount": 40.7,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -5.92,
+  "where_trader_bets_most": {
+    "0.0": 19.02,
+    "0.1": 15.1,
+    "0.3": 10.51,
+    "0.4": 2.82,
+    "0.5": 34.76,
+    "0.6": 49.86,
+    "0.7": 32.42,
+    "0.8": 61.72,
+    "0.9": 266.01
+  },
+  "user_address": "0x822b633cf7f080ccbd58d1fdf101ad0f8ed3f0d0",
+  "win_rate": 0.8627450980392157,
+  "effective_count": 8.119070849065261,
+  "num_markets": 102,
+  "fetched_at": "2025-11-28T14:04:45.515821+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 58.0,
+      "Sport": 10.0,
+      "Music": 1.0,
+      "Crypto": 15.0,
+      "Mentions": 1.0,
+      "Culture": 9.0,
+      "Other": 9.0
+    },
+    "smart_score_categories": {
+      "Politics": 23.63972947511412,
+      "Sport": 15.091074076396104,
+      "Music": 9.9,
+      "Crypto": 21.207654345618664,
+      "Mentions": 1.990407673860911,
+      "Culture": 3.214463536243392,
+      "Other": 0.3917147060447296
+    },
+    "win_rate_categories": {
+      "Politics": 0.8793103448275862,
+      "Sport": 0.7,
+      "Music": 1.0,
+      "Crypto": 0.9333333333333333,
+      "Mentions": 1.0,
+      "Culture": 1.0,
+      "Other": 0.6666666666666666
+    }
+  }
+}

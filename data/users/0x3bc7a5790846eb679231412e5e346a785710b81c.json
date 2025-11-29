@@ -1,0 +1,69 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "New"
+  ],
+  "total_positions": 80,
+  "active_since_date": "Nov 2024",
+  "active_since_days": 367,
+  "current_balance": 0.01,
+  "polymarket_url": "https://polymarket.com/profile/0x3bc7a5790846eb679231412e5e346a785710b81c",
+  "rank_1d_place": "#19150",
+  "rank_1d_amount": "$368.2k",
+  "rank_7d_place": null,
+  "rank_7d_amount": null,
+  "rank_30d_place": null,
+  "rank_30d_amount": null,
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 55.39,
+  "total_pnl": 2127.74,
+  "sharpe_ratio": 0.65,
+  "traded_usd_volume_last_30d_sum": 0.0,
+  "active_bets_amount": 0.0,
+  "active_bets_pnl": 0.0,
+  "finished_bets_amount": 1859.84,
+  "finished_bets_pnl": 2127.74,
+  "best_trade_roi_proc": 1614.33,
+  "best_trade_roi_amount": 785.72,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -109.74,
+  "where_trader_bets_most": {
+    "0.0": 1732.02,
+    "0.2": 139.23
+  },
+  "user_address": "0x3bc7a5790846eb679231412e5e346a785710b81c",
+  "win_rate": 0.05,
+  "effective_count": 5.595058688469875,
+  "num_markets": 80,
+  "fetched_at": "2025-11-28T00:24:30.901488+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 28.0,
+      "Sport": 4.0,
+      "Music": 1.0,
+      "Crypto": 4.0,
+      "Weather": 21.0,
+      "Culture": 10.0,
+      "Other": 12.0
+    },
+    "smart_score_categories": {
+      "Politics": -0.1381667479642105,
+      "Sport": -0.12210328885408758,
+      "Music": -0.05972458366971935,
+      "Crypto": -0.1754974336573005,
+      "Weather": -0.30629303210316156,
+      "Culture": -0.4585392406997891,
+      "Other": 19.751650076879876
+    },
+    "win_rate_categories": {
+      "Politics": 0.0,
+      "Sport": 0.25,
+      "Music": 0.0,
+      "Crypto": 0.0,
+      "Weather": 0.0,
+      "Culture": 0.0,
+      "Other": 0.25
+    }
+  }
+}

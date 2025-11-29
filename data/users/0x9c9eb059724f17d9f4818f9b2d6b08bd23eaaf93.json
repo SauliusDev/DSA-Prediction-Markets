@@ -1,0 +1,77 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Lottery Ticket",
+    "New"
+  ],
+  "total_positions": 39,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 1.92,
+  "polymarket_url": "https://polymarket.com/profile/0x9c9eb059724f17d9f4818f9b2d6b08bd23eaaf93",
+  "rank_1d_place": "#398416",
+  "rank_1d_amount": "$10",
+  "rank_7d_place": null,
+  "rank_7d_amount": null,
+  "rank_30d_place": null,
+  "rank_30d_amount": null,
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 59.28,
+  "total_pnl": 0.44,
+  "sharpe_ratio": 0.6,
+  "traded_usd_volume_last_30d_sum": 0.0,
+  "active_bets_amount": 0.0,
+  "active_bets_pnl": 0.0,
+  "finished_bets_amount": 0.44,
+  "finished_bets_pnl": 0.44,
+  "best_trade_roi_proc": 4662.37,
+  "best_trade_roi_amount": 0.47,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -0.02,
+  "where_trader_bets_most": {
+    "0.0": 0.12,
+    "0.1": 0.1,
+    "0.2": 0.07,
+    "0.3": 0.04,
+    "0.5": 0.05,
+    "0.6": 0.02,
+    "0.7": 0.01,
+    "0.8": 0.02,
+    "0.9": 0.01
+  },
+  "user_address": "0x9c9eb059724f17d9f4818f9b2d6b08bd23eaaf93",
+  "win_rate": 0.3333333333333333,
+  "effective_count": 5.987637777301968,
+  "num_markets": 39,
+  "fetched_at": "2025-11-27T23:26:52.356814+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 15.0,
+      "Sport": 10.0,
+      "Music": 1.0,
+      "Crypto": 7.0,
+      "Weather": 1.0,
+      "Culture": 2.0,
+      "Other": 3.0
+    },
+    "smart_score_categories": {
+      "Politics": 12.45480982321313,
+      "Sport": 30.203495797070936,
+      "Music": -1.363494319957364,
+      "Crypto": 21.661006129437528,
+      "Weather": -1.820149335766708,
+      "Culture": -0.8105840602102423,
+      "Other": -1.3431982045072401
+    },
+    "win_rate_categories": {
+      "Politics": 0.5333333333333333,
+      "Sport": 0.2,
+      "Music": 0.0,
+      "Crypto": 0.42857142857142855,
+      "Weather": 0.0,
+      "Culture": 0.0,
+      "Other": 0.0
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 157,
+  "active_since_date": "Oct 2024",
+  "active_since_days": 404,
+  "current_balance": 0.0,
+  "polymarket_url": "https://polymarket.com/profile/0x95a3e6ed3a7e703589eb84ce86f7bb2862d1046e",
+  "rank_1d_place": "#1266",
+  "rank_1d_amount": "$681.7k",
+  "rank_7d_place": null,
+  "rank_7d_amount": null,
+  "rank_30d_place": null,
+  "rank_30d_amount": null,
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 75.52,
+  "total_pnl": 57815.12,
+  "sharpe_ratio": 1.82,
+  "traded_usd_volume_last_30d_sum": 0.0,
+  "active_bets_amount": 0.0,
+  "active_bets_pnl": 0.0,
+  "finished_bets_amount": 43943.86,
+  "finished_bets_pnl": 57815.12,
+  "best_trade_roi_proc": 331900.0,
+  "best_trade_roi_amount": 28.46,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -600.0,
+  "where_trader_bets_most": {
+    "0.0": 14236.52,
+    "0.1": 20851.78,
+    "0.2": 3642.84,
+    "0.3": 671.14,
+    "0.5": 1.0
+  },
+  "user_address": "0x95a3e6ed3a7e703589eb84ce86f7bb2862d1046e",
+  "win_rate": 0.5923566878980892,
+  "effective_count": 7.628243366953807,
+  "num_markets": 157,
+  "fetched_at": "2025-11-27T22:14:30.060696+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 92.0,
+      "Sport": 20.0,
+      "Music": 2.0,
+      "Crypto": 19.0,
+      "Mentions": 3.0,
+      "Culture": 4.0,
+      "Other": 17.0
+    },
+    "smart_score_categories": {
+      "Politics": 70.02123464591158,
+      "Sport": 31.27439993077943,
+      "Music": -0.09912665862742857,
+      "Crypto": 11.30603830586989,
+      "Mentions": 14.000880606429234,
+      "Culture": -0.09472369895749175,
+      "Other": 5.509788861369719
+    },
+    "win_rate_categories": {
+      "Politics": 0.5978260869565217,
+      "Sport": 0.65,
+      "Music": 0.5,
+      "Crypto": 0.5263157894736842,
+      "Mentions": 0.6666666666666666,
+      "Culture": 0.5,
+      "Other": 0.5882352941176471
+    }
+  }
+}

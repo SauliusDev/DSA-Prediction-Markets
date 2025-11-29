@@ -1,0 +1,74 @@
+{
+  "trader_types": [
+    "Bagholder",
+    "Contrarian",
+    "Reverse Cramer",
+    "Lottery Ticket",
+    "New"
+  ],
+  "total_positions": 86,
+  "active_since_date": "Jan 2025",
+  "active_since_days": 302,
+  "current_balance": 3.85,
+  "polymarket_url": "https://polymarket.com/profile/0xec7b9422b627b3bd04f07b2de41627b2468cfaad",
+  "rank_1d_place": "#223197",
+  "rank_1d_amount": "$0",
+  "rank_7d_place": "#609614",
+  "rank_7d_amount": "$16.1k",
+  "rank_30d_place": "#2003",
+  "rank_30d_amount": "$668.8k",
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 54.54,
+  "total_pnl": 33047.91,
+  "sharpe_ratio": 1.32,
+  "traded_usd_volume_last_30d_sum": 32352.0,
+  "active_bets_amount": 65.77,
+  "active_bets_pnl": null,
+  "finished_bets_amount": 29044.57,
+  "finished_bets_pnl": 33682.94,
+  "best_trade_roi_proc": 10474.32,
+  "best_trade_roi_amount": 33307.39,
+  "worst_trade_roi_proc": -97.73,
+  "worst_trade_roi_amount": -1041.78,
+  "where_trader_bets_most": {
+    "0.0": 7394.62,
+    "0.1": 3037.41,
+    "0.2": 3890.94,
+    "0.3": 4034.85,
+    "0.4": 2301.22,
+    "0.5": 6146.17,
+    "0.6": 1054.89,
+    "0.7": 827.16,
+    "0.8": 905.05,
+    "0.9": 676.15
+  },
+  "user_address": "0xec7b9422b627b3bd04f07b2de41627b2468cfaad",
+  "win_rate": 0.3493975903614458,
+  "effective_count": 5.508936465990767,
+  "num_markets": 83,
+  "fetched_at": "2025-11-28T00:33:27.091236+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 43.0,
+      "Sport": 2.0,
+      "Mentions": 8.0,
+      "Culture": 21.0,
+      "Other": 12.0
+    },
+    "smart_score_categories": {
+      "Politics": 12.819441356077663,
+      "Sport": -0.6191433608658334,
+      "Mentions": -4.975935417634231,
+      "Culture": -1.5683916797084654,
+      "Other": 22.281299929924096
+    },
+    "win_rate_categories": {
+      "Politics": 0.46511627906976744,
+      "Sport": 0.0,
+      "Mentions": 0.25,
+      "Culture": 0.14285714285714285,
+      "Other": 0.4444444444444444
+    }
+  }
+}

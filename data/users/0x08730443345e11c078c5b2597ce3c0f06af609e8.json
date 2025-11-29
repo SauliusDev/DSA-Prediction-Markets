@@ -1,0 +1,72 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 530,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 197.89,
+  "polymarket_url": "https://polymarket.com/profile/0x08730443345e11c078c5b2597ce3c0f06af609e8",
+  "rank_1d_place": "#277312",
+  "rank_1d_amount": "$53.5k",
+  "rank_7d_place": "#23076",
+  "rank_7d_amount": "$295.4k",
+  "rank_30d_place": "#7835",
+  "rank_30d_amount": "$781.2k",
+  "rank_all_time_place": "#23453",
+  "rank_all_time_amount": "$781.2k",
+  "smart_score": 99.0,
+  "total_pnl": 1505.44,
+  "sharpe_ratio": 3.38,
+  "traded_usd_volume_last_30d_sum": 2429.0,
+  "active_bets_amount": 42.59,
+  "active_bets_pnl": 74.53,
+  "finished_bets_amount": 273.26,
+  "finished_bets_pnl": 1430.91,
+  "best_trade_roi_proc": 90852.13,
+  "best_trade_roi_amount": 908.52,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -3.0,
+  "where_trader_bets_most": {
+    "0.0": 467.64
+  },
+  "user_address": "0x08730443345e11c078c5b2597ce3c0f06af609e8",
+  "win_rate": 0.3605442176870748,
+  "effective_count": 10.0,
+  "num_markets": 441,
+  "fetched_at": "2025-11-27T20:36:07.007201+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 213,
+      "Sport": 38,
+      "Music": 16,
+      "Crypto": 114,
+      "Mentions": 2,
+      "Weather": 9,
+      "Culture": 51,
+      "Other": 87
+    },
+    "smart_score_categories": {
+      "Politics": 78.67700507943867,
+      "Sport": -0.039144376291434094,
+      "Music": -0.005855369179526083,
+      "Crypto": 74.79436802950899,
+      "Mentions": -0.014156291915646596,
+      "Weather": 5.816572605359576,
+      "Culture": -0.0034206995919915974,
+      "Other": 51.232406598032476
+    },
+    "win_rate_categories": {
+      "Politics": 0.4909090909090909,
+      "Sport": 0.06060606060606061,
+      "Music": 0.18181818181818182,
+      "Crypto": 0.23008849557522124,
+      "Mentions": 0.0,
+      "Weather": 0.5,
+      "Culture": 0.2978723404255319,
+      "Other": 0.4838709677419355
+    }
+  }
+}

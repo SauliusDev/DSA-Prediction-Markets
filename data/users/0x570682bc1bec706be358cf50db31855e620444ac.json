@@ -1,0 +1,76 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 112,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 134.33,
+  "polymarket_url": "https://polymarket.com/profile/0x570682bc1bec706be358cf50db31855e620444ac",
+  "rank_1d_place": "#5675",
+  "rank_1d_amount": "$764",
+  "rank_7d_place": "#17945",
+  "rank_7d_amount": "$20.9k",
+  "rank_30d_place": "#572755",
+  "rank_30d_amount": "$25.1k",
+  "rank_all_time_place": "#16473",
+  "rank_all_time_amount": "$119.4k",
+  "smart_score": 44.02,
+  "total_pnl": 2606.73,
+  "sharpe_ratio": 0.69,
+  "traded_usd_volume_last_30d_sum": 2542.0,
+  "active_bets_amount": 0.0,
+  "active_bets_pnl": 0.0,
+  "finished_bets_amount": 3344.03,
+  "finished_bets_pnl": 2606.73,
+  "best_trade_roi_proc": 2999.0,
+  "best_trade_roi_amount": 3435.03,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -137.35,
+  "where_trader_bets_most": {
+    "0.0": 1371.81,
+    "0.1": 533.37,
+    "0.2": 533.33,
+    "0.3": 361.31,
+    "0.4": 408.0,
+    "0.5": 427.37,
+    "0.6": 127.72,
+    "0.7": 132.25
+  },
+  "user_address": "0x570682bc1bec706be358cf50db31855e620444ac",
+  "win_rate": 0.2767857142857143,
+  "effective_count": 5.646603636642055,
+  "num_markets": 112,
+  "fetched_at": "2025-11-28T08:50:56.263009+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 13.0,
+      "Sport": 57.0,
+      "Music": 1.0,
+      "Crypto": 35.0,
+      "Mentions": 2.0,
+      "Culture": 1.0,
+      "Other": 3.0
+    },
+    "smart_score_categories": {
+      "Politics": -0.16232341817934118,
+      "Sport": -1.9099947354244704,
+      "Music": -0.24162283250951505,
+      "Crypto": 38.71175110935312,
+      "Mentions": 14.00070740139009,
+      "Culture": -0.19779443986345052,
+      "Other": -0.07012967939896009
+    },
+    "win_rate_categories": {
+      "Politics": 0.15384615384615385,
+      "Sport": 0.2982456140350877,
+      "Music": 0.0,
+      "Crypto": 0.2857142857142857,
+      "Mentions": 0.5,
+      "Culture": 0.0,
+      "Other": 0.3333333333333333
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Lottery Ticket",
+    "Senior"
+  ],
+  "total_positions": 1610,
+  "active_since_date": "Feb 2025",
+  "active_since_days": 292,
+  "current_balance": 1006.59,
+  "polymarket_url": "https://polymarket.com/profile/0x99984e22205053950eb25453779267bcc1aee858",
+  "rank_1d_place": "#5170",
+  "rank_1d_amount": "$1.5k",
+  "rank_7d_place": "#338961",
+  "rank_7d_amount": "$2.9k",
+  "rank_30d_place": "#12585",
+  "rank_30d_amount": "$19.2k",
+  "rank_all_time_place": "#9008",
+  "rank_all_time_amount": "$140.4k",
+  "smart_score": 55.85,
+  "total_pnl": 5821.52,
+  "sharpe_ratio": 8.04,
+  "traded_usd_volume_last_30d_sum": 6058.0,
+  "active_bets_amount": 368.28,
+  "active_bets_pnl": 1696.39,
+  "finished_bets_amount": 7054.43,
+  "finished_bets_pnl": 4125.13,
+  "best_trade_roi_proc": 8200.0,
+  "best_trade_roi_amount": 8.2,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -37.1,
+  "where_trader_bets_most": {
+    "0.0": 1528.9,
+    "0.1": 1640.1,
+    "0.2": 1037.4,
+    "0.3": 1251.81,
+    "0.4": 883.83,
+    "0.5": 2187.35,
+    "0.6": 1602.92,
+    "0.7": 723.66,
+    "0.8": 16.0
+  },
+  "user_address": "0x99984e22205053950eb25453779267bcc1aee858",
+  "win_rate": 0.7629000653167864,
+  "effective_count": 10.0,
+  "num_markets": 1531,
+  "fetched_at": "2025-11-28T00:22:08.577481+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 676,
+      "Sport": 223,
+      "Music": 32,
+      "Crypto": 252,
+      "Mentions": 7,
+      "Weather": 27,
+      "Culture": 98,
+      "Other": 295
+    },
+    "smart_score_categories": {
+      "Politics": 43.063643835819995,
+      "Sport": 62.888098802382835,
+      "Music": 17.995359368740186,
+      "Crypto": 73.32876927722742,
+      "Mentions": 20.713082122004124,
+      "Weather": 23.438159859563996,
+      "Culture": 24.30824345068247,
+      "Other": 37.1312987339883
+    },
+    "win_rate_categories": {
+      "Politics": 0.7633228840125392,
+      "Sport": 0.7037037037037037,
+      "Music": 0.7666666666666667,
+      "Crypto": 0.7967479674796748,
+      "Mentions": 0.7142857142857143,
+      "Weather": 0.6666666666666666,
+      "Culture": 0.7526881720430108,
+      "Other": 0.7906137184115524
+    }
+  }
+}

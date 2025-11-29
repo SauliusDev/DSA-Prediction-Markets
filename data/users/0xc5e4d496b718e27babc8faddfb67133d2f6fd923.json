@@ -1,0 +1,64 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Lottery Ticket",
+    "New"
+  ],
+  "total_positions": 24,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 0.96,
+  "polymarket_url": "https://polymarket.com/profile/0xc5e4d496b718e27babc8faddfb67133d2f6fd923",
+  "rank_1d_place": "#427567",
+  "rank_1d_amount": "$16",
+  "rank_7d_place": null,
+  "rank_7d_amount": null,
+  "rank_30d_place": null,
+  "rank_30d_amount": null,
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 10.49,
+  "total_pnl": 0.5,
+  "sharpe_ratio": null,
+  "traded_usd_volume_last_30d_sum": 0.0,
+  "active_bets_amount": 0.0,
+  "active_bets_pnl": 0.0,
+  "finished_bets_amount": 0.23,
+  "finished_bets_pnl": 0.5,
+  "best_trade_roi_proc": 4662.37,
+  "best_trade_roi_amount": 0.47,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -0.01,
+  "where_trader_bets_most": {
+    "0.0": 0.18,
+    "0.1": 0.03,
+    "0.2": 0.11,
+    "0.3": 0.02,
+    "0.5": 0.02,
+    "0.7": 0.01,
+    "0.8": 0.02,
+    "0.9": 0.01
+  },
+  "user_address": "0xc5e4d496b718e27babc8faddfb67133d2f6fd923",
+  "win_rate": 0.1363636363636363,
+  "effective_count": 4.600008345388408,
+  "num_markets": 22,
+  "fetched_at": "2025-11-28T08:01:14.557589+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 13.0,
+      "Sport": 8.0,
+      "Crypto": 1.0
+    },
+    "smart_score_categories": {
+      "Politics": 34.65005833278057,
+      "Sport": -2.2366506951201455,
+      "Crypto": -0.7989769135751722
+    },
+    "win_rate_categories": {
+      "Politics": 0.15384615384615385,
+      "Sport": 0.125,
+      "Crypto": 0.0
+    }
+  }
+}

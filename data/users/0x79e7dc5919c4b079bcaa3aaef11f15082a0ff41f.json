@@ -1,0 +1,75 @@
+{
+  "trader_types": [
+    "Bagholder",
+    "Contrarian",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 191,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 9.35,
+  "polymarket_url": "https://polymarket.com/profile/0x79e7dc5919c4b079bcaa3aaef11f15082a0ff41f",
+  "rank_1d_place": "#133854",
+  "rank_1d_amount": "$0",
+  "rank_7d_place": "#391357",
+  "rank_7d_amount": "$100",
+  "rank_30d_place": "#587877",
+  "rank_30d_amount": "$541",
+  "rank_all_time_place": "#9369",
+  "rank_all_time_amount": "$59.3k",
+  "smart_score": 47.67,
+  "total_pnl": 5649.84,
+  "sharpe_ratio": 0.72,
+  "traded_usd_volume_last_30d_sum": 100.0,
+  "active_bets_amount": 153.13,
+  "active_bets_pnl": null,
+  "finished_bets_amount": 6388.62,
+  "finished_bets_pnl": 5881.85,
+  "best_trade_roi_proc": 1011.11,
+  "best_trade_roi_amount": 205.66,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -230.68,
+  "where_trader_bets_most": {
+    "0.0": 1106.37,
+    "0.1": 1515.43,
+    "0.2": 1715.59,
+    "0.3": 1120.41,
+    "0.4": 687.06,
+    "0.5": 246.54,
+    "0.6": 243.95,
+    "0.7": 236.41,
+    "0.8": 79.33
+  },
+  "user_address": "0x79e7dc5919c4b079bcaa3aaef11f15082a0ff41f",
+  "win_rate": 0.2556818181818182,
+  "effective_count": 5.312010684291852,
+  "num_markets": 176,
+  "fetched_at": "2025-11-28T01:59:31.856765+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 151.0,
+      "Sport": 5.0,
+      "Crypto": 6.0,
+      "Mentions": 7.0,
+      "Culture": 10.0,
+      "Other": 12.0
+    },
+    "smart_score_categories": {
+      "Politics": 46.72034432405651,
+      "Sport": 1.7639582746632956,
+      "Crypto": -2.049107746122511,
+      "Mentions": -1.725042617471173,
+      "Culture": -3.855317191085537,
+      "Other": -12.694075412727166
+    },
+    "win_rate_categories": {
+      "Politics": 0.2826086956521739,
+      "Sport": 0.2,
+      "Crypto": 0.16666666666666666,
+      "Mentions": 0.42857142857142855,
+      "Culture": 0.1,
+      "Other": 0.0
+    }
+  }
+}

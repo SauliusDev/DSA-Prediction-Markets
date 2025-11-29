@@ -1,0 +1,75 @@
+{
+  "trader_types": [
+    "Contrarian",
+    "Reverse Cramer",
+    "Lottery Ticket",
+    "Novice"
+  ],
+  "total_positions": 563,
+  "active_since_date": "Jan 2025",
+  "active_since_days": 312,
+  "current_balance": 0.0,
+  "polymarket_url": "https://polymarket.com/profile/0xd3c4de64e875f62c3160f6a632a558eae1769434",
+  "rank_1d_place": "#9801",
+  "rank_1d_amount": "$220.4k",
+  "rank_7d_place": null,
+  "rank_7d_amount": null,
+  "rank_30d_place": null,
+  "rank_30d_amount": null,
+  "rank_all_time_place": null,
+  "rank_all_time_amount": null,
+  "smart_score": 86.82,
+  "total_pnl": 5301.71,
+  "sharpe_ratio": 1.65,
+  "traded_usd_volume_last_30d_sum": 0.0,
+  "active_bets_amount": 0.0,
+  "active_bets_pnl": 0.0,
+  "finished_bets_amount": 6106.85,
+  "finished_bets_pnl": 5301.71,
+  "best_trade_roi_proc": 20881.96,
+  "best_trade_roi_amount": 1453.86,
+  "worst_trade_roi_proc": -99.01,
+  "worst_trade_roi_amount": -124.76,
+  "where_trader_bets_most": {
+    "0.0": 1941.75,
+    "0.1": 1319.85,
+    "0.2": 1002.61,
+    "0.3": 754.65,
+    "0.4": 464.26,
+    "0.5": 359.6,
+    "0.6": 180.45,
+    "0.7": 41.08,
+    "0.8": 100.49
+  },
+  "user_address": "0xd3c4de64e875f62c3160f6a632a558eae1769434",
+  "win_rate": 0.2397868561278863,
+  "effective_count": 10.0,
+  "num_markets": 563,
+  "fetched_at": "2025-11-27T22:02:40.448316+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 7.0,
+      "Sport": 1.0,
+      "Crypto": 51.0,
+      "Mentions": 1.0,
+      "Weather": 501.0,
+      "Culture": 2.0
+    },
+    "smart_score_categories": {
+      "Politics": -0.07017620490502673,
+      "Sport": -3.5134928844614515,
+      "Crypto": -1.6610725972772755,
+      "Mentions": -0.6113270915080242,
+      "Weather": 99.0,
+      "Culture": -0.04076473331623376
+    },
+    "win_rate_categories": {
+      "Politics": 0.42857142857142855,
+      "Sport": 0.0,
+      "Crypto": 0.49019607843137253,
+      "Mentions": 0.0,
+      "Weather": 0.21357285429141717,
+      "Culture": 0.0
+    }
+  }
+}

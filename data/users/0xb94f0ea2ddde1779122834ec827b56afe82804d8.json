@@ -1,0 +1,71 @@
+{
+  "trader_types": [
+    "Bagholder",
+    "Contrarian",
+    "Lottery Ticket",
+    "Senior"
+  ],
+  "total_positions": 1655,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 50.07,
+  "polymarket_url": "https://polymarket.com/profile/0xb94f0ea2ddde1779122834ec827b56afe82804d8",
+  "rank_1d_place": "#308589",
+  "rank_1d_amount": "$33.6k",
+  "rank_7d_place": "#5312",
+  "rank_7d_amount": "$111.5k",
+  "rank_30d_place": "#6316",
+  "rank_30d_amount": "$319.1k",
+  "rank_all_time_place": "#19508",
+  "rank_all_time_amount": "$319.1k",
+  "smart_score": 99.0,
+  "total_pnl": 1685.9,
+  "sharpe_ratio": 10.31,
+  "traded_usd_volume_last_30d_sum": 5265.0,
+  "active_bets_amount": 212.31,
+  "active_bets_pnl": 855.79,
+  "finished_bets_amount": 878.45,
+  "finished_bets_pnl": 830.12,
+  "best_trade_roi_proc": 23244.28,
+  "best_trade_roi_amount": 65.59,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -3.22,
+  "where_trader_bets_most": {
+    "0.0": 832.97,
+    "0.1": 26.94
+  },
+  "user_address": "0xb94f0ea2ddde1779122834ec827b56afe82804d8",
+  "win_rate": 0.3988480921526278,
+  "effective_count": 10.0,
+  "num_markets": 1389,
+  "fetched_at": "2025-11-27T20:28:14.389368+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 163.0,
+      "Sport": 561.0,
+      "Music": 60.0,
+      "Mentions": 39.0,
+      "Weather": 84.0,
+      "Culture": 158.0,
+      "Other": 590.0
+    },
+    "smart_score_categories": {
+      "Politics": 51.85778934792825,
+      "Sport": 78.4651585005088,
+      "Music": 37.765726809762015,
+      "Mentions": 56.63210223127294,
+      "Weather": 48.85479097523838,
+      "Culture": 33.65585220322418,
+      "Other": 67.00257012986935
+    },
+    "win_rate_categories": {
+      "Politics": 0.5384615384615384,
+      "Sport": 0.21689059500959693,
+      "Music": 0.5128205128205128,
+      "Mentions": 0.7027027027027027,
+      "Weather": 0.6216216216216216,
+      "Culture": 0.591304347826087,
+      "Other": 0.44251626898047725
+    }
+  }
+}

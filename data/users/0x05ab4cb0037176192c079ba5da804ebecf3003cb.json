@@ -1,0 +1,77 @@
+{
+  "trader_types": [
+    "Bagholder",
+    "Contrarian",
+    "Lottery Ticket",
+    "New"
+  ],
+  "total_positions": 88,
+  "active_since_date": null,
+  "active_since_days": null,
+  "current_balance": 159.66,
+  "polymarket_url": "https://polymarket.com/profile/0x05ab4cb0037176192c079ba5da804ebecf3003cb",
+  "rank_1d_place": "#21231",
+  "rank_1d_amount": "$0",
+  "rank_7d_place": "#420007",
+  "rank_7d_amount": "$1.7k",
+  "rank_30d_place": "#11058",
+  "rank_30d_amount": "$8.5k",
+  "rank_all_time_place": "#32607",
+  "rank_all_time_amount": "$13.2k",
+  "smart_score": 35.21,
+  "total_pnl": 1016.16,
+  "sharpe_ratio": 0.56,
+  "traded_usd_volume_last_30d_sum": 3083.0,
+  "active_bets_amount": 57.39,
+  "active_bets_pnl": null,
+  "finished_bets_amount": 1598.97,
+  "finished_bets_pnl": 1076.5,
+  "best_trade_roi_proc": 925.32,
+  "best_trade_roi_amount": 1138.11,
+  "worst_trade_roi_proc": -100.0,
+  "worst_trade_roi_amount": -56.0,
+  "where_trader_bets_most": {
+    "0.0": 272.89,
+    "0.1": 128.35,
+    "0.2": 262.2,
+    "0.3": 161.94,
+    "0.4": 128.6,
+    "0.5": 477.41,
+    "0.6": 251.8,
+    "0.7": 80.97,
+    "0.8": 37.05,
+    "0.9": 171.31
+  },
+  "user_address": "0x05ab4cb0037176192c079ba5da804ebecf3003cb",
+  "win_rate": 0.4166666666666667,
+  "effective_count": 5.794604605332407,
+  "num_markets": 84,
+  "fetched_at": "2025-11-28T16:59:45.010263+00:00",
+  "category_metrics": {
+    "most_traded_categories": {
+      "Politics": 36.0,
+      "Sport": 31.0,
+      "Crypto": 10.0,
+      "Mentions": 2.0,
+      "Weather": 4.0,
+      "Culture": 1.0,
+      "Other": 4.0
+    },
+    "smart_score_categories": {
+      "Politics": 32.293194559684345,
+      "Sport": 3.0811760875143257,
+      "Crypto": -5.678076321690263,
+      "Mentions": 0.26504630398879175,
+      "Weather": -1.0246484859071472,
+      "Other": -2.6805567388841443
+    },
+    "win_rate_categories": {
+      "Politics": 0.38235294117647056,
+      "Sport": 0.45161290322580644,
+      "Crypto": 0.4,
+      "Mentions": 0.5,
+      "Weather": 0.25,
+      "Other": 0.6666666666666666
+    }
+  }
+}
