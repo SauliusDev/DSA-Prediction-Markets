@@ -1,0 +1,3217 @@
+{
+  "hash": "e6ffe8eb98796a00e3ca8df5551283cb",
+  "metadata": {
+    "activeScriptHash": "3f41e546893dc64b71aaacad12cad815"
+  },
+  "pageProfile": {
+    "commands": [
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "function"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:16"
+          }
+        ],
+        "time": "247"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "function"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:7"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:17"
+          }
+        ],
+        "time": "117"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:21"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:26"
+          }
+        ],
+        "time": "825"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:32"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:14"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:19"
+          }
+        ],
+        "time": "935"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:26"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:23"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          }
+        ],
+        "time": "418"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:30"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:17"
+          }
+        ],
+        "time": "346"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:7"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:4"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:15"
+          },
+          {
+            "k": "default",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "177"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:22"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:8"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:22"
+          }
+        ],
+        "time": "138"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:19"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:15"
+          }
+        ],
+        "time": "130"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:26"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:31"
+          }
+        ],
+        "time": "124"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:35"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:17"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:17"
+          }
+        ],
+        "time": "149"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:20"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:16"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          }
+        ],
+        "time": "152"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:26"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:21"
+          }
+        ],
+        "time": "148"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:29"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:15"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:23"
+          }
+        ],
+        "time": "129"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:36"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:20"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:16"
+          }
+        ],
+        "time": "121"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:20"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:19"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:20"
+          }
+        ],
+        "time": "121"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:31"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:14"
+          }
+        ],
+        "time": "135"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:29"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:21"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          }
+        ],
+        "time": "126"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:22"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:17"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:18"
+          }
+        ],
+        "time": "124"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:28"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:14"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:31"
+          }
+        ],
+        "time": "117"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:24"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:10"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:14"
+          }
+        ],
+        "time": "115"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:29"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:8"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:15"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:22"
+          }
+        ],
+        "time": "121"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:35"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:14"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:21"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:19"
+          }
+        ],
+        "time": "202"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:33"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:19"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:17"
+          }
+        ],
+        "time": "169"
+      },
+      {
+        "name": "Page",
+        "args": [
+          {
+            "k": "page",
+            "t": "str",
+            "m": "len:32"
+          },
+          {
+            "k": "title",
+            "t": "str",
+            "m": "len:11"
+          },
+          {
+            "k": "url_path",
+            "t": "str",
+            "m": "len:18"
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:23"
+          }
+        ],
+        "time": "155"
+      },
+      {
+        "name": "navigation",
+        "args": [
+          {
+            "k": "pages",
+            "t": "dict",
+            "m": "len:10"
+          },
+          {
+            "k": "position",
+            "t": "str",
+            "m": "len:3"
+          }
+        ],
+        "time": "512"
+      },
+      {
+        "name": "set_page_config",
+        "args": [
+          {
+            "k": "page_title",
+            "t": "str",
+            "m": "len:24"
+          },
+          {
+            "k": "layout",
+            "t": "str",
+            "m": "len:4"
+          },
+          {
+            "k": "page_icon",
+            "t": "str",
+            "m": "len:11"
+          }
+        ],
+        "time": "1966"
+      },
+      {
+        "name": "logo",
+        "args": [
+          {
+            "k": "image",
+            "t": "str",
+            "m": "len:11"
+          }
+        ],
+        "time": "1458"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:94",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "317"
+      },
+      {
+        "name": "title",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:24",
+            "p": 1
+          }
+        ],
+        "time": "186"
+      },
+      {
+        "name": "context.headers",
+        "time": "73"
+      },
+      {
+        "name": "query_params.get_item",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:6",
+            "p": 1
+          }
+        ]
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "924"
+      },
+      {
+        "name": "session_state.set_item",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:12",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "dict",
+            "m": "len:0",
+            "p": 2
+          }
+        ],
+        "time": "93"
+      },
+      {
+        "name": "session_state.set_item",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:14",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "dict",
+            "m": "len:0",
+            "p": 2
+          }
+        ],
+        "time": "51"
+      },
+      {
+        "name": "session_state.set_item",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:16",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "list",
+            "m": "len:0",
+            "p": 2
+          }
+        ],
+        "time": "45"
+      },
+      {
+        "name": "query_params.get_all",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:12",
+            "p": 1
+          }
+        ],
+        "time": "63"
+      },
+      {
+        "name": "text_input",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:52"
+          },
+          {
+            "k": "max_chars",
+            "t": "int"
+          },
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "on_change",
+            "t": "function"
+          },
+          {
+            "k": "value",
+            "t": "str",
+            "m": "len:42"
+          }
+        ],
+        "time": "369"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "dict",
+            "m": "len:4",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "265"
+      },
+      {
+        "name": "query_params.set_attr",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:12",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "str",
+            "m": "len:42",
+            "p": 2
+          }
+        ],
+        "time": "286"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "dict",
+            "m": "len:9",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "292"
+      },
+      {
+        "name": "image",
+        "args": [
+          {
+            "k": "image",
+            "t": "str",
+            "m": "len:71",
+            "p": 1
+          },
+          {
+            "k": "width",
+            "t": "int"
+          }
+        ],
+        "time": "482"
+      },
+      {
+        "name": "caption",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:17",
+            "p": 1
+          }
+        ],
+        "time": "302"
+      },
+      {
+        "name": "divider",
+        "time": "468"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "1001"
+      },
+      {
+        "name": "badge",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:9",
+            "p": 1
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:23"
+          },
+          {
+            "k": "color",
+            "t": "str",
+            "m": "len:3"
+          }
+        ],
+        "time": "395"
+      },
+      {
+        "name": "caption",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:44",
+            "p": 1
+          }
+        ],
+        "time": "255"
+      },
+      {
+        "name": "badge",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:10",
+            "p": 1
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:24"
+          },
+          {
+            "k": "color",
+            "t": "str",
+            "m": "len:4"
+          }
+        ],
+        "time": "248"
+      },
+      {
+        "name": "caption",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:30",
+            "p": 1
+          }
+        ],
+        "time": "228"
+      },
+      {
+        "name": "badge",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:18",
+            "p": 1
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:17"
+          },
+          {
+            "k": "color",
+            "t": "str",
+            "m": "len:5"
+          }
+        ],
+        "time": "223"
+      },
+      {
+        "name": "caption",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:37",
+            "p": 1
+          }
+        ],
+        "time": "339"
+      },
+      {
+        "name": "badge",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:10",
+            "p": 1
+          },
+          {
+            "k": "icon",
+            "t": "str",
+            "m": "len:23"
+          },
+          {
+            "k": "color",
+            "t": "str",
+            "m": "len:4"
+          }
+        ],
+        "time": "252"
+      },
+      {
+        "name": "caption",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:20",
+            "p": 1
+          }
+        ],
+        "time": "226"
+      },
+      {
+        "name": "divider",
+        "time": "211"
+      },
+      {
+        "name": "button",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:40",
+            "p": 1
+          }
+        ],
+        "time": "407"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "dict",
+            "m": "len:0",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "277"
+      },
+      {
+        "name": "empty",
+        "time": "298"
+      },
+      {
+        "name": "_cache_resource_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "psycopg2.pool.ThreadedConnectionPool",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "224"
+      },
+      {
+        "name": "empty",
+        "time": "318"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "957"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:472",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "385"
+      },
+      {
+        "name": "empty",
+        "time": "315"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "float",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "262"
+      },
+      {
+        "name": "empty",
+        "time": "475"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:1050",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "450"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:519",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "277"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "str",
+            "m": "len:2"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "118"
+      },
+      {
+        "name": "caption",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:11",
+            "p": 1
+          }
+        ],
+        "time": "239"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "521"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "requests.models.Response",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "357"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "requests.models.Response",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "349"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:415",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "436"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "requests.models.Response",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "365"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:416",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "431"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "requests.models.Response",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "383"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:423",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "467"
+      },
+      {
+        "name": "caption",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:178",
+            "p": 1
+          }
+        ],
+        "time": "264"
+      },
+      {
+        "name": "divider",
+        "time": "183"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "str",
+            "m": "len:2"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "261"
+      },
+      {
+        "name": "empty",
+        "time": "362"
+      },
+      {
+        "name": "empty",
+        "time": "397"
+      },
+      {
+        "name": "empty",
+        "time": "170"
+      },
+      {
+        "name": "empty",
+        "time": "175"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "DataFrame",
+            "m": "len:36",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "378"
+      },
+      {
+        "name": "empty",
+        "time": "326"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "float",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "272"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "int"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "123"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "str",
+            "m": "len:961",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "239"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:961",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "603"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "int"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "147"
+      },
+      {
+        "name": "empty",
+        "time": "263"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "DataFrame",
+            "m": "len:1",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "337"
+      },
+      {
+        "name": "empty",
+        "time": "281"
+      },
+      {
+        "name": "empty",
+        "time": "411"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "tuple",
+            "m": "len:2",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "24437"
+      },
+      {
+        "name": "empty",
+        "time": "425"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          }
+        ],
+        "time": "39258"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:1837",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "763"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "int"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "151"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:0",
+            "p": 1
+          }
+        ],
+        "time": "590"
+      },
+      {
+        "name": "metric",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:35"
+          },
+          {
+            "k": "value",
+            "t": "str",
+            "m": "len:2"
+          },
+          {
+            "k": "chart_data",
+            "t": "list",
+            "m": "len:30"
+          },
+          {
+            "k": "chart_type",
+            "t": "str",
+            "m": "len:4"
+          }
+        ],
+        "time": "468"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:0",
+            "p": 1
+          }
+        ],
+        "time": "214"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "NoneType",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:3",
+            "p": 3
+          }
+        ],
+        "time": "289"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "801"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:507",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "339"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:12"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:81"
+          }
+        ],
+        "time": "129"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:14"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:75"
+          }
+        ],
+        "time": "72"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:11"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:73"
+          }
+        ],
+        "time": "65"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:13"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:55"
+          }
+        ],
+        "time": "63"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:13"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:31"
+          }
+        ],
+        "time": "62"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:15"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:47"
+          }
+        ],
+        "time": "57"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:15"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:7"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:52"
+          }
+        ],
+        "time": "61"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:14"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:44"
+          }
+        ],
+        "time": "59"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:8"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:56"
+          }
+        ],
+        "time": "60"
+      },
+      {
+        "name": "data_editor",
+        "args": [
+          {
+            "k": "data",
+            "t": "PandasStyler",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "hide_index",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "disabled",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "column_config",
+            "t": "dict",
+            "m": "len:9"
+          },
+          {
+            "k": "column_order",
+            "t": "list",
+            "m": "len:9"
+          }
+        ],
+        "time": "17067"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:511",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "508"
+      },
+      {
+        "name": "data_editor",
+        "args": [
+          {
+            "k": "data",
+            "t": "PandasStyler",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "hide_index",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "disabled",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:8"
+          },
+          {
+            "k": "column_config",
+            "t": "dict",
+            "m": "len:9"
+          },
+          {
+            "k": "column_order",
+            "t": "list",
+            "m": "len:8"
+          }
+        ],
+        "time": "23883"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:1095",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "555"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:1199",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "471"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:0",
+            "p": 1
+          }
+        ],
+        "time": "264"
+      },
+      {
+        "name": "subheader",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:24",
+            "p": 1
+          }
+        ],
+        "time": "209"
+      },
+      {
+        "name": "caption",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:133",
+            "p": 1
+          }
+        ],
+        "time": "185"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "10394"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          }
+        ],
+        "time": "2193"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "596"
+      },
+      {
+        "name": "subheader",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:34",
+            "p": 1
+          }
+        ],
+        "time": "396"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "1180"
+      },
+      {
+        "name": "subheader",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          }
+        ],
+        "time": "418"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "1232"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "int"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "str",
+            "m": "len:21"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "178"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "int"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "str",
+            "m": "len:29"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "117"
+      },
+      {
+        "name": "empty",
+        "time": "194"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "DataFrame",
+            "m": "len:2",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "441"
+      },
+      {
+        "name": "empty",
+        "time": "314"
+      },
+      {
+        "name": "empty",
+        "time": "182"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "DataFrame",
+            "m": "len:2",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "509"
+      },
+      {
+        "name": "empty",
+        "time": "348"
+      },
+      {
+        "name": "columns",
+        "args": [
+          {
+            "k": "spec",
+            "t": "int",
+            "p": 1
+          }
+        ],
+        "time": "1531"
+      },
+      {
+        "name": "subheader",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:22",
+            "p": 1
+          }
+        ],
+        "time": "291"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "2300"
+      },
+      {
+        "name": "subheader",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:23",
+            "p": 1
+          }
+        ],
+        "time": "397"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:595",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "541"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "1317"
+      },
+      {
+        "name": "subheader",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:20",
+            "p": 1
+          }
+        ],
+        "time": "243"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "2978"
+      },
+      {
+        "name": "subheader",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:57",
+            "p": 1
+          }
+        ],
+        "time": "346"
+      },
+      {
+        "name": "query_params.get_item",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:6",
+            "p": 1
+          }
+        ]
+      },
+      {
+        "name": "query_params.set_item",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:6",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "str",
+            "m": "len:45",
+            "p": 2
+          }
+        ],
+        "time": "162"
+      },
+      {
+        "name": "query_params.get_all",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:6",
+            "p": 1
+          }
+        ],
+        "time": "62"
+      },
+      {
+        "name": "selectbox",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:38"
+          },
+          {
+            "k": "options",
+            "t": "list",
+            "m": "len:36"
+          },
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "on_change",
+            "t": "function"
+          },
+          {
+            "k": "index",
+            "t": "int"
+          }
+        ],
+        "time": "447"
+      },
+      {
+        "name": "empty",
+        "time": "220"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "list",
+            "m": "len:2",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:3",
+            "p": 3
+          }
+        ],
+        "time": "270"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "list",
+            "m": "len:384998",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "1509944"
+      },
+      {
+        "name": "empty",
+        "time": "383"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "dict",
+            "m": "len:1",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "254"
+      },
+      {
+        "name": "empty",
+        "time": "311"
+      },
+      {
+        "name": "empty",
+        "time": "274"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "list",
+            "m": "len:23",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:3",
+            "p": 3
+          }
+        ],
+        "time": "323"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "dict",
+            "m": "len:4",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "182"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "1651"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          }
+        ],
+        "time": "2151"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "1518"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "int"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "str",
+            "m": "len:21"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "248"
+      },
+      {
+        "name": "empty",
+        "time": "330"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "DataFrame",
+            "m": "len:50",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "456"
+      },
+      {
+        "name": "empty",
+        "time": "323"
+      },
+      {
+        "name": "subheader",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:13",
+            "p": 1
+          }
+        ],
+        "time": "376"
+      },
+      {
+        "name": "column_config.DatetimeColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:9"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:16"
+          }
+        ],
+        "time": "133"
+      },
+      {
+        "name": "column_config.TextColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:8"
+          },
+          {
+            "k": "required",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:29"
+          }
+        ],
+        "time": "73"
+      },
+      {
+        "name": "column_config.TextColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:4"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:29"
+          }
+        ],
+        "time": "56"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:5"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          }
+        ],
+        "time": "63"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:10"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:6"
+          }
+        ],
+        "time": "59"
+      },
+      {
+        "name": "column_config.NumberColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:6"
+          },
+          {
+            "k": "format",
+            "t": "str",
+            "m": "len:4"
+          }
+        ],
+        "time": "59"
+      },
+      {
+        "name": "column_config.TextColumn",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:7"
+          },
+          {
+            "k": "help",
+            "t": "str",
+            "m": "len:49"
+          }
+        ],
+        "time": "52"
+      },
+      {
+        "name": "data_editor",
+        "args": [
+          {
+            "k": "data",
+            "t": "PandasStyler",
+            "p": 1
+          },
+          {
+            "k": "hide_index",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          },
+          {
+            "k": "column_config",
+            "t": "dict",
+            "m": "len:7"
+          },
+          {
+            "k": "column_order",
+            "t": "list",
+            "m": "len:7"
+          },
+          {
+            "k": "disabled",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "18920"
+      },
+      {
+        "name": "cache_data",
+        "args": [
+          {
+            "k": "func",
+            "t": "NoneType"
+          },
+          {
+            "k": "ttl",
+            "t": "int"
+          },
+          {
+            "k": "max_entries",
+            "t": "int"
+          },
+          {
+            "k": "persist",
+            "t": "NoneType"
+          },
+          {
+            "k": "show_spinner",
+            "t": "str",
+            "m": "len:24"
+          },
+          {
+            "k": "show_time",
+            "t": "bool",
+            "m": "val:False"
+          },
+          {
+            "k": "hash_funcs",
+            "t": "NoneType"
+          }
+        ],
+        "time": "214"
+      },
+      {
+        "name": "empty",
+        "time": "220"
+      },
+      {
+        "name": "_cache_data_object",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:32",
+            "p": 1
+          },
+          {
+            "k": "value",
+            "t": "DataFrame",
+            "m": "len:5",
+            "p": 2
+          },
+          {
+            "k": "messages",
+            "t": "list",
+            "m": "len:0",
+            "p": 3
+          }
+        ],
+        "time": "349"
+      },
+      {
+        "name": "empty",
+        "time": "565"
+      },
+      {
+        "name": "markdown",
+        "args": [
+          {
+            "k": "body",
+            "t": "str",
+            "m": "len:4",
+            "p": 1
+          },
+          {
+            "k": "unsafe_allow_html",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "474"
+      },
+      {
+        "name": "plotly_chart",
+        "args": [
+          {
+            "k": "figure_or_data",
+            "t": "PlotlyFigure",
+            "p": 1
+          },
+          {
+            "k": "use_container_width",
+            "t": "bool",
+            "m": "val:True"
+          }
+        ],
+        "time": "1618"
+      },
+      {
+        "name": "expander",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:12",
+            "p": 1
+          }
+        ],
+        "time": "276"
+      },
+      {
+        "name": "form",
+        "args": [
+          {
+            "k": "key",
+            "t": "str",
+            "m": "len:12",
+            "p": 1
+          }
+        ],
+        "time": "216"
+      },
+      {
+        "name": "text_input",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:72",
+            "p": 1
+          }
+        ],
+        "time": "378"
+      },
+      {
+        "name": "form_submit_button",
+        "args": [
+          {
+            "k": "label",
+            "t": "str",
+            "m": "len:6",
+            "p": 1
+          }
+        ],
+        "time": "266"
+      },
+      {
+        "name": "divider",
+        "time": "157"
+      },
+      {
+        "name": "write",
+        "args": [
+          {
+            "k": "1",
+            "t": "str",
+            "m": "len:104",
+            "p": 1
+          }
+        ],
+        "time": "186"
+      }
+    ],
+    "execTime": "9622747",
+    "prepTime": "223",
+    "config": [
+      "client.showErrorDetails",
+      "theme.base",
+      "theme.backgroundColor",
+      "theme.dataframeHeaderBackgroundColor",
+      "global.showWarningOnDirectExecution",
+      "server.port:default",
+      "client.toolbarMode",
+      "server.address",
+      "theme.textColor",
+      "theme.font",
+      "ui.hideTopBar",
+      "theme.primaryColor",
+      "theme.secondaryBackgroundColor"
+    ],
+    "attributions": [
+      "psycopg2",
+      "authlib",
+      "pydantic",
+      "pymongo",
+      "sqlite3",
+      "streamlit_extras"
+    ],
+    "os": "linux",
+    "timezone": "('UTC', 'UTC')",
+    "headless": true
+  }
+}

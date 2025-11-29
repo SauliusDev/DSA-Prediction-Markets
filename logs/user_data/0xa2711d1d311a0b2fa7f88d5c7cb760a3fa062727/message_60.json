@@ -1,0 +1,22 @@
+{
+  "hash": "47573d14ecbe1996d60acd08b7ddab9c",
+  "metadata": {
+    "deltaPath": [
+      0,
+      17
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "markdown": {
+        "body": "<div style=\"\n    background: linear-gradient(90deg, #722ed133, transparent);\n    border-left: 6px solid #722ed1;\n    padding: 1rem;\n    margin-bottom: 1rem;\n    border-radius: 10px;\n    animation: fadeIn 0.8s ease-out;\n    font-family: monospace;\n\">\n    <h3 style=\"margin: 0; color: #722ed1; font-size: 22px;\">\n        \ud83d\udd25 User Smart Score: <strong>99.0</strong> (Exceptional)\n    </h3>\n    <p style=\"margin: 0.2rem 0 0; color: #888;\">Better than <strong>100.00%</strong> of users (Top <strong>0.00%</strong>)</p>\n    <p style=\"margin: 0.5rem 0 0; color: #000; font-size: 20px;\">\ud83d\udcb0 Total PnL: <strong>$380.09</strong></p>\n</div>\n\n<style>\n    @keyframes fadeIn {\n        from { opacity: 0; transform: translateY(-5px); }\n        to { opacity: 1; transform: translateY(0); }\n    }\n</style>",
+        "allowHtml": true,
+        "elementType": "NATIVE"
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

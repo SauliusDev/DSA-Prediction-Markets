@@ -1,0 +1,39 @@
+{
+  "hash": "3d5f5418c9910730dc9aafd872e04b8b",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-a1ba0ae691fb42204072922249452f60-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the price of XRP be above $2.10 on November 17? - No \ud83d\udd34",
+          "Will Warner Bros. Discovery (WBD) beat quarterly earnings? - No \ud83d\udd34",
+          "Will ChatGPT be #1 Free App in the US Apple App Store on November 7? - No \ud83d\udd34",
+          "Will the highest temperature in New York City be between 63-64\u00b0F on November 7? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be 65\u00b0F or higher on November 12? - Yes \ud83d\udfe2",
+          "Will the price of Solana be between $120 and $130 on November 17? - Yes \ud83d\udfe2",
+          "North Florida Ospreys vs. Tennessee Volunteers (2025-11-13 UTC) - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $100,000 on November 9? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $98,000 on November 13? - No \ud83d\udd34",
+          "Will the price of XRP be above $2.30 on November 18? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $102,000 and $104,000 on November 14? - Yes \ud83d\udfe2",
+          "Will the price of XRP be less than $1.90 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $3,000 on November 21? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

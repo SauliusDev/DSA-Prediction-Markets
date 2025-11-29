@@ -1,0 +1,37 @@
+{
+  "hash": "8dd9a716030cc62e509d1b805cb5c1e6",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-3d95f38fddd1f03bc1929989c3f41684-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the Florida Panthers win the 2025 Stanley Cup? - Yes \ud83d\udfe2",
+          "Berachain airdrop in 2024? - Yes \ud83d\udfe2",
+          "Will Oregon win the 2025 College Football Playoff? - Yes \ud83d\udfe2",
+          "Will Tottenham Hotspur win the UEFA Europa League? - Yes \ud83d\udfe2",
+          "Will the Eagles win the NFC Championship? - Yes \ud83d\udfe2",
+          "Will Derrick Henry be the top Fantasy Running Back? - Yes \ud83d\udfe2",
+          "Will Josh Allen win NFL MVP for the 2024-25 season? - Yes \ud83d\udfe2",
+          "Will Trump nominate Howard Lutnick for Treasury Secretary? - Yes \ud83d\udfe2",
+          "Will Alvin Kamara be the top Fantasy Running Back? - Yes \ud83d\udfe2",
+          "Will Manchester United win the UEFA Europa League? - Yes \ud83d\udfe2",
+          "Will the Lions win the NFC Championship? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "hash": "6ac4d200b52b9e3180420690b9782eaf",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-9f72e5d86810259e749f6091a0c3f222-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Ethereum reach $2000 in May? - Yes \ud83d\udfe2",
+          "Will XRP reach $2.80 in May? - Yes \ud83d\udfe2",
+          "Fed decreases interest rates by 25 bps after June 2025 meeting? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be between $1900 and $2000 on May 9? - Yes \ud83d\udfe2",
+          "Fed decreases interest rates by 50+ bps after May 2025 meeting? - Yes \ud83d\udfe2",
+          "Will Ethereum reach $2200 in May? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be greater than $2000 on May 9? - Yes \ud83d\udfe2",
+          "Will Hyperliquid reach $28 before June? - Yes \ud83d\udfe2",
+          "Will Ethereum reach $2400 in May? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $101000 and $103000 on May 9? - Yes \ud83d\udfe2",
+          "Fed decreases interest rates by 25 bps after May 2025 meeting? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be greater than $2800 on May 16? - Yes \ud83d\udfe2",
+          "Will MicroStrategy purchase Bitcoin May 6-12? - No \ud83d\udd34",
+          "Will Hyperliquid reach $35 before June? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be between $2700 and $2800 on May 16? - Yes \ud83d\udfe2",
+          "XRP Up or Down on May 27? - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down on May 27? - Yes \ud83d\udfe2",
+          "Solana Up or Down on May 27? - Yes \ud83d\udfe2",
+          "Will Solana reach $190 in May? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $110K and $112K on May 30? - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $115K in June? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

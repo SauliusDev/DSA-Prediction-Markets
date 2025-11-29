@@ -1,0 +1,41 @@
+{
+  "hash": "26bad52cb1473fc10311751c094d0f26",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-9636db95d92adfee57c6645577c13658-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the highest temperature in London be between 56-57\u00b0F on November 11? - Yes \ud83d\udfe2",
+          "Will ChatGPT be #1 Free App in the US Apple App Store on November 7? - No \ud83d\udd34",
+          "Will the highest temperature in London be 65\u00b0F or higher on November 7? - Yes \ud83d\udfe2",
+          "Will the Associated Press first call the 2025 NYC mayoral election before 9:00 PM ET on Nov 4 2025? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be between 60-61\u00b0F on November 5? - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $110k November 3-9? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $100,000 and $102,000 on November 10? - Yes \ud83d\udfe2",
+          "XRP Up or Down on November 10? - No \ud83d\udd34",
+          "Tesla (TSLA) Up or Down on November 10? - No \ud83d\udd34",
+          "Will the price of XRP be above $2.50 on November 14? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $110 on November 18? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $96,000 on November 19? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $150 on November 19? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $92,000 on November 21? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $90,000 on November 25? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

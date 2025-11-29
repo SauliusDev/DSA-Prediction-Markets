@@ -1,0 +1,37 @@
+{
+  "hash": "37895969e8ba6d250228168a4376ff2d",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-7d6426c304b40895fe6d7116e2173d90-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Texas win the 2025 College Football Playoff? - Yes \ud83d\udfe2",
+          "Will the Eagles win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "Will the Chiefs win the AFC Championship? - Yes \ud83d\udfe2",
+          "Will the Bills win the AFC Championship? - Yes \ud83d\udfe2",
+          "Will a Democrat win Ohio US Senate Election? - Yes \ud83d\udfe2",
+          "Robert Jenrick next Conservative party leader? - Yes \ud83d\udfe2",
+          "Will Oregon win the 2025 College Football Playoff? - Yes \ud83d\udfe2",
+          "Will the Bills win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "Will the Lions win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "2024 presidential election: GOP wins by 105-154 - Yes \ud83d\udfe2",
+          "2024 presidential election: GOP wins by 65-104 - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

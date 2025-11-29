@@ -1,0 +1,39 @@
+{
+  "hash": "a11546b2516d57b87e84551f94959a90",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-c62ab9632434d7664c6b2accc0757f80-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Mike Tyson win his boxing match against Jake Paul? - Yes \ud83d\udfe2",
+          "Will Jerome Powell say good afternoon during December FOMC Press Conference? - No \ud83d\udd34",
+          "Dota 2: Tundra Esports vs OG - Game 1 Winner (2025-11-16 UTC) - No \ud83d\udd34",
+          "Will the HBO documentary identify someone else as Satoshi? - Yes \ud83d\udfe2",
+          "Will the HBO documentary identify Paul Le Roux as Satoshi? - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $70,000 in October? - Yes \ud83d\udfe2",
+          "Dota 2: BetBoom Team vs Natus Vincere - Game 2 Winner (2025-11-16 UTC) - No \ud83d\udd34",
+          "Dota 2: OG vs BetBoom Team - Game 1 Winner (2025-11-20 UTC) - Yes \ud83d\udfe2",
+          "Dota 2: OG vs BetBoom Team - Game 2 Winner (2025-11-20 UTC) - Yes \ud83d\udfe2",
+          "Dota 2: OG vs BetBoom Team (BO3) (2025-11-20 UTC) - Yes \ud83d\udfe2",
+          "Dota 2: Team Liquid vs Tundra Esports - Game 1 Winner (2025-11-20 UTC) - No \ud83d\udd34",
+          "Dota 2: OG vs Team Liquid - Game 2 Winner (2025-11-21 UTC) - Yes \ud83d\udfe2",
+          "Dota 2: Team Spirit vs Team Liquid (BO3) (2025-11-22 UTC) - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

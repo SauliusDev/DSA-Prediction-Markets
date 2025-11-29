@@ -1,0 +1,36 @@
+{
+  "hash": "7a90b0937b856bd2c81a2d69333c7640",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-399c0fa81c8c85cb4cf04c3401a9f942-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will a Democrat win North Carolina Presidential Election? - Yes \ud83d\udfe2",
+          "Will Pennsylvania be the tipping point state? - Yes \ud83d\udfe2",
+          "GOP wins popular vote by 1-2%? - Yes \ud83d\udfe2",
+          "Will Wisconsin be the tipping point state? - Yes \ud83d\udfe2",
+          "Democrats win popular vote by 0-1%? - Yes \ud83d\udfe2",
+          "Will the Eagles win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "Will the Chiefs win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "Will Real Madrid win the UEFA Champions League? - Yes \ud83d\udfe2",
+          "Will Real Madrid win La Liga? - Yes \ud83d\udfe2",
+          "Will the Dallas Stars win the 2025 Stanley Cup? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

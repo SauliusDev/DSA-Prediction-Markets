@@ -1,0 +1,44 @@
+{
+  "hash": "7f14aeb33c8e8a5b5ce6a4a9ea585bb6",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-6d097b39471e674ffe6d77a01ec3a440-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Kamala Harris win the 2024 US Presidential Election? - Yes \ud83d\udfe2",
+          "Will Trump win Florida by 12+ points? - Yes \ud83d\udfe2",
+          "Will Trump win 6 swing states? - Yes \ud83d\udfe2",
+          "Will Trump win Ohio by 12+ points? - Yes \ud83d\udfe2",
+          "Will Trump win Miami? - No \ud83d\udd34",
+          "Will a Republican win Minnesota in the 2024 US Presidential Election? - Yes \ud83d\udfe2",
+          "Will a Republican win Virginia Presidential Election? - Yes \ud83d\udfe2",
+          "Will Kamala win New York by 10+ points? - No \ud83d\udd34",
+          "Will there be 160,000,000-165,000,000 votes cast in the U.S. Presidential Election? - Yes \ud83d\udfe2",
+          "Bitcoin hits $80k before election? - Yes \ud83d\udfe2",
+          "Will Trump win Texas by 10+ points? - Yes \ud83d\udfe2",
+          "Trump wins every swing state? - Yes \ud83d\udfe2",
+          "Will Kamala Harris win all 6 swing states? - Yes \ud83d\udfe2",
+          "Will Trump win Iowa by 12+ points? - Yes \ud83d\udfe2",
+          "GOP wins popular vote by 2-3%? - Yes \ud83d\udfe2",
+          "GOP wins popular vote by 1-2%? - Yes \ud83d\udfe2",
+          "Will Trump say Peanut or Squirrel during North Carolina rally on Nov 3? - Yes \ud83d\udfe2",
+          "Trump wins Pennsylvania but loses the Election? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

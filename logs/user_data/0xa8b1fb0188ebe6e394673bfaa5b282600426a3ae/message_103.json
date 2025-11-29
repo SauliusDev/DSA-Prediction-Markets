@@ -1,0 +1,36 @@
+{
+  "hash": "ad766aa3d520910755d3d54d7b6f6c1f",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-cfcb039b4474c9887f96dc3ea97d1660-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the Philadelphia 76ers win the 2025 NBA Finals? - Yes \ud83d\udfe2",
+          "Will the Lions win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "Will Dillon Gabriel win the Heisman Trophy? - Yes \ud83d\udfe2",
+          "Will Cam Ward win the Heisman Trophy? - Yes \ud83d\udfe2",
+          "Will another movie gross most in 2024? - Yes \ud83d\udfe2",
+          "Will the Oklahoma City Thunder win the 2025 NBA Finals? - Yes \ud83d\udfe2",
+          "Will a Republican win Michigan Presidential Election? - Yes \ud83d\udfe2",
+          "Will Kamala Harris win the 2024 Democratic Presidential Nomination? - Yes \ud83d\udfe2",
+          "Will Bilibili Gaming win LoL Worlds 2024? - Yes \ud83d\udfe2",
+          "Will the Packers win Super Bowl 2025? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "hash": "2bb0d8ff68e4d1072df1245f5b404d55",
+  "metadata": {
+    "deltaPath": [
+      0,
+      31
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "markdown": {
+        "body": "<style>\n@keyframes gradGreen {\n  0%   { background-position:   0% 50%; }\n  50%  { background-position: 100% 50%; }\n  100% { background-position:   0% 50%; }\n}\n</style>\n<div style=\"\n  padding:12px 14px;\n  border-radius:12px;\n  background-image: linear-gradient(90deg, #eaf8f0, #dff7ea, #eaf8f0);\n  background-size:200% 100%;\n  animation: gradGreen 6s ease-in-out infinite;\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;\n  box-shadow: 0 1px 2px rgba(0,0,0,0.08) inset, 0 2px 6px rgba(0,0,0,0.06);\n\">\n  <span style=\"color:#0f5132;font-weight:700;\">Best trade (ROI):</span>\n  <span style=\"color:#111;font-variant-numeric:tabular-nums;\">+956.68%</span>\n  <span style=\"color:#137a3a;font-weight:700;font-variant-numeric:tabular-nums;\">(+$28.70)</span>\n  <span style=\"color:#555;\">\u2014</span>\n  <span style=\"color:#111;\">Will the U.S. tariff rate on China be less than 25% on November 12? - Yes \ud83d\udfe2</span>\n</div>",
+        "allowHtml": true,
+        "elementType": "NATIVE"
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

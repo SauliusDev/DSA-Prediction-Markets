@@ -1,0 +1,43 @@
+{
+  "hash": "c639ba59129db66052e8dc5a4e90b21d",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-3243ee4c702b8695b8ef7b160f2ab641-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Hang Seng (HSI) Up or Down on November 5? - Yes \ud83d\udfe2",
+          "Google (GOOGL) Up or Down on November 5? - No \ud83d\udd34",
+          "Will the price of Solana be above $130 on November 17? - No \ud83d\udd34",
+          "Will the price of Bitcoin be between $106,000 and $108,000 on November 6? - Yes \ud83d\udfe2",
+          "S&P 500 (SPX) Up or Down on November 6? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be 65\u00b0F or higher on November 7? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $3,400 on November 17? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $100,000 on November 8? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $100,000 on November 9? - No \ud83d\udd34",
+          "Binghamton Bearcats vs. Georgetown Hoyas (2025-11-12 UTC) - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $110k November 3-9? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $110,000 on November 10? - Yes \ud83d\udfe2",
+          "Will the price of XRP be between $1.90 and $2.00 on November 13? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $3,100 on November 16? - No \ud83d\udd34",
+          "Will the price of Bitcoin be between $98,000 and $100,000 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $3,300 on November 19? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $120 on November 22? - No \ud83d\udd34"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

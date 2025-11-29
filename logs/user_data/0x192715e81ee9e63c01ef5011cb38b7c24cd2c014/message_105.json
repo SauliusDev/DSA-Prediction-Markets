@@ -1,0 +1,40 @@
+{
+  "hash": "cacf5bf0418529614a6f2373e7804eb2",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-c1467f0484732d91b6f03e8eccad95a0-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Bayern Munich win the Bundesliga? - No \ud83d\udd34",
+          "U.S. arms embargo on Israel in 2024? - Yes \ud83d\udfe2",
+          "Who will start week 7 for the Steelers? - Yes \ud83d\udfe2",
+          "Will Binance list $DEGEN in 2024? - No \ud83d\udd34",
+          "Will Donald Trump win the popular vote in the 2024 Presidential Election? - Yes \ud83d\udfe2",
+          "Kamala Harris wins the popular vote? - No \ud83d\udd34",
+          "Will Trump say ninth month during all female town hall? - No \ud83d\udd34",
+          "Will FK Haugesund win on 2025-11-02? - Yes \ud83d\udfe2",
+          "Will Angers SCO win on 2025-11-02? - Yes \ud83d\udfe2",
+          "Will Bournemouth win on 2025-11-02? - Yes \ud83d\udfe2",
+          "Will Elche CF win on 2025-11-02? - Yes \ud83d\udfe2",
+          "Panthers vs. Packers (2025-11-02 UTC) - Yes \ud83d\udfe2",
+          "Will SC Braga win on 2025-11-02? - Yes \ud83d\udfe2",
+          "Saints vs. Rams (2025-11-02 UTC) - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

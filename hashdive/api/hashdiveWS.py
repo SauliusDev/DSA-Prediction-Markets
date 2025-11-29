@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import asyncio
 import websockets
+import websockets.exceptions
+from websockets.protocol import State
 import ssl
 import time
 from typing import Optional, Dict, Any, List, AsyncGenerator, Union, cast
@@ -36,13 +38,12 @@ class HashdiveWSClient:
             try:
                 if attempt > 0:
                     logger.info(f"Retry attempt {attempt + 1}/{max_retries} connecting to {self.config.url}")
-                    await asyncio.sleep(retry_delay * attempt)  # Exponential backoff
+                    await asyncio.sleep(retry_delay * attempt)
                 else:
                     logger.info(f"Connecting to {self.config.url}")
                 
                 logger.debug(f"Subprotocols: {self.config.subprotocols}")
                 
-                # Use asyncio.wait_for to add a connection timeout
                 self._connection = await asyncio.wait_for(
                     websockets.connect(
                         self.config.url,
@@ -51,9 +52,9 @@ class HashdiveWSClient:
                         subprotocols=cast(Any, self.config.subprotocols),
                         max_size=self.config.max_size,
                         ping_timeout=self.config.timeout,
-                        open_timeout=30  # 30 second timeout for opening handshake
+                        open_timeout=30
                     ),
-                    timeout=45  # Overall timeout including handshake
+                    timeout=45
                 )
                 
                 logger.info("WebSocket connection established")
@@ -109,7 +110,6 @@ class HashdiveWSClient:
             
         try:
             if timeout is None:
-                # No timeout - wait indefinitely like the old working code
                 msg = await self._connection.recv()
             else:
                 msg = await asyncio.wait_for(
@@ -137,8 +137,14 @@ class HashdiveWSClient:
         except asyncio.TimeoutError:
             logger.debug("Receive timeout")
             return None
+        except websockets.exceptions.ConnectionClosed as e:
+            logger.debug(f"WebSocket connection closed: {e.code} - {e.reason}")
+            return None
         except Exception as e:
-            logger.error(f"Failed to receive message: {e}")
+            if "close frame" in str(e).lower() or "connection" in str(e).lower():
+                logger.debug(f"Connection ended: {e}")
+            else:
+                logger.error(f"Failed to receive message: {e}")
             return None
     
     async def receive_messages(
@@ -153,6 +159,8 @@ class HashdiveWSClient:
             
         message_count = 0
         start_time = asyncio.get_event_loop().time()
+        consecutive_failures = 0
+        max_consecutive_failures = 3
         
         while True:
             if max_messages and message_count >= max_messages:
@@ -165,13 +173,26 @@ class HashdiveWSClient:
                     logger.debug(f"Reached total timeout: {total_timeout}s")
                     break
             
+            if not self.is_connected:
+                logger.info("WebSocket connection is closed, stopping message reception")
+                break
+            
             try:
                 message = await self.receive_message(timeout_per_message)
                 if message is None:
-                    # Try ping to keep connection alive
-                    await self.ping()
-                    continue
+                    consecutive_failures += 1
+                    if consecutive_failures >= max_consecutive_failures:
+                        logger.info(f"No messages received after {max_consecutive_failures} attempts, stopping")
+                        break
                     
+                    if self.is_connected:
+                        ping_success = await self.ping()
+                        if not ping_success:
+                            logger.info("Ping failed, connection likely closed")
+                            break
+                    continue
+                
+                consecutive_failures = 0
                 message_count += 1
                 logger.debug(f"Received message #{message_count} ({message.message_type}, {message.size} bytes)")
                 yield message
@@ -182,21 +203,33 @@ class HashdiveWSClient:
     
     async def ping(self) -> bool:
         if not self._connection:
-            logger.error("No active connection")
+            logger.debug("No active connection for ping")
+            return False
+        
+        if not self.is_connected:
+            logger.debug("Connection already closed, skipping ping")
             return False
             
         try:
             await self._connection.ping()
-            logger.debug("Ping sent")
+            logger.debug("Ping sent successfully")
             return True
+        except websockets.exceptions.ConnectionClosed:
+            logger.debug("Cannot ping - connection is closed")
+            return False
         except Exception as e:
-            logger.error(f"Ping failed: {e}")
+            if "close frame" in str(e).lower() or "connection" in str(e).lower():
+                logger.debug(f"Ping failed - connection closed: {e}")
+            else:
+                logger.warning(f"Ping failed: {e}")
             return False
     
     @property
     def is_connected(self) -> bool:
         try:
-            return self._connection is not None and not getattr(self._connection, 'closed', True)
+            if self._connection is None:
+                return False
+            return self._connection.state == State.OPEN
         except Exception:
             return False
     
@@ -210,8 +243,11 @@ class HashdiveWSClient:
 
 def create_hashdive_config(
     cookies: Dict[str, str],
-    user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    user_agent: Optional[str] = None
 ) -> WSConnectionConfig:
+    if user_agent is None:
+        user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+    
     cookie_header = "; ".join(f"{k}={v}" for k, v in cookies.items())
     xsrf_token = cookies.get("_streamlit_xsrf")
     

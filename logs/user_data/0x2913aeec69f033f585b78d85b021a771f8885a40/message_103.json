@@ -1,0 +1,37 @@
+{
+  "hash": "9f20f9ef631be01afe6390cda4a0bb6e",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-39f3ab1daf7e9f50be6c6566fa4f9928-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Lando Norris win the 2025 F1 Las Vegas Grand Prix? - Yes \ud83d\udfe2",
+          "Will the government shutdown end November 12? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $102,000 on November 13? - No \ud83d\udd34",
+          "Knicks vs. Heat (2025-11-18 UTC) - Yes \ud83d\udfe2",
+          "Jets vs. Patriots (2025-11-14 UTC) - Yes \ud83d\udfe2",
+          "Will the price of Solana be between $120 and $130 on November 14? - Yes \ud83d\udfe2",
+          "ATP World Tour Finals, Bjorn Borg Group: Alexander Zverev vs Felix Auger-Aliassime (2025-11-14 UTC) - Yes \ud83d\udfe2",
+          "Warriors vs. Spurs (2025-11-15 UTC) - Yes \ud83d\udfe2",
+          "Will Gemini 3.0 be released by November 22? - No \ud83d\udd34",
+          "Will Gemini 3.0 be released on November 30 2025 or later? - Yes \ud83d\udfe2",
+          "Warriors vs. Heat (2025-11-20 UTC) - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

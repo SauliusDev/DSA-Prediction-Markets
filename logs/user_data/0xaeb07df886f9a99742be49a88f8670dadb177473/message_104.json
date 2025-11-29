@@ -1,0 +1,39 @@
+{
+  "hash": "b8f805bd712d257573f0b25a3bf34d71",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-be4a2169c137ada510ea3b37f555c806-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Bitcoin Up or Down - October 10, 9AM ET - Yes \ud83d\udfe2",
+          "Suns vs. Nets (2025-10-10 UTC) - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $136,000 October 6-12? - No \ud83d\udd34",
+          "Tigers vs. Mariners (2025-10-11 UTC) - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - October 11, 12AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - October 11, 3AM ET - Yes \ud83d\udfe2",
+          "Will Banbury United FC win on 2025-10-11? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $112,000 on October 11? - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - October 25, 4:00AM-8:00AM ET - Yes \ud83d\udfe2",
+          "Capitals vs. Rangers (2025-10-12 UTC) - Yes \ud83d\udfe2",
+          "Ethereum Up or Down - October 12, 4AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down on November 1? - Yes \ud83d\udfe2",
+          "Will Palantir (PLTR) finish week of November 10 above $194? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

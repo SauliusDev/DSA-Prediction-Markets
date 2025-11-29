@@ -1,0 +1,38 @@
+{
+  "hash": "b763304e91273f2577630087a42af19f",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-6c0f05f170a22e1970094920a9048122-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will George Simion win the 2024 Romanian Presidential election? - Yes \ud83d\udfe2",
+          "Will Ohio State win the 2025 College Football Playoff? - Yes \ud83d\udfe2",
+          "Magny vs. Prates - Yes \ud83d\udfe2",
+          "Liverpool wins the Premier League? - Yes \ud83d\udfe2",
+          "Arsenal wins the Premier League? - Yes \ud83d\udfe2",
+          "Will Beyonce be the Billboard #1 pop star of the century? - Yes \ud83d\udfe2",
+          "Meerschaert vs. de Ridder - Yes \ud83d\udfe2",
+          "Will the Chiefs win the AFC Championship? - Yes \ud83d\udfe2",
+          "Will the Ravens win the AFC Championship? - Yes \ud83d\udfe2",
+          "Will the Eagles win the NFC Championship? - Yes \ud83d\udfe2",
+          "Will Ethereum reach $3,500 in November? - Yes \ud83d\udfe2",
+          "Will Trump sign the Epstein Disclosure Bill on November 21? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "hash": "fe8c161bc3a6efa059dc78b378f74d5c",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-45eb1b7f32751f95d4cf6a7714732f16-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Mumbai Indians vs. Punjab Kings (2025-05-26 UTC) - No \ud83d\udd34",
+          "Thunder vs. Timberwolves (2025-05-27 UTC) - Yes \ud83d\udfe2",
+          "Will Rory McIlroy win the 2025 Travelers Championship? - Yes \ud83d\udfe2",
+          "Padres vs. Giants (2025-08-13 UTC) - No \ud83d\udd34",
+          "Tigers vs. White Sox (2025-08-12 UTC) - Yes \ud83d\udfe2",
+          "Will Cameron Young win the 2025 BMW Championship? - Yes \ud83d\udfe2",
+          "Will Akshay Bhatia win the 2025 BMW Championship? - Yes \ud83d\udfe2",
+          "Will Ben Griffin win the 2025 BMW Championship? - Yes \ud83d\udfe2",
+          "Will Daniel Berger win the 2025 BMW Championship? - Yes \ud83d\udfe2",
+          "Will Tommy Fleetwood win the 2025 BMW Championship? - Yes \ud83d\udfe2",
+          "Will Chris Gotterup win the 2025 BMW Championship? - Yes \ud83d\udfe2",
+          "Will Hideki Matsuyama win the 2025 BMW Championship? - Yes \ud83d\udfe2",
+          "Will Chris Gotterup win the 2025 BMW Championship? - No \ud83d\udd34",
+          "Will Cameron Young win the 2025 Tour Championship? - Yes \ud83d\udfe2",
+          "Will Tommy Fleetwood win the 2025 Tour Championship? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

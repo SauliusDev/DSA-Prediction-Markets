@@ -1,0 +1,40 @@
+{
+  "hash": "f9a74c6c7fa090b1b03aa2b1acede9f3",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-6c54ea4ab19a2761bb959e02b794fcaf-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Ethereum above $3,000 on November 15? - Yes \ud83d\udfe2",
+          "Ethereum all time high in Q4 2024? - Yes \ud83d\udfe2",
+          "Solana above $245 on December 6? - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $110,000 in December? - Yes \ud83d\udfe2",
+          "Ethereum all time high in 2024? - No \ud83d\udd34",
+          "Will Bitcoin reach $130,000 in December? - No \ud83d\udd34",
+          "Will Ethereum hit $4,200.00 in December? - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $120,000 by March 31? - Yes \ud83d\udfe2",
+          "Will Biden finish his term? - Yes \ud83d\udfe2",
+          "Will Ethereum reach $3,500 in November? - Yes \ud83d\udfe2",
+          "Solana all time high in Q4? - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $85,000 in November? - Yes \ud83d\udfe2",
+          "MegaETH $250M pre-deposit bridge filled in 15 minutes? - No \ud83d\udd34",
+          "MegaETH $250M pre-deposit bridge filled in the first hour? - No \ud83d\udd34"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

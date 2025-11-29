@@ -1,0 +1,47 @@
+{
+  "hash": "32b00bef703f5789680eccc6d72f6384",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-c7679e6ff4e5143c3700366fb39bf5f3-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Solana Up or Down - November 23, 12:00AM-4:00AM ET - No \ud83d\udd34",
+          "XRP Up or Down - November 23, 4:00AM-4:15AM ET - Yes \ud83d\udfe2",
+          "Solana Up or Down - November 23, 6:30AM-6:45AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 23, 12:30PM-12:45PM ET - Yes \ud83d\udfe2",
+          "Solana Up or Down - November 14, 8:00AM-12:00PM ET - No \ud83d\udd34",
+          "Solana Up or Down - November 15, 2:00AM-2:15AM ET - Yes \ud83d\udfe2",
+          "Solana Up or Down - November 15, 11AM ET - No \ud83d\udd34",
+          "Solana Up or Down - November 15, 12:15PM-12:30PM ET - No \ud83d\udd34",
+          "Solana Up or Down - November 24, 3:15AM-3:30AM ET - Yes \ud83d\udfe2",
+          "Solana Up or Down - November 15, 1:00PM-1:15PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 15, 2:00PM-2:15PM ET - Yes \ud83d\udfe2",
+          "Ethereum Up or Down - November 15, 2:15PM-2:30PM ET - Yes \ud83d\udfe2",
+          "Solana Up or Down - November 24, 4:15AM-4:30AM ET - Yes \ud83d\udfe2",
+          "Solana Up or Down - November 24, 7:15AM-7:30AM ET - Yes \ud83d\udfe2",
+          "Solana Up or Down - November 24, 8:00AM-8:15AM ET - Yes \ud83d\udfe2",
+          "Solana Up or Down - November 24, 2:00PM-2:15PM ET - No \ud83d\udd34",
+          "BC Dubai vs. Paris Basketball (2025-11-25 UTC) - No \ud83d\udd34",
+          "NVIDIA (NVDA) Up or Down on November 20? - No \ud83d\udd34",
+          "Solana Up or Down - November 25, 1:30AM-1:45AM ET - Yes \ud83d\udfe2",
+          "Ethereum Up or Down - November 21, 8:00AM-8:15AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 21, 9:15AM-9:30AM ET - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "hash": "4c4a6cc1d258c157ab46e470e31e3c17",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-38d73a3d605f03c9a1f379f9976d4df7-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Solana dip to $120 November 10-16? - Yes \ud83d\udfe2",
+          "Nikkei 225 (NIK) Up or Down on November 5? - Yes \ud83d\udfe2",
+          "XRP Up or Down on November 11? - Yes \ud83d\udfe2",
+          "Will the price of XRP be above $2.60 on November 6? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $106,000 and $108,000 on November 7? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $100,000 and $102,000 on November 12? - Yes \ud83d\udfe2",
+          "The Citadel vs. Ole Miss (2025-11-08 UTC) - Yes \ud83d\udfe2",
+          "Ohio State vs. Purdue Boilermakers (2025-11-08 UTC) - No \ud83d\udd34",
+          "Will the price of Solana be above $120 on November 17? - No \ud83d\udd34",
+          "Will October 2025 be the 3rd hottest on record? - No \ud83d\udd34",
+          "Tesla (TSLA) Up or Down on November 10? - No \ud83d\udd34",
+          "Will the highest temperature in London be 66\u00b0F or higher on November 13? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $106,000 on November 13? - Yes \ud83d\udfe2",
+          "Will the price of XRP be above $2.10 on November 15? - No \ud83d\udd34",
+          "Will the price of Ethereum be between $3,300 and $3,400 on November 15? - Yes \ud83d\udfe2",
+          "Will the price of Solana be between $110 and $120 on November 19? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

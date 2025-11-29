@@ -160,14 +160,14 @@ class AnalyzeUserDataParser:
             # elif classified.message_type == UserMessageType.OVERALL_PNL_LOSS:
             #     user_data["overall_pnl_loss"] = json.dumps(message)
             
-            # elif classified.message_type == UserMessageType.MOST_TRADED_CATEGORIES:
-            #     user_data["most_traded_categories_chart"] = json.dumps(message)
+            elif classified.message_type == UserMessageType.MOST_TRADED_CATEGORIES:
+                user_data["most_traded_categories_chart"] = json.dumps(message)
             
-            # elif classified.message_type == UserMessageType.SMART_SCORE_BY_CATEGORY:
-            #     user_data["smart_score_by_category"] = json.dumps(message)
+            elif classified.message_type == UserMessageType.SMART_SCORE_BY_CATEGORY:
+                user_data["smart_score_by_category"] = json.dumps(message)
             
-            # elif classified.message_type == UserMessageType.WIN_RATE_BY_CATEGORY:
-            #     user_data["win_rate_by_category"] = json.dumps(message)
+            elif classified.message_type == UserMessageType.WIN_RATE_BY_CATEGORY:
+                user_data["win_rate_by_category"] = json.dumps(message)
             
             # elif classified.message_type == UserMessageType.RECENT_TRADES_TABLE:
             #     user_data["recent_trades_table"] = json.dumps(message)

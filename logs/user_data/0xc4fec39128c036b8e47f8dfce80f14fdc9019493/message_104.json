@@ -1,0 +1,39 @@
+{
+  "hash": "e8e77a49dda0fdf5c74e4f5e10bb8aff",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-839a2d07f1714b09468c49db05200960-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Giants vs. Panthers (2024-11-10 UTC) - No \ud83d\udd34",
+          "Jaguars vs. Lions (2024-11-17 UTC) - No \ud83d\udd34",
+          "$POPCAT listed on Binance or Coinbase in 2024? - Yes \ud83d\udfe2",
+          "Solana above $210 on November 22? - Yes \ud83d\udfe2",
+          "Will the Winnipeg Jets win the 2025 Stanley Cup? - Yes \ud83d\udfe2",
+          "Lions vs. Colts (2024-11-24 UTC) - Yes \ud83d\udfe2",
+          "Chiefs vs. Panthers (2024-11-24 UTC) - Yes \ud83d\udfe2",
+          "Bengals vs. Ravens (2024-11-08 UTC) - No \ud83d\udd34",
+          "Will a Republican win Ohio US Senate Election? - Yes \ud83d\udfe2",
+          "Will Donald Trump win the 2024 US Presidential Election? - Yes \ud83d\udfe2",
+          "Lions vs. Texans (2024-11-11 UTC) - Yes \ud83d\udfe2",
+          "49ers vs. Buccaneers (2024-11-10 UTC) - No \ud83d\udd34",
+          "Will the Florida Panthers win the 2025 Stanley Cup? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "hash": "cd423ed705ff43aec026ec03b973269d",
+  "metadata": {
+    "deltaPath": [
+      0,
+      23
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "metric": {
+        "label": "Traded USD Volume (Last 30d, daily)",
+        "body": "$55",
+        "direction": "NONE",
+        "color": "GRAY",
+        "labelVisibility": {},
+        "chartData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4.24,
+          11.839998000000001,
+          0,
+          2.8200000000000003,
+          1.93,
+          1.73,
+          0,
+          4.32,
+          8.34,
+          0,
+          0,
+          5.829999,
+          0,
+          0,
+          2.14,
+          4.49,
+          0,
+          0,
+          0,
+          2.74,
+          3,
+          1.75,
+          0,
+          0
+        ],
+        "chartType": "AREA"
+      },
+      "heightConfig": {
+        "useContent": true
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

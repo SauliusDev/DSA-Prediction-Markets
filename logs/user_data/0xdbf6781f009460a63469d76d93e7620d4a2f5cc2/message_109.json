@@ -1,0 +1,45 @@
+{
+  "hash": "4daf3aa1ea3f5b88160e301c6ba31ec7",
+  "metadata": {
+    "deltaPath": [
+      0,
+      43
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-0f60da504852b8dec16839113cbf72e7-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Over $40M committed to the Solomon public sale? - Yes \ud83d\udfe2",
+          "Over $60M committed to the Solomon public sale? - Yes \ud83d\udfe2",
+          "Over $100M committed to the Solomon public sale? - Yes \ud83d\udfe2",
+          "Over $80M committed to the Solomon public sale? - Yes \ud83d\udfe2",
+          "Over $120M committed to the Solomon public sale? - Yes \ud83d\udfe2",
+          "Over $140M committed to the Solomon public sale? - Yes \ud83d\udfe2",
+          "Over $800M committed to the Monad public sale? - Yes \ud83d\udfe2",
+          "Over $1B committed to the Monad public sale? - Yes \ud83d\udfe2",
+          "Over $1.2B committed to the Monad public sale? - Yes \ud83d\udfe2",
+          "Over $1.4B committed to the Monad public sale? - Yes \ud83d\udfe2",
+          "Over $1.6B committed to the Monad public sale? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $150 on November 20? - Yes \ud83d\udfe2",
+          "Will Solana reach $190 in November? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $140 on November 25? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $140 on November 26? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $140 on November 27? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $150 on November 21? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $150 on November 22? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $140 on November 21? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

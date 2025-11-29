@@ -1,0 +1,24 @@
+{
+  "hash": "67f0375230767f7719b372f187b8d1e5",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42,
+      1,
+      1
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "markdown": {
+        "body": "<style>\n.chart-container {\n    position: relative;\n    display: inline-block;\n}\n.blurred-img {\n    filter: blur(6px);\n    pointer-events: none;\n}\n.overlay-text {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 24px;\n    font-weight: bold;\n    color: white;\n    background: rgba(0, 0, 0, 0.6);\n    padding: 10px 20px;\n    border-radius: 8px;\n}\n</style>",
+        "allowHtml": true,
+        "elementType": "NATIVE"
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

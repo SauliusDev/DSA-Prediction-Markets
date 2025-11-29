@@ -1,0 +1,41 @@
+{
+  "hash": "b5d7f00c4039530fe7145dfacc70a551",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-94d8722709176f4b3ea9ef23da33271b-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will XRP dip to $2.00 November 10-16? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 160-179 tweets from November 4 to November 11, 2025? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $100,000 and $102,000 on November 11? - Yes \ud83d\udfe2",
+          "Amazon (AMZN) Up or Down on November 6? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be 65\u00b0F or higher on November 12? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be 65\u00b0F or higher on November 7? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be 63\u00b0F or higher on November 8? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $98,000 on November 9? - No \ud83d\udd34",
+          "XRP Up or Down on November 10? - No \ud83d\udd34",
+          "Columbia Lions vs. Connecticut Huskies (2025-11-10 UTC) - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $96,000 on November 18? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be less than $3,100 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be between $3,000 and $3,100 on November 24? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $96,000 on November 19? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be between $3,200 and $3,300 on November 25? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

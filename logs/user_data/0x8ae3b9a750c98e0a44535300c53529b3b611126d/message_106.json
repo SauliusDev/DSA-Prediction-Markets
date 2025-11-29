@@ -1,0 +1,88 @@
+{
+  "hash": "30ff4bddebb83f022ea4eda62c159043",
+  "metadata": {
+    "deltaPath": [
+      0,
+      43
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-3484fea64dcfed9d9639975b0ce9ac5d-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Bitcoin Up or Down - November 1, 8:15PM-8:30PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 1, 10:00PM-10:15PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 1, 10:30PM-10:45PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 1, 10:45PM-11:00PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 2, 1:00AM-1:15AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 1:45AM-2:00AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 2, 2:45AM-3:00AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 2, 4:30AM-4:45AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 5:15AM-5:30AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 5:30AM-5:45AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 6:00AM-6:15AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 2, 6:15AM-6:30AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 2, 6:45AM-7:00AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 7:00AM-7:15AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 11:00AM-11:15AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 11:00AM-11:15AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 2, 2:30PM-2:45PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 2, 6:15PM-6:30PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 5:30PM-5:45PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 6:00PM-6:15PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 2, 8:00PM-8:15PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 9:30PM-9:45PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 11:00PM-11:15PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 2, 11:45PM-12:00AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 12:15AM-12:30AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 1:45AM-2:00AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 3:45AM-4:00AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 5:00AM-5:15AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 5:30AM-5:45AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 6:00AM-6:15AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 6:15AM-6:30AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 7:00AM-7:15AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 8:30AM-8:45AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 11:15AM-11:30AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 12:30PM-12:45PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 2:00PM-2:15PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 2:30PM-2:45PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 6:00PM-6:15PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 3:30PM-3:45PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 4:00PM-4:15PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 4:15PM-4:30PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 5:00PM-5:15PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 5:30PM-5:45PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 7:30PM-7:45PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 3, 9:00PM-9:15PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 9:45PM-10:00PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 3, 11:45PM-12:00AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 12:00AM-12:15AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 12:15AM-12:30AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 1:00AM-1:15AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 3:45AM-4:00AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 8:30AM-8:45AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 4, 9:30AM-9:45AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 10:15AM-10:30AM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 4, 10:45AM-11:00AM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 11:45AM-12:00PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 12:30PM-12:45PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 4, 1:30PM-1:45PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 3:15PM-3:30PM ET - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down - November 4, 3:45PM-4:00PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 4, 4:15PM-4:30PM ET - No \ud83d\udd34",
+          "Bitcoin Up or Down - November 4, 4:30PM-4:45PM ET - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

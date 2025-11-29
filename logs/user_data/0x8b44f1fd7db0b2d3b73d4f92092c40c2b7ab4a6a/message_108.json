@@ -1,0 +1,41 @@
+{
+  "hash": "3ef728adde98585fe3af86953f6f9e04",
+  "metadata": {
+    "deltaPath": [
+      0,
+      43
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-3021b4c0b1d260b6a0bd5502b8a5ba79-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Thunder vs. Clippers (2025-11-05 UTC) - No \ud83d\udd34",
+          "Lakers vs. Warriors (2025-10-06 UTC) - No \ud83d\udd34",
+          "Thunder vs. Hornets (2025-10-05 UTC) - No \ud83d\udd34",
+          "Lakers vs. Thunder (2025-11-13 UTC) - Yes \ud83d\udfe2",
+          "Will FC Barcelona win on 2025-10-21? - Yes \ud83d\udfe2",
+          "Warriors vs. Lakers (2025-10-22 UTC) - No \ud83d\udd34",
+          "Over $30M committed to the Loyal raise on MetaDAO? - Yes \ud83d\udfe2",
+          "Clippers vs. Jazz (2025-10-23 UTC) - Yes \ud83d\udfe2",
+          "Over $10M committed to the ZKLSOL raise on MetaDAO? - No \ud83d\udd34",
+          "Over $10M committed to the ZKLSOL raise on MetaDAO? - Yes \ud83d\udfe2",
+          "Timberwolves vs. Lakers (2025-10-25 UTC) - No \ud83d\udd34",
+          "Will Meta dip to $550 in November? - Yes \ud83d\udfe2",
+          "Lakers vs. Hornets (2025-11-11 UTC) - Yes \ud83d\udfe2",
+          "Will Bitcoin dip to $90,000 by December 31, 2025? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $98,000 on November 14? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

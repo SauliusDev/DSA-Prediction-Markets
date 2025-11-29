@@ -1,0 +1,39 @@
+{
+  "hash": "f6ad7d4d7c2f76e3412495ca91f9da9b",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-adbca166523057b995e1661b255f6d6a-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the price of Bitcoin be between $102,000 and $104,000 on November 11? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $98,000 and $100,000 on November 12? - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down on November 23? - No \ud83d\udd34",
+          "Will the price of Bitcoin be less than $102,000 on November 7? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be less than $102,000 on November 8? - Yes \ud83d\udfe2",
+          "Solana Up or Down on November 8? - No \ud83d\udd34",
+          "Solana Up or Down on November 10? - No \ud83d\udd34",
+          "Will the price of Solana be between $140 and $150 on November 13? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $92,000 and $94,000 on November 14? - Yes \ud83d\udfe2",
+          "Will the price of Solana be between $130 and $140 on November 15? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be less than $92,000 on November 19? - Yes \ud83d\udfe2",
+          "Will the price of Solana be between $130 and $140 on November 20? - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down on November 22? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

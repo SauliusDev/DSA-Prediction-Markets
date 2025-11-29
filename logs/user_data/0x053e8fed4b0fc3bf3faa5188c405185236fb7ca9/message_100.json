@@ -1,0 +1,37 @@
+{
+  "hash": "03ae2403c38e6c2d346ea555321e78e1",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-56e6a456542177fba7e32690d8f57998-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Spain win the 2024 Euros? - Yes \ud83d\udfe2",
+          "Will Joe Biden win the 2024 Democratic Presidential Nomination? - Yes \ud83d\udfe2",
+          "Will a Republican win the popular vote and the Presidency? - Yes \ud83d\udfe2",
+          "Biden drops out of presidential race? - Yes \ud83d\udfe2",
+          "Will Donald Trump win the 2024 US Presidential Election? - Yes \ud83d\udfe2",
+          "Will another man win the 2024 Republican VP nomination? - Yes \ud83d\udfe2",
+          "Will Donald Trump win the popular vote in the 2024 Presidential Election? - Yes \ud83d\udfe2",
+          "Will Doug Burgum win the 2024 Republican VP nomination? - Yes \ud83d\udfe2",
+          "2024 presidential election: GOP wins by 65-104 - Yes \ud83d\udfe2",
+          "2024 Balance of Power: R Prez R Senate R House - Yes \ud83d\udfe2",
+          "Will Biden finish his term? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "hash": "1dd73e6c2ae3e7aadd5d63ad1a71d0a7",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-f2e55700a0f2482d5f21cf6d51269e54-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the highest temperature in London be 68\u00b0F or higher on November 5? - Yes \ud83d\udfe2",
+          "Will the price of XRP be above $2.10 on November 5? - No \ud83d\udd34",
+          "Will Robinhood say Trading Volume during earnings call? - No \ud83d\udd34",
+          "Will Elon Musk\u2019s $1T Tesla pay deal pass? - No \ud83d\udd34",
+          "Will the highest temperature in London be between 60-61\u00b0F on November 5? - Yes \ud83d\udfe2",
+          "Will PerfecT (Lee Seung-min) be named MVP in the 2025 League of Legends World Championship? - Yes \ud83d\udfe2",
+          "XRP Up or Down on November 10? - No \ud83d\udd34",
+          "Will XRP reach $2.60 November 3-9? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $98,000 and $100,000 on November 13? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be between $3,400 and $3,500 on November 14? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $92,000 and $94,000 on November 15? - Yes \ud83d\udfe2",
+          "Will the price of Solana be less than $120 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $150 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $160 on November 20? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be between $2,900 and $3,000 on November 24? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be less than $2,900 on November 20? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $120 on November 25? - No \ud83d\udd34",
+          "Will the price of Ethereum be between $3,000 and $3,100 on November 21? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

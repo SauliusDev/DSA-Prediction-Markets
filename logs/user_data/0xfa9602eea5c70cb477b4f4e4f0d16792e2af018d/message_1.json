@@ -1,0 +1,47 @@
+{
+  "newSession": {
+    "initialize": {
+      "userInfo": {
+        "installationId": "42972e21-73a4-517d-8936-7eb44bab9aa9",
+        "installationIdV3": "42972e21-73a4-517d-8936-7eb44bab9aa9",
+        "installationIdV4": "a7c47080-0318-45d1-a8da-ef29998e878c"
+      },
+      "environmentInfo": {
+        "streamlitVersion": "1.50.0",
+        "pythonVersion": "3.13.9.final.0",
+        "serverOs": "linux"
+      },
+      "sessionStatus": {
+        "scriptIsRunning": true
+      },
+      "sessionId": "a1aa58a3-5ae8-4ab3-a5f5-a29fd3445341"
+    },
+    "scriptRunId": "b452af2f-73c7-4f02-abe3-94edeb0ce77a",
+    "name": "app",
+    "mainScriptPath": "app.py",
+    "config": {
+      "gatherUsageStats": true,
+      "maxCachedMessageAge": 2,
+      "allowRunOnSave": true,
+      "hideTopBar": true,
+      "toolbarMode": "MINIMAL"
+    },
+    "customTheme": {
+      "primaryColor": "#6eb52f",
+      "secondaryBackgroundColor": "#e0e0ef",
+      "backgroundColor": "#f0f0f5",
+      "textColor": "#262730",
+      "bodyFont": "monospace",
+      "dataframeHeaderBackgroundColor": "#e0e0ef"
+    },
+    "appPages": [
+      {
+        "pageScriptHash": "3f41e546893dc64b71aaacad12cad815",
+        "pageName": "Analyze User",
+        "urlPathname": "Analyze_User"
+      }
+    ],
+    "pageScriptHash": "3f41e546893dc64b71aaacad12cad815",
+    "mainScriptHash": "3f41e546893dc64b71aaacad12cad815"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "hash": "fbbca175f78eacafe8ca513efc7f5d03",
+  "metadata": {
+    "deltaPath": [
+      0,
+      43
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-b3fb80d1d5967a43048a2ce040c1cf75-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Ukraine win on 2025-10-10? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $4,400 on October 11? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $4,300 on October 11? - Yes \ud83d\udfe2",
+          "Will the price of Solana be between $180 and $190 on October 11? - Yes \ud83d\udfe2",
+          "Will the price of Solana be less than $180 on October 11? - Yes \ud83d\udfe2",
+          "Will the price of Solana be between $210 and $220 on October 11? - Yes \ud83d\udfe2",
+          "Will Solana dip to $200 in October? - No \ud83d\udd34",
+          "Will the price of Solana be above $190 on October 11? - Yes \ud83d\udfe2",
+          "Hyperliquid daily fees above $8M in 2025? - No \ud83d\udd34",
+          "Bitcoin Up or Down on October 11? - Yes \ud83d\udfe2",
+          "Will Hamas release all Israeli hostages by October 10? - Yes \ud83d\udfe2",
+          "Will Israel first announce ceasefire on October 8? - No \ud83d\udd34",
+          "Will Bitcoin reach $136,000 October 6-12? - Yes \ud83d\udfe2",
+          "Will the price of XRP be between $2.60 and $2.70 on October 12? - Yes \ud83d\udfe2",
+          "Will China unban Bitcoin in 2025? - Yes \ud83d\udfe2",
+          "Will Monad perform an airdrop by October 31? - Yes \ud83d\udfe2",
+          "Meteora FDV above $10B one day after launch? - Yes \ud83d\udfe2",
+          "Bitcoin Up or Down on October 16? - Yes \ud83d\udfe2",
+          "Over $20M committed to the Paystream raise on MetaDAO? - Yes \ud83d\udfe2",
+          "Over $20M committed to the Paystream raise on MetaDAO? - No \ud83d\udd34",
+          "Fed decreases interest rates by 50+ bps after October 2025 meeting? - Yes \ud83d\udfe2",
+          "No change in Fed interest rates after October 2025 meeting? - Yes \ud83d\udfe2",
+          "Fed increases interest rates by 25+ bps after October 2025 meeting? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

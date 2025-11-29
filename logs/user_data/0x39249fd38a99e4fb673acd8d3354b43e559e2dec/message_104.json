@@ -1,0 +1,36 @@
+{
+  "hash": "0da27ef98cb29b84d0691933a21224d0",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-a9ad707104752b748d43a364976cd425-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will JD Vance win the 2024 Republican VP nomination? - Yes \ud83d\udfe2",
+          "Will another woman win the 2024 Republican VP nomination? - Yes \ud83d\udfe2",
+          "Will Trump say Fraud in his speech after the election is called? - Yes \ud83d\udfe2",
+          "Will Nevada be the tipping point state? - Yes \ud83d\udfe2",
+          "Will the Republican candidate win Pennsylvania by 2.5% or more? - Yes \ud83d\udfe2",
+          "Will Pennsylvania be the tipping point state? - Yes \ud83d\udfe2",
+          "Will the Lions win the NFC Championship? - Yes \ud83d\udfe2",
+          "Liverpool wins the Premier League? - Yes \ud83d\udfe2",
+          "Will the Eagles win the NFC Championship? - Yes \ud83d\udfe2",
+          "Will Trump say Rig or Rigged in his speech after the election is called? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

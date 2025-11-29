@@ -1,0 +1,22 @@
+{
+  "hash": "96ff03c83f930128e753f50a46273586",
+  "metadata": {
+    "deltaPath": [
+      0,
+      22
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "markdown": {
+        "body": "<div style=\"\n    background: linear-gradient(90deg, #ff4d4f22, transparent);\n    border-left: 6px solid #ff4d4f;\n    padding: 12px 14px;\n    margin-top: 10px;\n    border-radius: 12px;\n    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;\n    animation: fadeIn 0.5s ease-out;\n\">\n    <div style=\"display:flex; align-items:center; justify-content:space-between; gap:12px;\">\n        <div style=\"display:flex; align-items:center; gap:10px;\">\n            <div style=\"font-size:20px; line-height:1;\">\ud83d\udc80</div>\n            <div>\n                <div style=\"margin:0; font-weight:700; color:#ff4d4f; font-size:18px;\">\n                    Sharpe Ratio: <span>-1.72</span>\n                </div>\n                <div style=\"margin:2px 0 0; color:#666; font-size:13px;\">\n                    Level: <strong style=\"color:#ff4d4f\">Very Poor</strong>\n                    <span style=\"opacity:.6;\"> \u2022 Annualized (\u221a252)</span>\n                </div>\n            </div>\n        </div>\n        <div style=\"font-size:12px; color:#888; white-space:nowrap;\">\n            Sharpe < 0\n        </div>\n    </div>\n</div>\n<style>\n  @keyframes fadeIn {\n    from { opacity: 0; transform: translateY(-4px); }\n    to   { opacity: 1; transform: translateY(0); }\n  }\n</style>",
+        "allowHtml": true,
+        "elementType": "NATIVE"
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

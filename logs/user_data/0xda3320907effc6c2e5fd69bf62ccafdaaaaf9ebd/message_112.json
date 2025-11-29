@@ -1,0 +1,60 @@
+{
+  "hash": "2b9a2b96e58917b05acbeeef177aba37",
+  "metadata": {
+    "deltaPath": [
+      0,
+      43
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-b7c0d28b37b4546158b34ade43a3e8e0-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Bitcoin up on Nov 6? - No \ud83d\udd34",
+          "Dogecoin above $0.40 on November 29? - Yes \ud83d\udfe2",
+          "Solana above $255 on November 29? - Yes \ud83d\udfe2",
+          "Ethereum above $3,300 on November 29? - Yes \ud83d\udfe2",
+          "ETHBTC above 0.035 on Nov 30? - Yes \ud83d\udfe2",
+          "Ripple above $1.46 on November 29? - Yes \ud83d\udfe2",
+          "Bitcoin above $100,000 on November 29? - Yes \ud83d\udfe2",
+          "Solana above $225 on December 20? - No \ud83d\udd34",
+          "Ethereum above $3,900 on December 20? - Yes \ud83d\udfe2",
+          "Will Bitcoin hit $250k in 2024? - No \ud83d\udd34",
+          "Bitcoin above $100,000 on December 20? - Yes \ud83d\udfe2",
+          "Bitcoin above $97,000 on February 14? - Yes \ud83d\udfe2",
+          "Solana above $190 on February 14? - Yes \ud83d\udfe2",
+          "Solana above $130 on March 21? - No \ud83d\udd34",
+          "Ethereum all time high by March 31? - Yes \ud83d\udfe2",
+          "Ethereum above $2,700 on February 14? - No \ud83d\udd34",
+          "Solana all time high by March 31? - Yes \ud83d\udfe2",
+          "Solana all time high in May? - No \ud83d\udd34",
+          "Ethereum above $1,800 on May 9? - Yes \ud83d\udfe2",
+          "Solana above $150 on May 9? - No \ud83d\udd34",
+          "Doge ETF approved in 2025? - No \ud83d\udd34",
+          "Bitcoin above $70,000 on November 8? - Yes \ud83d\udfe2",
+          "Solana above $170 on November 8? - Yes \ud83d\udfe2",
+          "Bitcoin above $69,000 on October 25? - No \ud83d\udd34",
+          "Solana above $155 on October 25? - No \ud83d\udd34",
+          "Ethereum above $2,600 on October 25? - No \ud83d\udd34",
+          "OpenSea token >1 billion a week after launch? - Yes \ud83d\udfe2",
+          "Ethereum above $2,500 on November 8? - Yes \ud83d\udfe2",
+          "Will Monad perform an airdrop by November 25? - No \ud83d\udd34",
+          "USDT depeg in 2025? - No \ud83d\udd34",
+          "Aster all time high by December 31? - Yes \ud83d\udfe2",
+          "XRP all time high by December 31? - No \ud83d\udd34",
+          "Will BNB hit $1500 by December 31? - Yes \ud83d\udfe2",
+          "Ethereum all time high by August 22? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

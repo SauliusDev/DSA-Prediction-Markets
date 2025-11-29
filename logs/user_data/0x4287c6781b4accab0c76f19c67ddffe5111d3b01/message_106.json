@@ -1,0 +1,44 @@
+{
+  "hash": "8bd9d8e9e1efa0d8880a45e448ffa96c",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-af84519d8a3d281e808c45fc601494dd-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the price of XRP be above $1.80 on November 23? - No \ud83d\udd34",
+          "Will the price of XRP be between $2.40 and $2.50 on November 5? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $98,000 on November 6? - No \ud83d\udd34",
+          "Will monthly inflation be lower than 1.5% in October? - Yes \ud83d\udfe2",
+          "Rocket Lab (RKLB) Up or Down on November 6? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $106,000 on November 7? - Yes \ud83d\udfe2",
+          "Will the Associated Press first call the 2025 NYC mayoral election before 9:00 PM ET on Nov 4 2025? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $104,000 and $106,000 on November 8? - Yes \ud83d\udfe2",
+          "Ethereum Up or Down on November 23? - No \ud83d\udd34",
+          "Will Bitcoin reach $110k November 3-9? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be 61\u00b0F or higher on November 10? - Yes \ud83d\udfe2",
+          "Will the price of XRP be between $2.60 and $2.70 on November 13? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $120 on November 18? - No \ud83d\udd34",
+          "Will the price of XRP be above $2.50 on November 15? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $120 on November 24? - No \ud83d\udd34",
+          "Will the price of Ethereum be less than $3,100 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $92,000 on November 25? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $86,000 on November 22? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

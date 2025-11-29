@@ -1,0 +1,92 @@
+{
+  "hash": "dc8d58dddfb4c46f015fd4dabadd135e",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-9b0e31d88572c78c42bce5290fc2c2dd-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Ethereum above $3,300 on January 17? - Yes \ud83d\udfe2",
+          "Will Biden resign before inauguration? - No \ud83d\udd34",
+          "Will Anthropic have the top AI model on January 31? - No \ud83d\udd34",
+          "Will Meta have the top AI model on January 31? - No \ud83d\udd34",
+          "Will Microsoft be the largest company in the world by market cap on January 31? - No \ud83d\udd34",
+          "Will Joker 2 gross most in 2024? - No \ud83d\udd34",
+          "Hurricanes vs. Devils (2024-12-28 UTC) - No \ud83d\udd34",
+          "Bitcoin above $95,000 on January 17? - Yes \ud83d\udfe2",
+          "Spurs vs. Bulls (2025-01-07 UTC) - No \ud83d\udd34",
+          "Trump ends Ukraine war before inauguration? - No \ud83d\udd34",
+          "Will Elon Musk visit Stargate Texas site before March? - No \ud83d\udd34",
+          "DeepSeek better than all OpenAI models before March? - No \ud83d\udd34",
+          "Will Opus gross more than 7m on opening weekend? - No \ud83d\udd34",
+          "Will Opus gross between 5-7m on opening weekend? - No \ud83d\udd34",
+          "Will Kevin OLeary buy TikTok? - No \ud83d\udd34",
+          "Will the highest temperature in London be 59\u00b0F or below on October 9? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be between 60-61\u00b0F on October 9? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be between 68-69\u00b0F on October 9? - No \ud83d\udd34",
+          "Will the highest temperature in London be between 62-63\u00b0F on October 9? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 260-279 tweets from October 3 to October 10, 2025? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 440-459 tweets from October 3 to October 10, 2025? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 400-419 tweets from October 3 to October 10, 2025? - No \ud83d\udd34",
+          "Will Elon Musk post 380-399 tweets from October 3 to October 10, 2025? - No \ud83d\udd34",
+          "Will Alain St Ange win the 2025 Seychelles presidential election? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $280 on October 9? - No \ud83d\udd34",
+          "Will the price of Solana be above $260 on October 9? - No \ud83d\udd34",
+          "Will the price of Solana be above $190 on October 9? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $110,000 on October 9? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $130,000 on October 9? - No \ud83d\udd34",
+          "Will the price of Ethereum be above $4,300 on October 9? - No \ud83d\udd34",
+          "Will the price of Ethereum be above $4,900 on October 9? - No \ud83d\udd34",
+          "Will the price of XRP be above $3.50 on October 9? - No \ud83d\udd34",
+          "Will the price of XRP be above $3.40 on October 9? - No \ud83d\udd34",
+          "Will the price of Bitcoin be greater than $128,000 on October 9? - No \ud83d\udd34",
+          "Will the price of Bitcoin be between $110,000 and $112,000 on October 9? - No \ud83d\udd34",
+          "Will Bitcoin reach $138,000 October 6-12? - No \ud83d\udd34",
+          "Will Bitcoin dip to $110,000 October 6-12? - No \ud83d\udd34",
+          "Will Solana dip to $160 October 6-12? - No \ud83d\udd34",
+          "Will Solana reach $300 October 6-12? - No \ud83d\udd34",
+          "Will the price of Bitcoin be between $112,000 and $114,000 on October 9? - No \ud83d\udd34",
+          "Will the highest temperature in London be 67\u00b0F or higher on October 13? - No \ud83d\udd34",
+          "Will the price of Solana be above $280 on October 13? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $270 on October 13? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $260 on October 13? - No \ud83d\udd34",
+          "Will the price of Solana be above $200 on October 13? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $116,000 on October 13? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $118,000 on October 13? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $134,000 on October 13? - No \ud83d\udd34",
+          "Will the price of Ethereum be above $4,300 on October 13? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $5,200 on October 13? - Yes \ud83d\udfe2",
+          "Will the price of XRP be above $3.40 on October 13? - No \ud83d\udd34",
+          "Will Gemini 3.0 be released by October 15? - No \ud83d\udd34",
+          "Will the Government shutdown end October 10-14? - No \ud83d\udd34",
+          "Will Gemini 3.0 be released by October 31? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 400-419 tweets from October 7 to October 14, 2025? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 420-439 tweets from October 7 to October 14, 2025? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 440-459 tweets from October 7 to October 14, 2025? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 360-379 tweets from October 7 to October 14, 2025? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $130,000 on October 15? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $4,200 on October 15? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $4,000 on October 15? - No \ud83d\udd34",
+          "Will the price of Ethereum be above $4,300 on October 15? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $4,500 on October 15? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 380-399 tweets from October 10 to October 17, 2025? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 400-419 tweets from October 10 to October 17, 2025? - Yes \ud83d\udfe2",
+          "Will Elon Musk post 420-439 tweets from October 10 to October 17, 2025? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

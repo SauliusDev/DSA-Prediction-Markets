@@ -1,0 +1,36 @@
+{
+  "hash": "773eb2c8329476dc5d897f85c5265925",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-c038b171b5498c5c42e8626360805e19-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Patrick Mahomes win NFL MVP for the 2024-25 season? - Yes \ud83d\udfe2",
+          "Will Josh Allen win NFL MVP for the 2024-25 season? - Yes \ud83d\udfe2",
+          "Will Ethereum reach $3,500 in November? - Yes \ud83d\udfe2",
+          "Will Trump say Rig or Rigged in his speech after the election is called? - Yes \ud83d\udfe2",
+          "Will the Republican candidate win Pennsylvania by 2.0%-2.5%? - Yes \ud83d\udfe2",
+          "Will the Republican candidate win Pennsylvania by 2.5% or more? - Yes \ud83d\udfe2",
+          "Will Napoli win the Serie A? - Yes \ud83d\udfe2",
+          "Will Juventus win the Serie A? - Yes \ud83d\udfe2",
+          "Will Ethereum reach $3,250 in November? - Yes \ud83d\udfe2",
+          "Will Trump say Fraud in his speech after the election is called? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

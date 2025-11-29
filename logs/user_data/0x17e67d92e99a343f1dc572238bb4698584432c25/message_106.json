@@ -1,0 +1,41 @@
+{
+  "hash": "0b6d86676d02655c1015e13a522d69dd",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-5cdc1fb2ccca6af4d6b1dec55fde21e7-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the highest temperature in New York City be between 48-49\u00b0F on November 11? - Yes \ud83d\udfe2",
+          "Tesla (TSLA) Up or Down on November 5? - No \ud83d\udd34",
+          "Opendoor (OPEN) Up or Down on November 6? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be 65\u00b0F or higher on November 7? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $106,000 on November 7? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $100,000 on November 8? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $106,000 on November 9? - Yes \ud83d\udfe2",
+          "Will XRP dip to $1.70 November 17-23? - Yes \ud83d\udfe2",
+          "Will the price of Solana be between $150 and $160 on November 18? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be between $3,400 and $3,500 on November 14? - Yes \ud83d\udfe2",
+          "Will Claude pass Grok by November 15 on the UnifAI Polyarena? - Yes \ud83d\udfe2",
+          "Will the price of XRP be above $2.60 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be less than $3,100 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $2,900 on November 19? - No \ud83d\udd34",
+          "Will the price of Ethereum be above $3,200 on November 19? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

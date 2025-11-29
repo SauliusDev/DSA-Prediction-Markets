@@ -1,0 +1,22 @@
+{
+  "hash": "9fe6659227bb345aa9dc9d2f7d0e84f4",
+  "metadata": {
+    "deltaPath": [
+      0,
+      31
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "markdown": {
+        "body": "<style>\n@keyframes gradRed {\n  0%   { background-position:   0% 50%; }\n  50%  { background-position: 100% 50%; }\n  100% { background-position:   0% 50%; }\n}\n</style>\n<div style=\"\n  padding:12px 14px;\n  border-radius:12px;\n  background-image: linear-gradient(90deg, #fdeceb, #fbdada, #fdeceb);\n  background-size:200% 100%;\n  animation: gradRed 6s ease-in-out infinite;\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;\n  box-shadow: 0 1px 2px rgba(0,0,0,0.08) inset, 0 2px 6px rgba(0,0,0,0.06);\n\">\n  <span style=\"color:#842029;font-weight:700;\">Worst trade (ROI):</span>\n  <span style=\"color:#111;font-variant-numeric:tabular-nums;\">\u2212100.00%</span>\n  <span style=\"color:#b02a37;font-weight:700;font-variant-numeric:tabular-nums;\">(\u2212$0.02)</span>\n  <span style=\"color:#555;\">\u2014</span>\n  <span style=\"color:#111;\">Will Belgium win the 2024 Euros? - Yes \ud83d\udfe2</span>\n</div>",
+        "allowHtml": true,
+        "elementType": "NATIVE"
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

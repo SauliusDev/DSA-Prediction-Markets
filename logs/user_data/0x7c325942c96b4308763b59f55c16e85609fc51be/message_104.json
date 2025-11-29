@@ -1,0 +1,36 @@
+{
+  "hash": "74bd73034e9793470e02237f7261c18b",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-5128c4547375421c80914a5f930f893f-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Bitcoin reach $60,000 in November? - Yes \ud83d\udfe2",
+          "Will the Packers win the NFC Championship? - Yes \ud83d\udfe2",
+          "Will Inter Milan win the Serie A? - Yes \ud83d\udfe2",
+          "Will Juventus win the Serie A? - Yes \ud83d\udfe2",
+          "Will the Eagles win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "Will Arsenal win the UEFA Champions League? - Yes \ud83d\udfe2",
+          "Will the Eagles win the NFC Championship? - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $85,000 in November? - Yes \ud83d\udfe2",
+          "Will the Ravens win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "Will Manchester City win the UEFA Champions League? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

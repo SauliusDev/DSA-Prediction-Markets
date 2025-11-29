@@ -1,0 +1,38 @@
+{
+  "hash": "4cde70cf93d5269c08ea174423637d41",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-0c786342f6a97decd295c4672069e903-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Vooruit win the most seats in the Belgian federal elections? - Yes \ud83d\udfe2",
+          "Will Ecolo win the most seats in the Belgian federal elections? - Yes \ud83d\udfe2",
+          "Will the N-VA win the most seats in the Belgian federal elections? - Yes \ud83d\udfe2",
+          "Will Michael Flynn win the 2024 Republican VP nomination? - Yes \ud83d\udfe2",
+          "Will Rafael Nadal win the 2024 French Open Mens Singles? - Yes \ud83d\udfe2",
+          "GOP wins popular vote by 0-1%? - Yes \ud83d\udfe2",
+          "Will Elon tweet between 85 and 94 times? - Yes \ud83d\udfe2",
+          "Will PTB win the most seats in the Belgian federal elections? - Yes \ud83d\udfe2",
+          "Will Stefanos Tsitsipas win the 2024 French Open Mens Singles? - Yes \ud83d\udfe2",
+          "Will Elon tweet between 105 and 114 times? - Yes \ud83d\udfe2",
+          "Will Greg Abbott win the 2024 Republican VP nomination? - Yes \ud83d\udfe2",
+          "GOP wins popular vote by 2-3%? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

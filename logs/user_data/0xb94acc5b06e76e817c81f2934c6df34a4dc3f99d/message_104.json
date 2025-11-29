@@ -1,0 +1,42 @@
+{
+  "hash": "609b22fa42fb30f246575741326c1bd5",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-9b59ddf449ca1d5eb390ff1c0016d4c0-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will XRP dip to $1.90 November 10-16? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $108,000 and $110,000 on November 11? - Yes \ud83d\udfe2",
+          "Will Solana dip to $120 November 10-16? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $106,000 and $108,000 on November 5? - Yes \ud83d\udfe2",
+          "Google (GOOGL) Up or Down on November 5? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $100,000 on November 17? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $108,000 and $110,000 on November 12? - Yes \ud83d\udfe2",
+          "The Citadel vs. Ole Miss (2025-11-08 UTC) - Yes \ud83d\udfe2",
+          "Columbia Lions vs. Connecticut Huskies (2025-11-10 UTC) - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $98,000 and $100,000 on November 13? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $120 on November 14? - No \ud83d\udd34",
+          "Will the price of Solana be between $150 and $160 on November 15? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $3,000 on November 16? - No \ud83d\udd34",
+          "Will the price of Ethereum be between $3,200 and $3,300 on November 19? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $3,200 on November 20? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be less than $2,900 on November 20? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

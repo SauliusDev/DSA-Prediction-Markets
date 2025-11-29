@@ -1,0 +1,40 @@
+{
+  "hash": "bd660f4f9735dc2e7835645f7341fbbe",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-9ac337f05a125938a35b195ee2e7600a-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the price of Bitcoin be between $106,000 and $108,000 on November 6? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $106,000 on November 6? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $130 on November 17? - No \ud83d\udd34",
+          "Will the highest temperature in London be 63\u00b0F or higher on November 8? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $104,000 and $106,000 on November 8? - Yes \ud83d\udfe2",
+          "Will the price of XRP be above $2.10 on November 17? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $100,000 on November 9? - No \ud83d\udd34",
+          "XRP Up or Down on November 10? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $98,000 on November 13? - No \ud83d\udd34",
+          "Will the price of Bitcoin be above $100,000 on November 15? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be less than $3,100 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $98,000 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $96,000 and $98,000 on November 19? - Yes \ud83d\udfe2",
+          "Will the price of XRP be less than $1.80 on November 22? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "hash": "7d469883b2203ffb7a181d7bf1cfc9f4",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-e89037c380d9e9a6e9a2216c969bd35f-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Ethereum above $3,000 on November 15? - No \ud83d\udd34",
+          "Israel strike on Iranian nuclear facility in 2024? - No \ud83d\udd34",
+          "Will Israel beat Belgium? - Yes \ud83d\udfe2",
+          "Khamenei out as Supreme Leader of Iran in 2024? - Yes \ud83d\udfe2",
+          "Will the match between Israel and Belgium end in a draw? - Yes \ud83d\udfe2",
+          "Will the chopsticks catch SpaceXs Super Heavy? - No \ud83d\udd34",
+          "Will the match between Croatia and Portugal end in a draw? - Yes \ud83d\udfe2",
+          "Will Spain beat Switzerland? - Yes \ud83d\udfe2",
+          "Will the match between Serbia and Denmark end in a draw? - Yes \ud83d\udfe2",
+          "Will Portugal beat Croatia? - Yes \ud83d\udfe2",
+          "Israel x Hamas ceasefire before July? - Yes \ud83d\udfe2",
+          "Israel strikes Iran before September? - Yes \ud83d\udfe2",
+          "Will France beat Israel? - Yes \ud83d\udfe2",
+          "Will the match between France and Israel end in a draw? - Yes \ud83d\udfe2",
+          "Israel strike on Iranian nuclear facility in 2024? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

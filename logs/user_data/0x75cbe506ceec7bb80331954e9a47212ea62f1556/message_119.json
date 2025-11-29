@@ -1,0 +1,21 @@
+{
+  "hash": "fb45a6038a3ddc71316bab9239d07c0a",
+  "metadata": {
+    "deltaPath": [
+      0,
+      49
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "alert": {
+        "body": "The user hasn't sold any positions yet, so some charts may not be available.",
+        "format": "WARNING",
+        "widthConfig": {
+          "useStretch": true
+        }
+      }
+    }
+  }
+}

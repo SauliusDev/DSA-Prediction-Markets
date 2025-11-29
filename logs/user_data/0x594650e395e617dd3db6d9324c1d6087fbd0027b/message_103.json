@@ -1,0 +1,40 @@
+{
+  "hash": "e6cf42c127247ba6c2311270228c4eb7",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-9fdd5ff4d906f4ec698eaacafa2cffd3-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will the price of Bitcoin be between $84000 and $86000 on Apr 18? - No \ud83d\udd34",
+          "Will Dogecoin dip to $0.05 in March? - No \ud83d\udd34",
+          "Solana above $125 on April 11? - No \ud83d\udd34",
+          "Will Won Hee-ryong be the Peoples Power Party candidate for president? - Yes \ud83d\udfe2",
+          "Trump meets with Carney in April? - No \ud83d\udd34",
+          "Ethereum above $1,600 on April 18? - No \ud83d\udd34",
+          "Will Duke win the 2025 NCAA Tournament? - No \ud83d\udd34",
+          "Dogecoin above $0.16 on April 18? - No \ud83d\udd34",
+          "Will Austria qualify for the Eurovision 2025 grand final? - No \ud83d\udd34",
+          "Will the April 2025 unemployment rate be \u22654.6%? - No \ud83d\udd34",
+          "Will Elon tweet 250\u2013274 times April 25\u2013May 2? - No \ud83d\udd34",
+          "Will Sweden finish in the 2025 Eurovision top 10? - No \ud83d\udd34",
+          "Will another country be the Televote Winner in the Eurovision 2025 Grand Final? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $101000 and $103000 on May 9? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

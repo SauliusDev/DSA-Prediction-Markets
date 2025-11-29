@@ -1,0 +1,22 @@
+{
+  "hash": "5a1b782a1728408e0cf629495c45075a",
+  "metadata": {
+    "deltaPath": [
+      0,
+      19
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "markdown": {
+        "body": "<div style=\"\n    background: linear-gradient(90deg, #722ed122, transparent);\n    border-left: 5px solid #722ed1;\n    padding: 0.7rem 1rem;\n    margin: 0.6rem 0 1rem;\n    border-radius: 8px;\n    font-family: monospace;\n    animation: fadeIn 0.5s ease-out;\n\">\n    <p style=\"margin:0 0 0.3rem 0; font-size:13px; color:#444;\">\n        \ud83d\udd25 <strong>Projection:</strong>  if the current open positions close exactly as they stand now (winners stay winning, losers stay losing), the Smart Score would adjust to:\n    </p>\n    <p style=\"margin:0; font-size:14px; color:#722ed1;\">\n        <strong>24.72</strong> (Exceptional)\n        <span style=\"margin-left:6px; color:#ff4d4f; font-weight:bold;\">\n            \u25bc 16.68\n        </span>\n        <span style=\"color:#888; font-size:12px;\">vs current 41.40</span>\n    </p>\n</div>\n<style>\n    @keyframes fadeIn {\n        from { opacity: 0; transform: translateY(-3px); }\n        to { opacity: 1; transform: translateY(0); }\n    }\n</style>",
+        "allowHtml": true,
+        "elementType": "NATIVE"
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

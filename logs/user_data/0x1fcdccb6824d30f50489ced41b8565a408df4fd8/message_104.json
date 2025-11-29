@@ -1,0 +1,38 @@
+{
+  "hash": "d570e5947fa6a46bfbeb7b19f7fea536",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-899d67198da1d0099c9e429ab3372dac-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Bitcoin reach $85,000 in November? - Yes \ud83d\udfe2",
+          "Will the New York Knicks win the 2025 NBA Finals? - Yes \ud83d\udfe2",
+          "Will the 49ers win the NFC Championship? - Yes \ud83d\udfe2",
+          "Will Elon tweet 400-424 times November 1-8? - Yes \ud83d\udfe2",
+          "Will Jake Paul vs. Mike Tyson have no official winner? - Yes \ud83d\udfe2",
+          "Will Bitcoin reach $90,000 in November? - Yes \ud83d\udfe2",
+          "Will Elon tweet 425-449 times November 1-8? - Yes \ud83d\udfe2",
+          "Will the Boston Celtics win the 2025 NBA Finals? - Yes \ud83d\udfe2",
+          "Will the 49ers win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "Will the Eagles win Super Bowl 2025? - Yes \ud83d\udfe2",
+          "Liverpool wins the Premier League? - Yes \ud83d\udfe2",
+          "Chelsea wins the Premier League? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}

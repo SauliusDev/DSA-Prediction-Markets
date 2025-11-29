@@ -1,0 +1,42 @@
+{
+  "hash": "e2b531e9e990566fcd7a63c79ddfd080",
+  "metadata": {
+    "deltaPath": [
+      0,
+      42
+    ],
+    "activeScriptHash": "6a47bfc5b7667a5df7fe5439ea897b73"
+  },
+  "delta": {
+    "newElement": {
+      "selectbox": {
+        "id": "$$ID-e05fca7af86d2fa88d1d0f98003b81eb-market",
+        "label": "Select the markets you want to explore",
+        "default": 0,
+        "options": [
+          "Will Solana dip to $120 November 10-16? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be 64\u00b0F or higher on November 11? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $106,000 on November 5? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $120 on November 23? - No \ud83d\udd34",
+          "Rocket Lab (RKLB) Up or Down on November 6? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be between $106,000 and $108,000 on November 7? - Yes \ud83d\udfe2",
+          "Will the highest temperature in London be 65\u00b0F or higher on November 7? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $106,000 on November 7? - Yes \ud83d\udfe2",
+          "Will the price of XRP be above $2.30 on November 12? - No \ud83d\udd34",
+          "Trump approval Up or Down this week? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $108,000 on November 13? - Yes \ud83d\udfe2",
+          "Will the price of Solana be above $160 on November 14? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be less than $3,100 on November 16? - Yes \ud83d\udfe2",
+          "Will the price of Bitcoin be above $96,000 on November 19? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $3,200 on November 20? - Yes \ud83d\udfe2",
+          "Will the price of Ethereum be above $3,000 on November 25? - Yes \ud83d\udfe2"
+        ],
+        "labelVisibility": {},
+        "acceptNewOptions": false
+      },
+      "widthConfig": {
+        "useStretch": true
+      }
+    }
+  }
+}
