@@ -128,9 +128,7 @@ data - storage of data
 eda - folder for exploratory data analysis related code
 hashdive - api related data accumulation codes
 steamlint - repository used for its protocols do decode binary websocket responses
-eda_analysis.ipynb - documentation of EDA findings
-hypothesis_testing.ipynb - documentation of hypothesis testing
-ml_method.ipynb - documentation of ML implementation
+analysis.ipynb - documentation of EDA findings, hypothesis testing and ML implementation
 
 ## Analysis Plan
 
