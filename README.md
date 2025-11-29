@@ -102,7 +102,7 @@ The final data would be organized into json format. For this many parsing functi
   - How does their position sizing differ?
 
 ## 4. Data usage
-1.  **Exploratory Data Analysis (EDA):** Calculate correlations (Spearman/Pearson), analyze distributions, and plot Smart Score against PnL/Win Rate.
+1.  **Exploratory Data Analysis (EDA):** Calculate correlations, analyze distributions, and analyze many different combinations of data analysis to understand what smart traders do.
 2.  **Modeling:** Use linear and tree-based models (e.g., Random Forest) to predict PnL/Win Rate based on Smart Score and other account features.
 3.  **Evaluation:** Assess model performance using $R^2$, MAE, and correlation strengths, and determine feature importance.
 I expect the **Smart Score** to correlate positively with Win Rate and risk-adjusted PnL. Because users with high scores are anticipated to exhibit more consistent and disciplined trading behavior.
