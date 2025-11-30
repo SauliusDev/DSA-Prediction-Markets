@@ -35,27 +35,6 @@ PROB_LABELS = ['0-10%', '10-20%', '20-30%', '30-40%', '40-50%',
 
 
 def plot_betting_probability_distribution(df, figsize=(16, 12), save=False, path=None):
-    """
-    Plot overall betting probability distribution.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing betting pattern columns
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    distribution : dict
-        Dictionary containing betting distribution statistics
-    """
     # Calculate total bets in each probability range
     total_bets_by_range = df[BETTING_PATTERN_FEATURES].sum()
     total_bets = total_bets_by_range.sum()
@@ -138,27 +117,6 @@ def plot_betting_probability_distribution(df, figsize=(16, 12), save=False, path
 
 
 def plot_winrate_by_probability_range(df, figsize=(14, 8), save=False, path=None):
-    """
-    Plot win rate distribution by betting probability range using box plots.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing betting pattern and win rate columns
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    correlations : dict
-        Dictionary containing correlation statistics
-    """
     fig, ax = plt.subplots(figsize=figsize)
     fig.suptitle('Win Rate by Betting Probability Range', fontsize=16, fontweight='bold')
     
@@ -217,19 +175,6 @@ def plot_winrate_by_probability_range(df, figsize=(14, 8), save=False, path=None
 
 
 def get_risk_behavior_summary(df):
-    """
-    Get a comprehensive summary of risk behavior.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing betting pattern columns
-    
-    Returns:
-    --------
-    summary : dict
-        Dictionary containing risk behavior summary statistics
-    """
     # Calculate total bets
     total_bets_by_range = df[BETTING_PATTERN_FEATURES].sum()
     most_popular_idx = total_bets_by_range.argmax()

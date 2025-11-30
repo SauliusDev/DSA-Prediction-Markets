@@ -48,27 +48,6 @@ TYPE_DISPLAY_NAMES = {
 
 
 def plot_trader_type_prevalence(df, figsize=(16, 6), save=False, path=None):
-    """
-    Plot trader type distribution and types per trader.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing trader type columns
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    type_counts : dict
-        Dictionary containing type counts and percentages
-    """
     # Count traders of each type
     type_counts = {}
     for col in TRADER_TYPE_FEATURES:
@@ -116,27 +95,6 @@ def plot_trader_type_prevalence(df, figsize=(16, 6), save=False, path=None):
 
 
 def plot_performance_by_type(df, figsize=(18, 14), save=False, path=None):
-    """
-    Plot performance metrics by trader type.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing trader type and performance columns
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    performance : dict
-        Dictionary containing performance metrics by type
-    """
     # Calculate performance metrics for each type
     type_performance = {}
     
@@ -228,27 +186,6 @@ def plot_performance_by_type(df, figsize=(18, 14), save=False, path=None):
 
 
 def plot_type_cooccurrence(df, figsize=(14, 12), save=False, path=None):
-    """
-    Plot co-occurrence matrix of trader types.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing trader type columns
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    cooccurrence : pd.DataFrame
-        Co-occurrence matrix
-    """
     # Create co-occurrence matrix
     cooccurrence = pd.DataFrame(0, index=TRADER_TYPE_FEATURES, columns=TRADER_TYPE_FEATURES)
     
@@ -279,19 +216,6 @@ def plot_type_cooccurrence(df, figsize=(14, 12), save=False, path=None):
 
 
 def get_trader_type_summary(df):
-    """
-    Get a comprehensive summary of trader types.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing trader type columns
-    
-    Returns:
-    --------
-    summary : dict
-        Dictionary containing trader type summary statistics
-    """
     # Most common type
     type_counts = {TYPE_DISPLAY_NAMES[col]: df[col].sum() for col in TRADER_TYPE_FEATURES}
     most_common = max(type_counts.items(), key=lambda x: x[1])

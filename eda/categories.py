@@ -37,27 +37,6 @@ CATEGORY_WINRATE_COLS = [
 
 
 def plot_category_volumes(df, figsize=(16, 6), save=False, path=None):
-    """
-    Plot trading volume distribution across categories.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing category volume columns
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    volumes : pd.Series
-        Series containing category volumes
-    """
     # Calculate total volume per category
     category_volumes = df[CATEGORY_VOLUME_COLS].sum()
     category_volumes.index = [col.replace('most_traded_categories_', '').title() 
@@ -91,27 +70,6 @@ def plot_category_volumes(df, figsize=(16, 6), save=False, path=None):
 
 
 def plot_category_winrates(df, figsize=(16, 12), save=False, path=None):
-    """
-    Plot win rate distributions for each category.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing category win rate columns
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    stats : dict
-        Dictionary containing win rate statistics by category
-    """
     fig, axes = plt.subplots(2, 2, figsize=figsize)
     fig.suptitle('Win Rate Distribution by Category', fontsize=16, fontweight='bold')
     
@@ -149,27 +107,6 @@ def plot_category_winrates(df, figsize=(16, 12), save=False, path=None):
 
 
 def plot_specialization_analysis(df, figsize=(12, 7), save=False, path=None):
-    """
-    Plot category diversification distribution.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing category volume columns
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    specialization_stats : dict
-        Dictionary containing specialization statistics
-    """
     # Count number of categories each trader participates in
     df_temp = df.copy()
     df_temp['num_categories'] = (df_temp[CATEGORY_VOLUME_COLS] > 0).sum(axis=1)
@@ -212,19 +149,6 @@ def plot_specialization_analysis(df, figsize=(12, 7), save=False, path=None):
 
 
 def get_category_summary(df):
-    """
-    Get a comprehensive summary of category performance.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing category columns
-    
-    Returns:
-    --------
-    summary : dict
-        Dictionary containing category summary statistics
-    """
     # Most popular category
     category_volumes = df[CATEGORY_VOLUME_COLS].sum()
     category_volumes.index = [col.replace('most_traded_categories_', '').title() 

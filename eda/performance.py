@@ -24,27 +24,6 @@ sns.set_palette("husl")
 
 
 def plot_win_rate_distribution(df, figsize=(18, 5), save=False, path=None):
-    """
-    Plot win rate distribution with histogram, box plot, and density plot.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing 'win_rate' column
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    stats : dict
-        Dictionary containing win rate statistics
-    """
     fig, axes = plt.subplots(1, 3, figsize=figsize)
     fig.suptitle('Win Rate Distribution Analysis', fontsize=16, fontweight='bold')
     
@@ -97,27 +76,6 @@ def plot_win_rate_distribution(df, figsize=(18, 5), save=False, path=None):
 
 
 def plot_smart_score_analysis(df, figsize=(16, 12), save=False, path=None):
-    """
-    Comprehensive smart score analysis with distribution and correlations.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing 'smart_score', 'win_rate', 'total_pnl' columns
-    figsize : tuple
-        Figure size (width, height)
-    save : bool
-        Whether to save the figure
-    path : str
-        Path to save the figure (if save=True)
-    
-    Returns:
-    --------
-    fig : matplotlib.figure.Figure
-        The generated figure object
-    correlations : dict
-        Dictionary containing correlation coefficients and p-values
-    """
     fig, axes = plt.subplots(2, 2, figsize=figsize)
     fig.suptitle('Smart Score Analysis', fontsize=16, fontweight='bold')
     
@@ -209,19 +167,6 @@ def plot_smart_score_analysis(df, figsize=(16, 12), save=False, path=None):
 
 
 def get_performance_summary(df):
-    """
-    Get a comprehensive summary of performance metrics.
-    
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame containing performance columns
-    
-    Returns:
-    --------
-    summary : dict
-        Dictionary containing summary statistics
-    """
     summary = {
         'win_rate': {
             'mean': df['win_rate'].mean(),
