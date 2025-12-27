@@ -127,8 +127,10 @@ core - utils classes
 data - storage of data
 eda - folder for exploratory data analysis related code
 hashdive - api related data accumulation codes
+ml - machine learning models and evaluation
 steamlint - repository used for its protocols do decode binary websocket responses
-analysis.ipynb - documentation of EDA findings, hypothesis testing and ML implementation
+analysis.ipynb - documentation of EDA findings and hypothesis testing
+ml_methods.ipynb - machine learning implementation and results
 
 ## Analysis Plan
 
@@ -143,6 +145,22 @@ The analysis focuses on:
 - [Polymarket](https://polymarket.com) - Decentralized prediction market platform
 - [Hashdive](https://hashdive.com) - Polymarket trader analytics platform
 - [Prediction Markets Research](https://en.wikipedia.org/wiki/Prediction_market) - Background on prediction markets
+
+## AI Usage Disclosure
+As per course requirements, I used AI assistance (claude sonnet 4.5) during this project. Below is a breakdown of original work vs AI assisted components:
+**Original Work**
+- Project concept and research questions
+- Data collection methodology and API integration
+- Selection of analysis techniques and ML models
+- Interpretation of all results and findings
+- All insights and conclusions drawn from the data
+**AI-Assisted Components:**
+- Boilerplate code structure and templates
+- Syntax corrections and code formatting
+- Documentation formatting
+- Implementation of standard functions (plotting, data loading, model training)
+
+All statistical analysis decisions, hypothesis formulations, and result interpretations were made independently. The AI was used as a coding assistant for implementation, not for analytical thinking or decision making. 
 
 ---
 
