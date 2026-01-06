@@ -36,19 +36,10 @@ class AnalyzeUserDataParser:
             "active_bets_pnl": None,
             "finished_bets_amount": None,
             "finished_bets_pnl": None,
-            # "finished_bets_table": None,
             "best_trade_roi_proc": None,
             "best_trade_roi_amount": None,
             "worst_trade_roi_proc": None,
             "worst_trade_roi_amount": None,
-            # "finished_trades_chart": None,
-            # "distribution_roi_chart": None,
-            # "overall_pnl_profit": None,
-            # "overall_pnl_loss": None,
-            # "most_traded_categories_chart": None,
-            # "smart_score_by_category": None,
-            # "win_rate_by_category": None,
-            # "recent_trades_table": None,
             "where_trader_bets_most": None
         }
         

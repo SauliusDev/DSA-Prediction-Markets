@@ -41,13 +41,7 @@ def main():
     
     print(f"\n✓ R² Score: {xgb_results['r2']:.4f} ({xgb_results['r2']*100:.2f}% variance explained)")
     print(f"✓ Model successfully predicts trader win rates")
-    
-    print("\n✓ Key Findings:")
-    print("  1. Betting probability ranges are most predictive")
-    print("  2. Trader type (trend follower) strongly predicts success")
-    print("  3. XGBoost captures complex non-linear patterns in data")
-    print("  4. Model explains 68.8% of variance in win rates")
-    
+
     print("\n" + "="*70)
     print("Analysis complete! Check ml/visualizations/ for plots.")
     print("="*70 + "\n")

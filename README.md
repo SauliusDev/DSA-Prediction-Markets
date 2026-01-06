@@ -2,6 +2,8 @@
 **Course:** DSA 210 – Introduction to Data Science (2025–2026 Fall)
 
 **Student:** Ąžuolas Saulius Balbieris (37825)
+**Final presentation:** [View slides](https://docs.google.com/presentation/d/14wyPwGFFEIB1p_I1nhikIPrXwBRyhcsjAsN8DyQsHCM/edit)
+**Link to presentation video**: [View presentation](https://www.youtube.com/watch?v=hiN-7NWBOtA)
 
 ## Table of Contents
 - [Motivation](#motivation)
@@ -147,7 +149,7 @@ The analysis focuses on:
 - [Prediction Markets Research](https://en.wikipedia.org/wiki/Prediction_market) - Background on prediction markets
 
 ## AI Usage Disclosure
-As per course requirements, I used AI assistance (claude sonnet 4.5) during this project. Below is a breakdown of original work vs AI assisted components:
+AI assistance (claude sonnet 4.5) was used during this the development of this project. Below is a breakdown of original work and AI assisted components:
 **Original Work**
 - Project concept and research questions
 - Data collection methodology and API integration
