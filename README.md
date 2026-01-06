@@ -2,7 +2,9 @@
 **Course:** DSA 210 – Introduction to Data Science (2025–2026 Fall)
 
 **Student:** Ąžuolas Saulius Balbieris (37825)
+
 **Final presentation:** [View slides](https://docs.google.com/presentation/d/14wyPwGFFEIB1p_I1nhikIPrXwBRyhcsjAsN8DyQsHCM/edit)
+
 **Link to presentation video**: [View presentation](https://www.youtube.com/watch?v=hiN-7NWBOtA)
 
 ## Table of Contents
